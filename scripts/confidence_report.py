@@ -29,7 +29,7 @@ def generate(
     output_dir: Path,
     gate: float = 0.9,
 ) -> dict:
-    """Scan extraction + shipped bank, return report dict, write review-queue.json."""
+    """Scan shipped bank + (optional) extraction, write review-queue.json."""
     shipped: dict = {}
     for name in build_bank.CATEGORY_FILE.values():
         path = bank_dir / name
@@ -39,31 +39,38 @@ def generate(
             shipped[q["id"]] = q
 
     entries: List[dict] = []
-    for section in sorted(build_bank.IN_SCOPE_SECTIONS):
-        path = extracted_dir / f"{section}.json"
-        if not path.exists():
-            continue
-        for q in _load_json(path):
-            reasons = []
-            shipped_q = shipped.get(q["id"])
-            if shipped_q is None:
+
+    # Shipped questions are ALWAYS scanned: the queue must catch low-confidence
+    # and unreviewed answers even when the raw extraction is absent (CI has no
+    # data/_extracted, which is gitignored).
+    for qid in sorted(shipped):
+        q = shipped[qid]
+        reasons = []
+        if q["confidence"] < gate:
+            reasons.append("low-confidence")
+        if not q["reviewed"]:
+            reasons.append("unreviewed")
+        if reasons:
+            entries.append({
+                "id": qid, "section": q["section"], "srcPage": q["srcPage"],
+                "confidence": q["confidence"], "reviewed": q["reviewed"],
+                "reasons": reasons,
+            })
+
+    # Optional: extraction present -> also flag in-scope questions whose
+    # authoring is still missing entirely.
+    if extracted_dir.exists():
+        for section in sorted(build_bank.IN_SCOPE_SECTIONS):
+            path = extracted_dir / f"{section}.json"
+            if not path.exists():
+                continue
+            for q in _load_json(path):
+                if q["id"] in shipped:
+                    continue
                 entries.append({
                     "id": q["id"], "section": section, "srcPage": q["srcPage"],
                     "confidence": None, "reviewed": False,
                     "reasons": ["missing"],
-                })
-                continue
-            if shipped_q["confidence"] < gate:
-                reasons.append("low-confidence")
-            if not shipped_q["reviewed"]:
-                reasons.append("unreviewed")
-            if reasons:
-                entries.append({
-                    "id": q["id"], "section": section,
-                    "srcPage": shipped_q["srcPage"],
-                    "confidence": shipped_q["confidence"],
-                    "reviewed": shipped_q["reviewed"],
-                    "reasons": reasons,
                 })
 
     report = {

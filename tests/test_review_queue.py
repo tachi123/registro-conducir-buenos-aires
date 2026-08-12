@@ -100,3 +100,18 @@ def test_gate_lower_keeps_high_confidence_clear(tmp_path):
     entry = next(e for e in relaxed["entries"] if e["id"] == "seguridad-002")
     assert "low-confidence" not in entry["reasons"]  # 0.7 >= 0.6
     assert "unreviewed" in entry["reasons"]  # still unreviewed
+
+
+def test_ci_mode_without_extraction_still_flags_low_confidence(tmp_path):
+    """Deploy scenario: CI has the committed bank but NOT the gitignored
+    data/_extracted -> low-confidence + unreviewed MUST still be queued."""
+    bank = tmp_path / "bank"
+    build_bank.build_bank(EXTRACTED, AUTHORING, SCHEMA_PATH, bank)
+    no_extraction = tmp_path / "no-extraction"  # does not exist
+    report = confidence_report.generate(no_extraction, bank, tmp_path, gate=0.9)
+    ids = {e["id"] for e in report["entries"]}
+    assert "seguridad-002" in ids  # 0.7 low-confidence + unreviewed
+    assert "seguridad-001" not in ids  # 0.9 reviewed
+    entry = next(e for e in report["entries"] if e["id"] == "seguridad-002")
+    assert "low-confidence" in entry["reasons"]
+    assert "unreviewed" in entry["reasons"]
