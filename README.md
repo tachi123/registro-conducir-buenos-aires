@@ -14,6 +14,10 @@ estático: HTML/CSS/JS + JSON, desplegable en GitHub Pages.
   con link a la página del PDF para preguntas con imagen.
 - **Materiales**: 5 fichas-resumen de los materiales de estudio con su peso
   relativo en el examen.
+- **Resúmenes**: ideas clave por material (cuestionario, manual, señales ANSV,
+  Ley 24.449, Ley 13.927) a densidad cheat-sheet, con referencia a la fuente;
+  filtro por licencia derivado de los datos (hoy `auto`, extensible sin tocar
+  código).
 
 ## Arquitectura
 

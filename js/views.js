@@ -296,3 +296,76 @@ export const materialsView = {
     content.appendChild(grid)
   },
 }
+
+// ---------------------------------------------------------------------------
+// Resumenes view (study summaries)
+// ---------------------------------------------------------------------------
+export const resumenesView = {
+  load: async () => loadJSON(dataUrl('resumenes.json')),
+
+  render(content, entries) {
+    content.innerHTML = ''
+    const filters = document.createElement('div')
+    filters.className = 'filters'
+
+    // license options are DERIVED from the data at render time — never
+    // hardcoded — so a future "moto" tag appears with zero code changes.
+    const licenses = [...new Set(entries.flatMap(e => e.licencias))].sort()
+    const sel = document.createElement('select')
+    sel.dataset.filter = 'licencia'
+    sel.innerHTML = '<option value="">Todas</option>' +
+      licenses.map(l => `<option value="${l}">${l}</option>`).join('')
+    filters.appendChild(sel)
+    content.appendChild(filters)
+
+    const list = document.createElement('div')
+    list.className = 'resumen-list'
+    content.appendChild(list)
+
+    function applyFilter() {
+      const lic = sel.value
+      const shown = entries.filter(e => !lic || e.licencias.includes(lic))
+      renderList(shown)
+    }
+
+    function renderList(shown) {
+      list.innerHTML = ''
+      if (shown.length === 0) {
+        const empty = document.createElement('p')
+        empty.className = 'empty-state'
+        empty.textContent = 'No hay resúmenes para esa licencia.'
+        list.appendChild(empty)
+        return
+      }
+      for (const e of shown) {
+        const card = document.createElement('article')
+        card.className = 'resumen-card'
+        const title = document.createElement('h2')
+        title.className = 'card-title'
+        title.textContent = e.title
+        card.appendChild(title)
+        const chips = document.createElement('div')
+        chips.className = 'source-chips'
+        for (const lic of e.licencias) {
+          const chip = document.createElement('span')
+          chip.className = 'license-chip'
+          chip.textContent = lic
+          chips.appendChild(chip)
+        }
+        card.appendChild(chips)
+        const ideas = document.createElement('ul')
+        ideas.className = 'ideas-clave'
+        for (const idea of e.ideasClave) {
+          const li = document.createElement('li')
+          li.textContent = idea
+          ideas.appendChild(li)
+        }
+        card.appendChild(ideas)
+        list.appendChild(card)
+      }
+    }
+
+    sel.addEventListener('change', applyFilter)
+    applyFilter()
+  },
+}

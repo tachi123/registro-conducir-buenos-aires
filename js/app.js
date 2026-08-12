@@ -10,9 +10,13 @@
  */
 
 import { loadJSON, DataLoadError } from './data-loader.js'
-import { quizView, studyView, materialsView } from './views.js'
+import { quizView, studyView, materialsView, resumenesView } from './views.js'
 
-const VIEW_NAMES = ['quiz', 'study', 'materials']
+const VIEW_NAMES = ['quiz', 'study', 'materials', 'resumenes']
+
+// Nav link labels: only overrides needed — everything else falls back to the
+// raw view name (documented cosmetic inconsistency: "Resumenes" vs "Resúmenes").
+const NAV_LABELS = { resumenes: 'Resumenes' }
 
 function currentView() {
   const hash = window.location.hash.replace(/^#\/?/, '')
@@ -34,7 +38,7 @@ export function boot({ root = document.body, views, load = loadJSON } = {}) {
     const link = document.createElement('a')
     link.id = `nav-${name}`
     link.href = `#${name}`
-    link.textContent = name
+    link.textContent = NAV_LABELS[name] || name
     link.addEventListener('click', () => {
       window.location.hash = name
     })
@@ -79,6 +83,6 @@ export function boot({ root = document.body, views, load = loadJSON } = {}) {
 if (typeof document !== 'undefined' && document.getElementById('app')) {
   boot({
     root: document.getElementById('app'),
-    views: { quiz: quizView, study: studyView, materials: materialsView },
+    views: { quiz: quizView, study: studyView, materials: materialsView, resumenes: resumenesView },
   })
 }

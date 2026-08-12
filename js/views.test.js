@@ -14,7 +14,15 @@
  */
 
 import { describe, it, expect, vi, afterEach } from 'vitest'
-import { quizView, studyView, materialsView } from './views.js'
+import { readFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import { dirname, resolve } from 'node:path'
+import { quizView, studyView, materialsView, resumenesView } from './views.js'
+
+const here = dirname(fileURLToPath(import.meta.url))
+const resumenes = JSON.parse(
+  readFileSync(resolve(here, '..', 'data', 'resumenes.json'), 'utf-8')
+)
 
 // QUIZ bank: small, schema-shaped, none imageRequired (the engine skips those)
 function mkQ(id, section, category, question, correctIdx = 0) {
@@ -223,5 +231,141 @@ describe('materialsView', () => {
     const questionario = cards.find(c => c.textContent.includes('Cuestionario oficial'))
     expect(questionario.textContent).toMatch(/peso/i)
     expect(questionario.textContent).toMatch(/1/)
+  })
+})
+
+describe('resumenes.json data shape', () => {
+  it('is an array with exactly the five study materials', () => {
+    expect(Array.isArray(resumenes)).toBe(true)
+    expect(resumenes.map(e => e.id)).toEqual([
+      'cuestionario', 'manual', 'ansv-senales', 'ley-24449', 'ley-13927',
+    ])
+  })
+
+  it('gives every entry non-empty string id and title', () => {
+    for (const e of resumenes) {
+      expect(typeof e.id).toBe('string')
+      expect(e.id.length).toBeGreaterThan(0)
+      expect(typeof e.title).toBe('string')
+      expect(e.title.length).toBeGreaterThan(0)
+    }
+  })
+
+  it('gives every entry non-empty licencias and ideasClave arrays', () => {
+    for (const e of resumenes) {
+      expect(Array.isArray(e.licencias)).toBe(true)
+      expect(e.licencias.length).toBeGreaterThan(0)
+      expect(e.licencias.every(l => typeof l === 'string' && l.length > 0)).toBe(true)
+      expect(Array.isArray(e.ideasClave)).toBe(true)
+      expect(e.ideasClave.length).toBeGreaterThan(0)
+      expect(e.ideasClave.every(i => typeof i === 'string' && i.length > 0)).toBe(true)
+    }
+  })
+
+  it('allows multiple license tags per entry (multi-tag supported)', () => {
+    // schema MUST allow several tags; the shipped data tags all with ["auto"]
+    // but an entry carrying two tags must validate against the same rules
+    for (const multi of [['auto', 'moto'], ['auto', 'moto', 'camion']]) {
+      const entry = { ...resumenes[0], licencias: multi }
+      expect(Array.isArray(entry.licencias)).toBe(true)
+      expect(entry.licencias.length).toBeGreaterThanOrEqual(2)
+      expect(entry.licencias.every(l => typeof l === 'string')).toBe(true)
+    }
+  })
+
+  it('keeps confidence in [0,1] and reviewed boolean per entry', () => {
+    for (const e of resumenes) {
+      expect(typeof e.confidence).toBe('number')
+      expect(e.confidence).toBeGreaterThanOrEqual(0)
+      expect(e.confidence).toBeLessThanOrEqual(1)
+      expect(typeof e.reviewed).toBe('boolean')
+    }
+  })
+
+  it('keeps every idea bullet concise with an inline source reference', () => {
+    for (const e of resumenes) {
+      for (const idea of e.ideasClave) {
+        expect(idea.split(/\s+/).length).toBeLessThanOrEqual(20)
+        expect(idea).toMatch(/\([^)]*(arts?\.|Cap\.|Ley|señal|pág\.|sección)[^)]*\)/i)
+      }
+    }
+  })
+})
+
+const RESUMENES_FIXTURE = [
+  {
+    id: 'cuestionario', title: 'Cuestionario oficial', licencias: ['auto'],
+    confidence: 0.95, reviewed: true,
+    ideasClave: ['Prioridad al que cruza por la derecha (art. 41, Ley 24.449).'],
+  },
+  {
+    id: 'manual', title: 'Manual del Conductor', licencias: ['auto'],
+    confidence: 0.95, reviewed: true,
+    ideasClave: ['Conducir a la defensiva (Cap. II, Manual).'],
+  },
+  {
+    id: 'moto-nueva', title: 'Material moto', licencias: ['moto'],
+    confidence: 0.9, reviewed: false,
+    ideasClave: ['Casco obligatorio (Ley 24.449).'],
+  },
+]
+
+describe('resumenesView', () => {
+  it('renders one card per entry with title, license chips and idea bullets', () => {
+    const content = mkContent()
+    resumenesView.render(content, RESUMENES_FIXTURE)
+    const cards = [...content.querySelectorAll('.resumen-card')]
+    expect(cards).toHaveLength(3)
+    for (const card of cards) {
+      expect(card.querySelector('.card-title')).not.toBeNull()
+      expect(card.querySelector('.license-chip')).not.toBeNull()
+      expect(card.querySelector('.ideas-clave li')).not.toBeNull()
+    }
+    expect(content.textContent).toMatch(/Cuestionario oficial/)
+    expect(content.textContent).toMatch(/Manual del Conductor/)
+  })
+
+  it('derives filter options from the data: Todos + union of licencias', () => {
+    const content = mkContent()
+    resumenesView.render(content, RESUMENES_FIXTURE)
+    const opts = [...content.querySelectorAll('select option')]
+    expect(opts[0].value).toBe('')
+    expect(opts[0].textContent).toBe('Todas')
+    const values = opts.slice(1).map(o => o.value)
+    expect(values).toEqual(['auto', 'moto'])
+  })
+
+  it('shows a new license tag with zero code changes (data-driven options)', () => {
+    const content = mkContent()
+    resumenesView.render(content, [...RESUMENES_FIXTURE, {
+      id: 'otro', title: 'Otro', licencias: ['camion'],
+      confidence: 0.9, reviewed: false, ideasClave: ['Idea corta (señal X).'],
+    }])
+    const values = [...content.querySelectorAll('select option')].slice(1).map(o => o.value)
+    expect(values).toContain('camion')
+  })
+
+  it('filters the cards when a license is selected (Todas shows all)', () => {
+    const content = mkContent()
+    resumenesView.render(content, RESUMENES_FIXTURE)
+    const sel = content.querySelector('select')
+    expect([...content.querySelectorAll('.resumen-card')]).toHaveLength(3)
+    sel.value = 'moto'
+    sel.dispatchEvent(new Event('change'))
+    const cards = [...content.querySelectorAll('.resumen-card')]
+    expect(cards).toHaveLength(1)
+    expect(cards[0].textContent).toMatch(/Material moto/)
+  })
+
+  it('shows an empty-state message when the filter matches nothing', () => {
+    // Real reachable path: a data file with no authored entries yet (or a
+    // license whose entries are absent) must show an empty state, never a
+    // blank area. "Todas" over an empty entry set matches nothing.
+    const content = mkContent()
+    resumenesView.render(content, [])
+    expect([...content.querySelectorAll('.resumen-card')]).toHaveLength(0)
+    const empty = content.querySelector('.empty-state')
+    expect(empty).not.toBeNull()
+    expect(empty.textContent).toMatch(/No hay resúmenes para esa licencia/i)
   })
 })

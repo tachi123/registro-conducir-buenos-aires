@@ -73,14 +73,27 @@ describe('app boot/router', () => {
     window.location.hash = ''
   })
 
-  it('renders the three nav entries on boot', () => {
+  it('renders the four nav entries on boot', () => {
     mount(
       { quiz: { load: vi.fn(async () => []), render: vi.fn() },
         study: { load: vi.fn(async () => []), render: vi.fn() },
-        materials: { load: vi.fn(async () => []), render: vi.fn() } },
+        materials: { load: vi.fn(async () => []), render: vi.fn() },
+        resumenes: { load: vi.fn(async () => []), render: vi.fn() } },
       vi.fn(async () => []),
     )
-    expect(navIds()).toEqual(['nav-quiz', 'nav-study', 'nav-materials'])
+    expect(navIds()).toEqual(['nav-quiz', 'nav-study', 'nav-materials', 'nav-resumenes'])
+  })
+
+  it('labels the resumenes link via NAV_LABELS, others keep raw names', () => {
+    mount(
+      { quiz: { load: vi.fn(async () => []), render: vi.fn() },
+        study: { load: vi.fn(async () => []), render: vi.fn() },
+        materials: { load: vi.fn(async () => []), render: vi.fn() },
+        resumenes: { load: vi.fn(async () => []), render: vi.fn() } },
+      vi.fn(async () => []),
+    )
+    const labels = [...root.querySelectorAll('nav a')].map(a => a.textContent)
+    expect(labels).toEqual(['quiz', 'study', 'materials', 'Resumenes'])
   })
 
   it('lazy-loads and renders the view matching the hash', async () => {
@@ -88,7 +101,8 @@ describe('app boot/router', () => {
     mount(
       { quiz: { load: vi.fn(async () => []), render: vi.fn() },
         study,
-        materials: { load: vi.fn(async () => []), render: vi.fn() } },
+        materials: { load: vi.fn(async () => []), render: vi.fn() },
+        resumenes: { load: vi.fn(async () => []), render: vi.fn() } },
       vi.fn(async () => []),
     )
     window.location.hash = '#study'
@@ -99,6 +113,23 @@ describe('app boot/router', () => {
     expect(study.render.mock.calls[0][1]).toEqual([{ id: 'q1' }])
   })
 
+  it('routes #resumenes to the resumenes view', async () => {
+    const resumenes = { load: vi.fn(async () => [{ id: 'r1' }]), render: vi.fn() }
+    mount(
+      { quiz: { load: vi.fn(async () => []), render: vi.fn() },
+        study: { load: vi.fn(async () => []), render: vi.fn() },
+        materials: { load: vi.fn(async () => []), render: vi.fn() },
+        resumenes },
+      vi.fn(async () => []),
+    )
+    window.location.hash = '#resumenes'
+    window.dispatchEvent(new HashChangeEvent('hashchange'))
+    await vi.waitFor(() => expect(resumenes.render).toHaveBeenCalled())
+    expect(resumenes.load).toHaveBeenCalled()
+    expect(resumenes.render.mock.calls[0][1]).toEqual([{ id: 'r1' }])
+    expect(navIds()).toEqual(['nav-quiz', 'nav-study', 'nav-materials', 'nav-resumenes'])
+  })
+
   it('shows a friendly error banner and keeps nav on fetch failure', async () => {
     const failing = {
       load: vi.fn(async () => { throw new DataLoadError('No se pudo cargar la sección de quiz.') }),
@@ -106,7 +137,7 @@ describe('app boot/router', () => {
     }
     const ok = { load: vi.fn(async () => []), render: vi.fn() }
     mount(
-      { quiz: failing, study: ok, materials: ok },
+      { quiz: failing, study: ok, materials: ok, resumenes: ok },
       vi.fn(async () => []),
     )
     window.location.hash = '#quiz'
@@ -121,13 +152,13 @@ describe('app boot/router', () => {
     window.dispatchEvent(new HashChangeEvent('hashchange'))
     await vi.waitFor(() => expect(ok.render).toHaveBeenCalled())
     expect(root.querySelector('[role="alert"]')).toBeNull()
-    expect(navIds()).toEqual(['nav-quiz', 'nav-study', 'nav-materials'])
+    expect(navIds()).toEqual(['nav-quiz', 'nav-study', 'nav-materials', 'nav-resumenes'])
   })
 
   it('injects the loader for lazy fetch (boot passes the load function)', async () => {
     const loader = vi.fn(async path => ({ path }))
     const quiz = { load: vi.fn(async () => []), render: vi.fn() }
-    mount({ quiz, study: quiz, materials: quiz }, loader)
+    mount({ quiz, study: quiz, materials: quiz, resumenes: quiz }, loader)
     expect(loader).not.toHaveBeenCalled() // nothing loaded at boot
   })
 })
