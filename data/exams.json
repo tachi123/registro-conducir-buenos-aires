@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "clase-b-auto",
+      "label": "Clase B / Auto",
+      "examSize": 40,
+      "passThreshold": 30,
+      "floors": {
+        "senales": 8,
+        "generales": 20,
+        "auto": 6
+      },
+      "banks": ["generales", "senales", "auto"]
+    }
+  ]
+}

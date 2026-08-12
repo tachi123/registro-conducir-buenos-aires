@@ -72,6 +72,27 @@ nav a.active {
   margin-bottom: 1rem;
 }
 
+.quiz-controls {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.quiz-profile {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 600;
+}
+
+.quiz-controls button { margin-top: 0; }
+
 .stem { font-weight: 600; margin: 0.25rem 0 0.75rem; }
 
 label {
@@ -124,7 +145,7 @@ button:disabled {
 .license-chip {
   text-transform: capitalize;
   border-color: var(--accent);
-  color: var(--accent-dark);
+  color: var(--accent);
 }
 
 .filters {
@@ -139,6 +160,7 @@ select {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--card);
+  color: var(--ink);
   font-size: 0.95rem;
 }
 
@@ -172,3 +194,9 @@ select {
 .resumen-card .ideas-clave li { margin-bottom: 0.45rem; }
 
 fieldset { border: 0; padding: 0; margin: 0; }
+
+@media (max-width: 480px) {
+  #app { padding: 0.75rem 0.75rem 2rem; }
+  .quiz-controls { align-items: stretch; }
+  .quiz-profile, .quiz-profile select, .quiz-controls button { width: 100%; }
+}

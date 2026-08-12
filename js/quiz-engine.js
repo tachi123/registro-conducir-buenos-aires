@@ -48,7 +48,6 @@ export function buildExam(bank, cfg = {}, seed = Date.now()) {
   const rng = mulberry32(seed)
   const examSize = cfg.examSize ?? 40
   const floors = { ...DEFAULT_FLOORS, ...(cfg.floors ?? {}) }
-  const bankBy = new Map(bank.map(q => [q.id, q]))
 
   // 1. Candidate pool: exclude imageRequired while the image pipeline is absent.
   const candidates = bank.filter(q => !q.imageRequired)
@@ -76,6 +75,9 @@ export function buildExam(bank, cfg = {}, seed = Date.now()) {
   for (const q of candidates) {
     if (chosen.has(q.id)) continue
     pools[categoryOf(q)].push(q)
+  }
+  for (const cat of ['generales', 'senales', 'auto']) {
+    pools[cat] = shuffle(pools[cat], rng)
   }
   const chosenCount = cat => [...chosen.values()].filter(q => categoryOf(q) === cat).length
 
@@ -121,9 +123,13 @@ export function buildExam(bank, cfg = {}, seed = Date.now()) {
     seatLog.picks.push(q.id)
   }
 
-  // 5. Per-render: shuffle options + bijective displayKey remap.
+  // 5. Shuffle the completed batch so force-included essentials do not occupy
+  // the same visible positions on every attempt.
+  const ordered = shuffle([...chosen.values()], rng)
+
+  // 6. Per-render: shuffle options + bijective displayKey remap.
   const letter = i => String.fromCharCode(97 + i)
-  const questions = [...chosen.values()].map(q => {
+  const questions = ordered.map(q => {
     const options = shuffle(q.options, rng)
     const display = options.map((o, i) => ({ displayKey: letter(i), text: o.text }))
     const correctIndex = options.findIndex(o => o.key === q.correct)

@@ -10,6 +10,20 @@ export const CONFIG = {
   CONFIDENCE_GATE: 0.9,
 }
 
+export const CLASE_B_PROFILE = {
+  id: 'clase-b-auto',
+  label: 'Clase B / Auto',
+  examSize: CONFIG.EXAM_SIZE,
+  passThreshold: CONFIG.PASS_THRESHOLD,
+  floors: CONFIG.FLOORS,
+  banks: ['generales', 'senales', 'auto'],
+}
+
+export const FALLBACK_EXAMS_MANIFEST = {
+  version: 1,
+  profiles: [CLASE_B_PROFILE],
+}
+
 export const engineConfig = () => ({
   examSize: CONFIG.EXAM_SIZE,
   floors: CONFIG.FLOORS,

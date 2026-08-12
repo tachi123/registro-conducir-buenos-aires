@@ -102,6 +102,13 @@ describe('buildExam composition', () => {
     expect(a).not.toEqual(b)
   })
 
+  it('shuffles the final batch order even when every question is essential', () => {
+    const bank = mkBank({ generales: 40, senales: 0, auto: 0, essentials: { generales: 40, senales: 0, auto: 0 } })
+    const a = buildExam(bank, { examSize: 40, floors: { senales: 0, generales: 40, auto: 0 } }, 1)
+    const b = buildExam(bank, { examSize: 40, floors: { senales: 0, generales: 40, auto: 0 } }, 2)
+    expect(a.questions.map(q => q.id)).not.toEqual(b.questions.map(q => q.id))
+  })
+
   it('uses defaults when no cfg passed: 40 questions, 8/20/6 floors', () => {
     const { questions } = buildExam(FULL, undefined, 99)
     expect(questions).toHaveLength(40)

@@ -96,19 +96,66 @@ function mkContent() {
 afterEach(() => {
   if (mountedContent) mountedContent.remove()
   mountedContent = null
+  vi.unstubAllGlobals()
 })
 
 describe('quizView', () => {
+  it('uses the Clase B fallback profile when exams.json cannot load', async () => {
+    const bankResponse = { ok: true, json: async () => QUIZ_BANK }
+    vi.stubGlobal('fetch', vi.fn(async path => (
+      path.endsWith('exams.json') ? { ok: false, status: 404 } : bankResponse
+    )))
+    const loaded = await quizView.load()
+    expect(loaded.profiles).toEqual([expect.objectContaining({
+      id: 'clase-b-auto', examSize: 40, passThreshold: 30,
+    })])
+    expect(fetch).toHaveBeenCalledWith('./data/generales.json')
+    expect(fetch).toHaveBeenCalledWith('./data/senales.json')
+    expect(fetch).toHaveBeenCalledWith('./data/auto.json')
+  })
+
+  it('uses only profiles and banks declared by the manifest', async () => {
+    const manifest = {
+      version: 1,
+      profiles: [{ id: 'prueba', label: 'Prueba', examSize: 2, passThreshold: 1, floors: {}, banks: ['auto'] }],
+    }
+    vi.stubGlobal('fetch', vi.fn(async path => ({
+      ok: true,
+      json: async () => path.endsWith('exams.json') ? manifest : QUIZ_BANK,
+    })))
+    const loaded = await quizView.load()
+    expect(loaded.profiles).toEqual(manifest.profiles)
+    expect(fetch).toHaveBeenCalledWith('./data/auto.json')
+    expect(fetch).not.toHaveBeenCalledWith('./data/generales.json')
+  })
+
   it('renders an exam question with option labels and a submit button', () => {
     const content = mkContent()
     quizView.render(content, QUIZ_BANK)
     const stem = content.querySelector('.stem')
     expect(stem).not.toBeNull()
     expect(QUIZ_BANK.some(q => q.question === stem.textContent)).toBe(true)
-    const labels = [...content.querySelectorAll('label')]
+    const labels = [...content.querySelectorAll('.quiz-item label')]
     expect(labels).toHaveLength(3)
     expect(labels[0].textContent.trim()).toMatch(/-(a|b|c)$/)
     expect(content.querySelector('button[type="submit"]')).not.toBeNull()
+    expect(content.querySelector('label').textContent).toMatch(/perfil de examen/i)
+    expect(content.querySelector('select[aria-label="Perfil de examen"]')).not.toBeNull()
+    expect(content.textContent).toMatch(/Generar nuevo examen/)
+  })
+
+  it('confirms before regenerating an in-progress exam and resets after confirmation', () => {
+    const content = mkContent()
+    const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false)
+    quizView.render(content, QUIZ_BANK)
+    const initialStem = content.querySelector('.stem').textContent
+    content.querySelector('button[type="button"]').click()
+    expect(confirm).toHaveBeenCalled()
+    expect(content.querySelector('.stem').textContent).toBe(initialStem)
+    confirm.mockReturnValue(true)
+    content.querySelector('button[type="button"]').click()
+    expect(content.querySelector('h2').textContent).toMatch(/Pregunta 1\//)
+    confirm.mockRestore()
   })
 
   it('shows verdict, fundamento and source chips after answering', () => {
@@ -143,7 +190,7 @@ describe('quizView', () => {
       const radio = content.querySelector('input[type="radio"]')
       radio.checked = true
       content.querySelector('button[type="submit"]').click()
-      const next = content.querySelector('button[type="button"]')
+      const next = content.querySelector('.feedback button[type="button"]')
       if (next) next.click()
       guard += 1
     }

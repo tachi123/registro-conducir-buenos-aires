@@ -6,7 +6,7 @@
  */
 
 import { buildExam, isPass } from './quiz-engine.js'
-import { CONFIG } from './config.js'
+import { CONFIG, FALLBACK_EXAMS_MANIFEST } from './config.js'
 import { dataUrl, loadJSON } from './data-loader.js'
 
 // ---------------------------------------------------------------------------
@@ -28,35 +28,74 @@ function sourceChips(sources) {
 
 export const quizView = {
   load: async () => {
-    const index = await loadJSON(dataUrl('index.json'))
-    const files = {
-      generales: dataUrl('generales.json'),
-      senales: dataUrl('senales.json'),
-      auto: dataUrl('auto.json'),
+    let manifest = FALLBACK_EXAMS_MANIFEST
+    try {
+      const loaded = await loadJSON(dataUrl('exams.json'))
+      if (loaded?.version === 1 && Array.isArray(loaded.profiles) && loaded.profiles.length > 0) {
+        manifest = loaded
+      }
+    } catch {
+      // Clase B remains usable if the optional profile manifest is unavailable.
     }
-    const [generales, senales, auto] = await Promise.all(
-      ['generales', 'senales', 'auto'].map(name => loadJSON(files[name]))
-    )
-    return { bank: [...generales, ...senales, ...auto], index }
+    const banks = [...new Set(manifest.profiles.flatMap(profile => profile.banks))]
+    const loadedBanks = await Promise.all(banks.map(name => loadJSON(dataUrl(`${name}.json`))))
+    return { bank: loadedBanks.flat(), profiles: manifest.profiles }
   },
 
   render(content, ctx) {
     const bank = ctx.bank ?? ctx
-    const cfg = { examSize: CONFIG.EXAM_SIZE, floors: CONFIG.FLOORS }
-    const seed = Math.floor(Math.random() * 2 ** 31)
-    const { questions } = buildExam(bank, cfg, seed)
-    if (questions.length === 0) {
-      content.innerHTML = '<p class="empty-state">No hay preguntas disponibles todavía.</p>'
-      return
+    const profiles = ctx.profiles ?? FALLBACK_EXAMS_MANIFEST.profiles
+    let profile = profiles[0]
+    let session = null
+
+    content.innerHTML = ''
+    const controls = document.createElement('div')
+    controls.className = 'quiz-controls'
+    const profileLabel = document.createElement('label')
+    profileLabel.className = 'quiz-profile'
+    profileLabel.textContent = 'Perfil de examen'
+    const profileSelect = document.createElement('select')
+    profileSelect.setAttribute('aria-label', 'Perfil de examen')
+    for (const item of profiles) {
+      const option = document.createElement('option')
+      option.value = item.id
+      option.textContent = item.label
+      profileSelect.appendChild(option)
     }
-    // fresh exam session state kept closure-local
-    const session = {
-      queue: [...questions],
-      current: null,
-      correctCount: 0,
-      total: 0,
+    profileLabel.appendChild(profileSelect)
+    const regenerate = document.createElement('button')
+    regenerate.type = 'button'
+    regenerate.textContent = 'Generar nuevo examen'
+    controls.append(profileLabel, regenerate)
+    const examContent = document.createElement('div')
+    content.append(controls, examContent)
+
+    const isInProgress = () => session && session.total > 0 && session.queue.length > 0
+    const confirmDiscard = () => !isInProgress() || window.confirm('Vas a perder las respuestas de este examen. ¿Querés continuar?')
+    const startExam = () => {
+      const cfg = { examSize: profile.examSize, floors: profile.floors }
+      const { questions } = buildExam(bank, cfg, Math.floor(Math.random() * 2 ** 31))
+      if (questions.length === 0) {
+        examContent.innerHTML = '<p class="empty-state">No hay preguntas disponibles todavía.</p>'
+        return
+      }
+      session = { queue: [...questions], current: null, correctCount: 0, total: 0, profile }
+      nextQuestion(examContent, session)
     }
-    nextQuestion(content, session)
+    regenerate.addEventListener('click', () => {
+      if (confirmDiscard()) startExam()
+    })
+    profileSelect.addEventListener('change', () => {
+      const nextProfile = profiles.find(item => item.id === profileSelect.value)
+      if (!nextProfile) return
+      if (!confirmDiscard()) {
+        profileSelect.value = profile.id
+        return
+      }
+      profile = nextProfile
+      startExam()
+    })
+    startExam()
   },
 
   renderSummary(content, { correctCount, total, threshold = CONFIG.PASS_THRESHOLD }) {
@@ -75,7 +114,10 @@ export const quizView = {
 function nextQuestion(content, session) {
   const q = session.queue.shift()
   if (!q) {
-    quizView.renderSummary(content, session)
+    quizView.renderSummary(content, {
+      ...session,
+      threshold: session.profile.passThreshold,
+    })
     return
   }
   session.current = q
@@ -85,7 +127,7 @@ function nextQuestion(content, session) {
   const card = document.createElement('article')
   card.className = 'quiz-item'
   const h2 = document.createElement('h2')
-  h2.textContent = `Pregunta ${session.total}/${CONFIG.EXAM_SIZE}`
+  h2.textContent = `Pregunta ${session.total}/${session.profile.examSize}`
   const stem = document.createElement('p')
   stem.className = 'stem'
   stem.textContent = q.question
