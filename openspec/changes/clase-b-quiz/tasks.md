@@ -52,7 +52,7 @@ Maintainer pre-approved ("tomes las mejores decisiones sin dudas"); ~80% of fore
 - [x] 3.2 `tests/test_engine_parity.py`: pytest runs `node` on fixture → invariants.
 
 ## Phase 4: Static Site
-- [ ] 4.1 `js/config.js` (40 q, 30 pass, floors, gate) + `js/data-loader.js` + `js/app.js` + jsdom: fetch-error (`file://`), lazy fetch.
+- [x] 4.1 `js/config.js` (40 q, 30 pass, floors, gate) + `js/data-loader.js` + `js/app.js` + jsdom: fetch-error (`file://`), lazy fetch.
 - [ ] 4.2 quiz/study/materials views + jsdom: answer feedback, empty filter, 5 cards, placeholder+`srcPage` link.
 - [ ] 4.3 `index.html` + `css/style.css`: nav, `<script type="module">`, relative `./data/` refs.
 
