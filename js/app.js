@@ -10,6 +10,7 @@
  */
 
 import { loadJSON, DataLoadError } from './data-loader.js'
+import { quizView, studyView, materialsView } from './views.js'
 
 const VIEW_NAMES = ['quiz', 'study', 'materials']
 
@@ -71,4 +72,13 @@ export function boot({ root = document.body, views, load = loadJSON } = {}) {
   render()
 
   return { render }
+}
+
+// Self-boot when served from index.html (the mount exists); tests never
+// create #app so boot() stays testable with injected fakes.
+if (typeof document !== 'undefined' && document.getElementById('app')) {
+  boot({
+    root: document.getElementById('app'),
+    views: { quiz: quizView, study: studyView, materials: materialsView },
+  })
 }
