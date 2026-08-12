@@ -1,37 +1,37 @@
 [
   {
     "id": "cuestionario",
-    "title": "Cuestionario oficial (Bater\u00eda de preguntas)",
-    "queEs": "La bater\u00eda oficial de ~550 preguntas del examen te\u00f3rico provincial (IF-2019-33101289-GDEBA-DPPYSVMGGP). Es la fuente directa del examen real: las preguntas del parcial se extraen de este set con alt\u00edsima probabilidad de repetici\u00f3n 1:1.",
-    "queEstudiar": "Toda la bater\u00eda en alcance Clase B: preguntas generales (actores en la v\u00eda p\u00fablica, seguridad, documentaci\u00f3n, intoxicaci\u00f3n, varias, sem\u00e1foro, velocidades, adelantamiento, autopistas, estacionamiento, luces, giros, se\u00f1ales, conducci\u00f3n segura, seguridad activa y pasiva) y la secci\u00f3n espec\u00edfica de Auto y Camioneta. Priorizar las preguntas marcadas como eliminatorias.",
+    "title": "Cuestionario oficial",
+    "queEs": "Batería oficial de ~550 preguntas del examen provincial.",
+    "queEstudiar": "Toda la batería Clase B; prioriza las eliminatorias.",
     "peso": 1
   },
   {
     "id": "manual",
-    "title": "Manual del Conductor (PBA/ANSV resumido)",
-    "queEs": "Manual oficial de conducci\u00f3n, versi\u00f3n resumida publicada por el Gobierno de la Provincia de Buenos Aires (Mor\u00f3n/DIEBO 2008) + versi\u00f3n resumida ANSV. Explica los conceptos detr\u00e1s de cada regla.",
-    "queEstudiar": "Cap\u00edtulo I (Educaci\u00f3n \u00e9tica y ciudadana), II (La conducci\u00f3n: modalidades, circulaci\u00f3n, velocidad, maniobras), III (Conozca su veh\u00edculo: VTV, seguridad activa y pasiva), IV (La v\u00eda p\u00fablica: uso, obstrucciones), V (Condiciones psicof\u00edsicas del conductor: vista, factores f\u00edsicos), VI (Se\u00f1ales viales: verticales, demarcaci\u00f3n, sem\u00e1foros), VII (Licencia Nacional de Conducir).",
+    "title": "Manual del Conductor",
+    "queEs": "Manual oficial PBA/ANSV: los conceptos detrás de cada regla.",
+    "queEstudiar": "Conducción, maniobras, velocidad, señales, licencia.",
     "peso": 2
   },
   {
     "id": "ansv-senales",
-    "title": "Libro de Se\u00f1ales de Tr\u00e1nsito (ANSV)",
-    "queEs": "Cat\u00e1logo visual de 26 p\u00e1ginas con todas las se\u00f1ales de tr\u00e1nsito argentinas: reglamentarias, preventivas e informativas. Es la referencia de imagen para las preguntas de se\u00f1ales del examen.",
-    "queEstudiar": "Las se\u00f1ales reglamentarias (forma circular, orla roja, prohibiciones y obligaciones), preventivas (forma romboidal, fondo amarillo) e informativas (azules, destinos y servicios). Reconocer cada se\u00f1al por forma, color y s\u00edmbolo para las preguntas con imagen.",
+    "title": "Libro de Señales (ANSV)",
+    "queEs": "Catálogo visual de todas las señales de tránsito argentinas.",
+    "queEstudiar": "Forma, color y símbolo de cada señal; preguntas con imagen.",
     "peso": 3
   },
   {
     "id": "ley-24449",
-    "title": "Ley Nacional de Tr\u00e1nsito 24.449",
-    "queEs": "Ley de tr\u00e1nsito nacional que regula la circulaci\u00f3n, las prioridades, las velocidades, la documentaci\u00f3n y las licencias. Base legal de la mayor\u00eda de los fundamentos del examen.",
-    "queEstudiar": "Art\u00edculos clave citados en los fundamentos: obligaciones de conductores y peatones, prioridad de paso (art. 41), velocidades m\u00e1ximas (art. 51), adelantamiento (art. 49), luces, documentaci\u00f3n obligatoria (art. 40), licencia de conducir, alcohol y drogas (art. 48), seguridad activa y pasiva.",
+    "title": "Ley 24.449 (Tránsito)",
+    "queEs": "Ley nacional que regula circulación, prioridades y velocidades.",
+    "queEstudiar": "Arts. 41, 42, 49, 51, 44, 47, 48; documentación y licencias.",
     "peso": 4
   },
   {
     "id": "ley-13927",
-    "title": "Ley Provincial 13.927",
-    "queEs": "Ley de adhesi\u00f3n de la Provincia de Buenos Aires a las leyes nacionales 24.449 y 26.363, que establece el marco provincial de tr\u00e1nsito y seguridad vial en jurisdicci\u00f3n bonaerense.",
-    "queEstudiar": "Los aspectos de jurisdicci\u00f3n provincial: registro provincial, infracciones, y la articulaci\u00f3n con la ley nacional. Relevante para un pu\u00f1ado de preguntas que citan normativa de la provincia.",
+    "title": "Ley 13.927 (Provincia)",
+    "queEs": "Adhesión bonaerense a las leyes nacionales de tránsito.",
+    "queEstudiar": "Marco provincial: registro, infracciones y jurisdicción.",
     "peso": 5
   }
 ]

@@ -54,3 +54,14 @@ def test_cuestionario_ranks_highest():
 def test_peso_is_a_rank_1_to_5():
     pesos = {card["id"]: card["peso"] for card in MATERIALS}
     assert sorted(pesos.values()) == [1, 2, 3, 4, 5]
+
+
+def test_summaries_are_compact():
+    """User feedback: cards must fit on screen — one short line per field,
+    no long prose. queEs = what it is; queEstudiar = few keywords."""
+    for card in MATERIALS:
+        assert len(card["queEs"]) <= 140, f"{card['id']} queEs too long"
+        assert len(card["queEstudiar"]) <= 140, f"{card['id']} queEstudiar too long"
+        assert "\n" not in card["queEs"], f"{card['id']} queEs must be one line"
+        assert "\n" not in card["queEstudiar"], f"{card['id']} queEstudiar must be one line"
+        assert len(card["title"]) <= 40, f"{card['id']} title too long"
