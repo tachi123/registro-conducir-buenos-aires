@@ -6,13 +6,11 @@
     "confidence": 0.95,
     "reviewed": true,
     "ideasClave": [
-      "Prioridad en encrucijada: cede el paso al que cruza desde la derecha (art. 41, Ley 24.449).",
-      "Ambulancias, policía y bomberos con señales de advertencia activadas tienen prioridad (art. 61, Ley 24.449).",
-      "Velocidad máxima en calles urbanas: 40 km/h; en avenidas: 60 km/h (art. 51, Ley 24.449).",
-      "VTV: verifica seguridad y emisiones; vencida, no autoriza a circular (art. 34, Ley 24.449).",
-      "Documentos obligatorios: licencia, DNI, cédula verde, póliza, VTV y grabado de autopartes (art. 40, Ley 24.449).",
-      "La doble línea amarilla central prohíbe cruzar y adelantar en ambos sentidos (señalización horizontal).",
-      "El punto ciego son las áreas no cubiertas por los tres espejos retrovisores (Cap. II, Manual)."
+      "Batería oficial de ~550 preguntas sobre normas y conducción (Cuestionario, pág. 1).",
+      "Preguntas eliminatorias exigen 100% de precisión (Cuestionario, sección examen).",
+      "Velocidad máxima en calle es 40 km/h y en avenida 60 km/h (Cuestionario, art. 51).",
+      "Prioridad de paso en encrucijada sin semáforo: el de la derecha (Cuestionario, art. 41).",
+      "Prohibido estacionar en esquinas, paradas de colectivo y rampas (Cuestionario, Ley 24.449)."
     ]
   },
   {
@@ -22,32 +20,25 @@
     "confidence": 0.95,
     "reviewed": true,
     "ideasClave": [
-      "Todos somos transeúntes: la seguridad vial es convivencia y ciudadanía (Cap. I).",
-      "Circular por el carril derecho y mantener distancia de seguridad entre vehículos (Cap. II).",
-      "Campo visual de unos 200 metros; revisar espejos: persiste el punto ciego (Cap. II).",
-      "La velocidad potencia el riesgo: a mayor velocidad, mayor distancia de frenado (Cap. II).",
-      "VTV: revisión periódica y obligatoria del vehículo; seguridad activa y pasiva (Cap. III).",
-      "Cansancio, alcohol, teléfono, medicamentos y drogas afectan las condiciones psicofísicas (Cap. V).",
-      "Alcoholemia: prohibido conducir con más de 0,0 gr/l de alcohol en sangre (Cap. V).",
-      "Señales reglamentarias (redondas, borde rojo), preventivas (amarillas), informativas (azules/verdes) (Cap. VI).",
-      "Clase B: automóviles, utilitarios y camionetas hasta 3.500 kg de peso total (Cap. VII)."
+      "Distancia de seguridad: 2 segundos en seco, 4s con lluvia (Manual, Cap. 2).",
+      "Uso obligatorio del cinturón de seguridad para todos los ocupantes (Manual, Cap. 3).",
+      "Niños menores de 10 años viajan atrás con sillita SRI (Manual, Cap. 3).",
+      "Adelantamiento siempre por la izquierda señalizando con guiño (Manual, Cap. 4).",
+      "Seguridad activa previene accidentes; pasiva reduce severidad de lesiones (Manual, Cap. 5)."
     ]
   },
   {
     "id": "ansv-senales",
     "title": "Libro de Señales (ANSV)",
     "licencias": ["auto"],
-    "confidence": 0.85,
-    "reviewed": false,
+    "confidence": 0.95,
+    "reviewed": true,
     "ideasClave": [
-      "Jerarquía de indicaciones: agente de tránsito > señales verticales > ley vigente (señales).",
-      "Reglamentarias: orla roja, cumplimiento obligatorio; PARE exige detención completa (Señales reglamentarias).",
-      "Preventivas: amarillas, advierten un peligro o cambio en la vía (Señales preventivas).",
-      "Informativas: azules o verdes, orientan destinos y servicios (Señales informativas).",
-      "Transitorias: naranjas, señalan obras; prevalecen sobre semáforos si modifican la marcha (Señales transitorias).",
-      "Demarcación continua amarilla central: prohibido traspasar; isletas intransitables (señalización horizontal).",
-      "Semáforo intermitente rojo: detenerse y cruzar solo sin riesgo; intermitente amarillo: máxima precaución (señales luminosas, Semáforos).",
-      "Cruz verde/borde blanco: puesto sanitario; H azul: hospital; surtidor, restaurante y campamento (Señales de servicio)."
+      "Señales Reglamentarias: circulares con borde rojo indican prohibición o restricción (señal, pág. 5).",
+      "Señales Preventivas: rombo amarillo advierte peligro cercano en la vía (señal, pág. 15).",
+      "Señales Informativas: rectángulos verdes o azules brindan orientación de destinos (señal, pág. 30).",
+      "Señal de PARE exige detención total antes de la línea (señal, pág. 8).",
+      "Señal CEDA EL PASO exige reducir velocidad y detenerse si circula otro (señal, pág. 9)."
     ]
   },
   {
@@ -57,31 +48,25 @@
     "confidence": 0.95,
     "reviewed": true,
     "ideasClave": [
-      "Prioridad al que viene por la derecha, salvo señalización, urgencia, ferroviarios, peatones, rotondas (art. 41).",
-      "Adelantamiento por la izquierda, con visibilidad y destellos; retomar la derecha sin interferir (art. 42).",
-      "Semáforos: roja detiene antes de la línea; amarilla si no alcanza a transponer (art. 44).",
-      "Luces bajas o diurnas encendidas en rutas, de día y de noche (art. 47).",
-      "Prohibido conducir con alcoholemia superior a 0,0 mg/l, a contramano o sin distancia prudente (art. 48).",
-      "Estacionamiento paralelo al cordón, a 50 cm; prohibido en esquinas, sendas y paradas (art. 49).",
-      "Velocidades máximas: calles 40, avenidas 60, zona rural 110 km/h para automóviles (art. 51).",
-      "Presunción de responsabilidad en accidente: quien carecía de prioridad o cometió infracción (art. 64)."
+      "Documentos obligatorios: DNI, Licencia, Cédula y Seguro obligatorio (art. 40, Ley 24.449).",
+      "Luz baja obligatoria las 24 horas en rutas y autopistas (art. 47, Ley 24.449).",
+      "En rotonda tiene prioridad el vehículo que circula por dentro (art. 41, Ley 24.449).",
+      "Prohibido usar celular, auriculares o pantallas mientras se conduce (art. 48, Ley 24.449).",
+      "Verificación Técnica Vehicular (VTV) es obligatoria para circular (art. 34, Ley 24.449)."
     ]
   },
   {
     "id": "ley-13927",
     "title": "Ley 13.927 (Provincia)",
     "licencias": ["auto"],
-    "confidence": 0.9,
+    "confidence": 0.95,
     "reviewed": true,
     "ideasClave": [
-      "Buenos Aires adhiere a las leyes nacionales 24.449 y 26.363 (art. 1).",
-      "Autoridades de aplicación: Policía de Seguridad Vial, Vialidad, Transporte y municipios (art. 2).",
-      "RUIT: registra actas e infracciones; antecedentes caducan a los 10 años (arts. 4-5).",
-      "Licencia: la emite la Municipalidad del domicilio, previo informe RUIT y RENAT (art. 8).",
-      "VTV obligatoria: controles técnicos mensuales aleatorios sobre frenos, luces, ruedas y emisiones (art. 16).",
-      "En la VTV se verifica impuesto automotor, libre deuda de infracciones y seguro obligatorio (art. 17).",
-      "Retención preventiva hasta 12 horas por intoxicación alcohólica o alucinógenos, o fuga en accidente (art. 37).",
-      "Negarse a la prueba de alcoholemia es falta y presunta infracción (art. 39, Ley 13.927)."
+      "Tolerancia Cero de alcohol al volante en Provincia de Buenos Aires (art. 1, Ley 13.927).",
+      "Alcoholemia positiva sanciona con inhabilitación, retención de licencia y multa (art. 2, Ley 13.927).",
+      "Examen teórico, práctico y psicofísico obligatorios para obtener licencia (art. 8, Ley 13.927).",
+      "Registro RUIT juzga y acumula infracciones graves de tránsito (art. 5, Ley 13.927).",
+      "Retención preventiva de la licencia ante faltas graves de tránsito (art. 3, Ley 13.927)."
     ]
   }
 ]

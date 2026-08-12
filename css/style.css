@@ -1,15 +1,15 @@
 /* Clase B quiz — Registro Marcos Paz. Plain CSS, no framework. */
 
 :root {
-  --bg: #f4f6f8;
-  --card: #ffffff;
-  --ink: #1c2733;
-  --muted: #5b6b7b;
-  --accent: #0b6e4f;
-  --accent-dark: #085a40;
-  --good: #1b7f3b;
-  --bad: #b3261e;
-  --border: #d7dee5;
+  --bg: #0f172a;
+  --card: #1e293b;
+  --ink: #f8fafc;
+  --muted: #94a3b8;
+  --accent: #10b981;
+  --accent-dark: #059669;
+  --good: #22c55e;
+  --bad: #ef4444;
+  --border: #334155;
   --radius: 10px;
 }
 
