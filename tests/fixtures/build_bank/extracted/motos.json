@@ -1,0 +1,23 @@
+[
+  {
+    "id": "motos-0001",
+    "number": null,
+    "section": "motos",
+    "category": "generales",
+    "subcategory": "motos",
+    "question": "¿Es obligatorio el uso de casco para el conductor de una moto?",
+    "options": [
+      { "key": "a", "text": "Sí." },
+      { "key": "b", "text": "No." }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 250,
+    "regionNote": null,
+    "line_no": 40,
+    "triage_note": ""
+  }
+]

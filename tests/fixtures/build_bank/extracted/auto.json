@@ -1,0 +1,24 @@
+[
+  {
+    "id": "auto-5001",
+    "number": 501,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Qué documentación debe llevar el conductor de un automóvil?",
+    "options": [
+      { "key": "a", "text": "Licencia de conducir, cédula y seguro." },
+      { "key": "b", "text": "Solo la licencia." },
+      { "key": "c", "text": "Pasaporte." }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 210,
+    "regionNote": null,
+    "line_no": 30,
+    "triage_note": ""
+  }
+]

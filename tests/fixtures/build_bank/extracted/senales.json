@@ -1,0 +1,68 @@
+[
+  {
+    "id": "senales-225a",
+    "number": 225,
+    "section": "senales",
+    "category": "senales",
+    "subcategory": "senales",
+    "question": "La siguiente señal indica:",
+    "options": [
+      { "key": "a", "text": "Detención transporte público." },
+      { "key": "b", "text": "Terminal ómnibus." },
+      { "key": "c", "text": "Punto panorámico." }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": true,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 96,
+    "regionNote": null,
+    "line_no": 20,
+    "triage_note": ""
+  },
+  {
+    "id": "senales-225b",
+    "number": 225,
+    "section": "senales",
+    "category": "senales",
+    "subcategory": "senales",
+    "question": "La siguiente señal indica:",
+    "options": [
+      { "key": "a", "text": "Prohibido estacionar." },
+      { "key": "b", "text": "Prohibido detenerse." },
+      { "key": "c", "text": "Estacionamiento medido." }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": true,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 96,
+    "regionNote": null,
+    "line_no": 21,
+    "triage_note": ""
+  },
+  {
+    "id": "senales-226",
+    "number": 226,
+    "section": "senales",
+    "category": "senales",
+    "subcategory": "senales",
+    "question": "¿Qué indica esta señal de prioridad?",
+    "options": [
+      { "key": "a", "text": "Ceda el paso." },
+      { "key": "b", "text": "Pare." },
+      { "key": "c", "text": "Camino sinuoso." }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": true,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 97,
+    "regionNote": null,
+    "line_no": 22,
+    "triage_note": ""
+  }
+]

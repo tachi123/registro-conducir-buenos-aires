@@ -1,0 +1,45 @@
+[
+  {
+    "id": "seguridad-001",
+    "number": null,
+    "section": "seguridad",
+    "category": "generales",
+    "subcategory": "seguridad",
+    "question": "En caso de participar de un siniestro vial, es recomendable señalizar la zona.",
+    "options": [
+      { "key": "v", "text": "Verdadero" },
+      { "key": "f", "text": "Falso" }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 18,
+    "regionNote": null,
+    "line_no": 10,
+    "triage_note": ""
+  },
+  {
+    "id": "seguridad-002",
+    "number": 42,
+    "section": "seguridad",
+    "category": "generales",
+    "subcategory": "seguridad",
+    "question": "¿Cuál es la distancia mínima de seguimiento?",
+    "options": [
+      { "key": "a", "text": "Dos segundos." },
+      { "key": "b", "text": "Un segundo." },
+      { "key": "c", "text": "Cinco metros." }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 18,
+    "regionNote": null,
+    "line_no": 11,
+    "triage_note": ""
+  }
+]

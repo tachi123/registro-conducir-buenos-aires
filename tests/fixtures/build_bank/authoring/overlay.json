@@ -1,0 +1,54 @@
+{
+  "seguridad-001": {
+    "correct": "v",
+    "fundamento": "Señalizar el lugar del siniestro previene nuevos incidentes.",
+    "sources": [
+      { "material": "manual", "ref": "Cap. IV - El uso de la vía pública", "page": null }
+    ],
+    "essential": true,
+    "subcategory": "siniestros",
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seguridad-002": {
+    "correct": "a",
+    "fundamento": "La distancia mínima de seguimiento es de dos segundos.",
+    "sources": [
+      { "material": "manual", "ref": "Cap. II - La conducción", "page": null }
+    ],
+    "confidence": 0.7,
+    "reviewed": false
+  },
+  "senales-225a": {
+    "correct": "a",
+    "fundamento": "La señal reglamentaria R27 indica zona de detención de transporte público.",
+    "sources": [
+      { "material": "ansv-senales", "ref": "Señales reglamentarias", "page": 12 }
+    ],
+    "imageRef": "assets/signs/senales-225a.png",
+    "essential": true,
+    "subcategory": "señales reglamentarias",
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-225b": {
+    "correct": "b",
+    "fundamento": "La señal reglamentaria de prohibición de detención es de orla roja con cruz.",
+    "sources": [
+      { "material": "ansv-senales", "ref": "Señales reglamentarias", "page": 13 }
+    ],
+    "imageRef": "assets/signs/senales-225b.png",
+    "subcategory": "señales reglamentarias",
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-5001": {
+    "correct": "a",
+    "fundamento": "El conductor debe llevar licencia, cédula y comprobante de seguro.",
+    "sources": [
+      { "material": "ley-24449", "ref": "art. 40", "page": null }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}
