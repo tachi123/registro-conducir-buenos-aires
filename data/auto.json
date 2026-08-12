@@ -2553,7 +2553,7 @@
     "options": [
       {
         "key": "a",
-        "text": "0,5 gramos por litro de sangre"
+        "text": "0,0 gramos por litro de sangre"
       },
       {
         "key": "b",
@@ -2572,15 +2572,15 @@
     "srcPage": 178,
     "regionNote": null,
     "correct": "a",
-    "fundamento": "Históricamente el límite era 0,5 g/l (Ley 24.449); desde 2023 la Ley 27.714 fija 0,0 g/l en rutas nacionales. Respuesta de banco: 0,5 g/l.",
+    "fundamento": "Para conducir un automóvil rige alcoholemia cero: no se permite conducir con una alcoholemia superior a 0,0 g/l. Fuente: LEY 24449 ACTUALIZADA.pdf, art. 48 inc. a), según la modificación de la Ley 27.714.",
     "sources": [
       {
         "material": "ley-24449",
-        "ref": "art. 50 / Ley 27.714",
+        "ref": "art. 48 inc. a) / Ley 27.714",
         "page": null
       }
     ],
-    "confidence": 0.5,
+    "confidence": 0.95,
     "reviewed": true
   },
   {
