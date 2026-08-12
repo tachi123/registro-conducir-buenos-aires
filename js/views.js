@@ -70,7 +70,7 @@ export const quizView = {
     const examContent = document.createElement('div')
     content.append(controls, examContent)
 
-    const isInProgress = () => session && session.total > 0 && session.queue.length > 0
+    const isInProgress = () => session && session.current !== null
     const confirmDiscard = () => !isInProgress() || window.confirm('Vas a perder las respuestas de este examen. ¿Querés continuar?')
     const startExam = () => {
       const cfg = { examSize: profile.examSize, floors: profile.floors }
@@ -114,6 +114,7 @@ export const quizView = {
 function nextQuestion(content, session) {
   const q = session.queue.shift()
   if (!q) {
+    session.current = null
     quizView.renderSummary(content, {
       ...session,
       threshold: session.profile.passThreshold,

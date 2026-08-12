@@ -158,6 +158,24 @@ describe('quizView', () => {
     confirm.mockRestore()
   })
 
+  it('confirms before regenerating after the final answer and before finalizing the summary', () => {
+    const content = mkContent()
+    const profile = {
+      id: 'one-question', label: 'Una pregunta', examSize: 1, passThreshold: 1,
+      floors: {}, banks: ['auto'],
+    }
+    const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false)
+    quizView.render(content, { bank: [QUIZ_BANK[0]], profiles: [profile] })
+
+    content.querySelector('input[type="radio"]').checked = true
+    content.querySelector('button[type="submit"]').click()
+    expect(content.querySelector('.feedback button[type="button"]')).not.toBeNull()
+
+    content.querySelector('.quiz-controls button[type="button"]').click()
+    expect(confirm).toHaveBeenCalled()
+    expect(content.querySelector('.feedback button[type="button"]')).not.toBeNull()
+  })
+
   it('shows verdict, fundamento and source chips after answering', () => {
     const content = mkContent()
     quizView.render(content, QUIZ_BANK)
