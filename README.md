@@ -23,7 +23,7 @@ cuestionario.pdf ──pdftotext──► scripts/extract.py ──► data/_ext
         data/authoring/*.json (respuestas autoradas) ▼
         scripts/build_bank.py ──► data/{generales,senales,auto}.json + index.json
         scripts/confidence_report.py ──► data/review-queue.json (gitignored)
-        scripts/review_gate.py  ← gate de deploy (falla si queda review pendiente)
+        scripts/review_gate.py  ← gate de deploy (falla si falta/vacío el banco)
 index.html ──js/app.js──► js/views.js ──► js/quiz-engine.js (muestreo puro ESM)
 ```
 
@@ -38,8 +38,7 @@ pregunta con su `correct`, `fundamento`, `sources[]`, `confidence` y
 # reconstruir la estructura desde la extracción (solo estructura, no respuestas)
 python scripts/extract.py            # lee %TEMP%\opencode\cuestionario.txt
 python scripts/build_bank.py         # fusiona extracción + data/authoring
-python scripts/confidence_report.py  # genera data/review-queue.json
-python scripts/review_gate.py        # gate local: falla con review pendiente
+python scripts/confidence_report.py  # genera data/review-queue.json (informativo)
 
 python -m pytest       # pipeline + schema + parity (node)
 npx vitest run         # engine + app + views + index
@@ -51,14 +50,15 @@ Cada pregunta del banco necesita `correct`, `fundamento`, `sources[]`,
 `confidence` (0–1) y `reviewed`. Regla de confianza: `confidence: 0.9` solo
 cuando la respuesta se sigue directamente del material citado (manual, ANSV,
 ley 24.449, ley 13.927 o el propio cuestionario). Preguntas con `confidence <
-0.9` o sin revisar quedan en `data/review-queue.json` y BLOQUEAN el deploy
-hasta que se revisen.
+0.9` o sin revisar quedan en `data/review-queue.json` como referencia
+informativa para revisión humana (no bloquean el deploy).
 
 ## Deploy
 
 GitHub Actions publica el contenido de `main` a GitHub Pages desde la raíz del
 repo (`.nojekyll`, referencias relativas `./data/...` — funciona también bajo
-subpath `/{org}/{repo}/`). El workflow corre `confidence_report.py` +
-`review_gate.py` antes de publicar: si `data/review-queue.json` tiene
-preguntas pendientes, el deploy falla. Nunca se publican respuestas sin
-revisar.
+subpath `/{org}/{repo}/`). El workflow corre `confidence_report.py` (genera el
+queue informativo) + `review_gate.py` antes de publicar: el deploy solo falla
+si un archivo de banco (`data/{generales,senales,auto}.json`) falta o está
+vacío, o si falta `data/index.json`. Las respuestas con confianza baja quedan
+señaladas en el queue para revisión, sin bloquear la publicación.

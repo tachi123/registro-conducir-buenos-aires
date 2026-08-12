@@ -22,14 +22,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Regenerate review queue from the committed bank
+      - name: Regenerate review queue from the committed bank (informational)
         run: |
           python scripts/confidence_report.py data/_extracted data data
         env:
           PYTHONUTF8: "1"
-      - name: Block deploys with unreviewed answers
+      - name: Gate deploy on bank data (blocks only if a bank file is missing/empty)
         run: |
-          python scripts/review_gate.py data/review-queue.json
+          python scripts/review_gate.py data
+        env:
+          PYTHONUTF8: "1"
 
   deploy:
     needs: gate

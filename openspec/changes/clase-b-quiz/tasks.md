@@ -57,5 +57,5 @@ Maintainer pre-approved ("tomes las mejores decisiones sin dudas"); ~80% of fore
 - [x] 4.3 `index.html` + `css/style.css`: nav, `<script type="module">`, relative `./data/` refs.
 
 ## Phase 5: Deploy + Docs
-- [x] 5.1 `.github/workflows/deploy.yml` + `.nojekyll`: Pages from `main@/`, fails if review-queue non-empty.
+- [x] 5.1 `.github/workflows/deploy.yml` + `.nojekyll`: Pages from `main@/`; gate fails only if a bank file is missing/empty or `data/index.json` missing (review queue is informational, does not block — relaxed per user feedback).
 - [x] 5.2 `README.md`: usage, authoring, deploy.
