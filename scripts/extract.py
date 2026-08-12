@@ -100,17 +100,24 @@ _NOISE_RE = re.compile(
     re.IGNORECASE,
 )
 _HEADING_RE = re.compile(
-    r"^\s*(\d+\)\s*)?(Preguntas para todas las clases|Preguntas para la clase de|"
-    r"Preguntas para el |Preguntas para clase de|Preguntas para camionetas|"
-    r"Preguntas para Camion|Preguntas para camiones|Preguntas para la clase de motos|"
-    r"Preguntas para servicios|Taxis y Remises|Veh\u00edculos afectados|"
-    r"Preguntas para Traccion|SE\u00d1ALES DE TRANSITO|PREGUNTAS GENERALES|"
-    r"PREGUNTAS ESPEC\u00cdFICAS SEG\u00daN CLASE|Anexo I:)",
+    r"^\s*(\d+\)\s*)?(Peguntas|Preguntas) para (todas las clases|la clase de|el |"
+    r"clase de|camionetas|Camion|camiones|la clase de motos|servicios)|"
+    r"^\s*(Taxis y Remises|Veh\u00edculos afectados|Preguntas para Traccion|"
+    r"SE\u00d1ALES DE TRANSITO|PREGUNTAS GENERALES|"
+    r"PREGUNTAS ESPEC\u00cdFICAS SEG\u00daN CLASE|Anexo I:)|"
+    r"^\s*(\d+\)\s*)?(Seguridad Activa y Pasiva|Sistema de iluminaci\u00f3n)",
     re.IGNORECASE,
 )
 _FOOTER_RE = re.compile(r"p\u00e1gina (\d+) de 228")
 _NUMBERED_RE = re.compile(r"^(\d+)\)\s*(.*)")
 _OPTION_RE = re.compile(r"^([a-zA-Z])\s*[\.\)\-\u2013]\s*(.*)")
+# Inline option without punctuation, e.g. "A Sí, ..." / "C Por la esquina...".
+# A stem like "A fin de aumentar..." is safe: the word after the space must
+# start uppercase, and real stems never start with a single letter.
+_INLINE_OPTION_RE = re.compile(r"^([a-zA-Z])\s+([A-Z\u00c1\u00c9\u00cd\u00d3\u00da\u00d1])")
+# Bullet option without a letter key ("• El vehículo A, ..."); the caller
+# assigns the next sequential key. V/F bullets are handled before this.
+_BULLET_OPT_RE = re.compile(r"^\u2022\s*(.+)$")
 _BULLET_VF_RE = re.compile(r"^\u2022?\s*(Verdadero|Falso)\.?\s*$", re.IGNORECASE)
 _COLUMNAR_VF_RE = re.compile(r"^\s*V\s+F\s*$")
 _ELIMINATORIO_RE = re.compile(r"\(?Pregunta de car\u00e1cter eliminatorio\)?", re.IGNORECASE)
@@ -187,7 +194,7 @@ class RawQuestion:
 # ---------------------------------------------------------------------------
 # Question-block parser
 # ---------------------------------------------------------------------------
-_OPTION_CONT_MARKER = re.compile(r"^\s{3,}\S")
+_OPTION_CONT_MARKER = re.compile(r"(^\s{3,}\S)|(^\s*[a-záéíóúñü])")
 
 
 def _is_noise(s: str) -> bool:
@@ -205,6 +212,12 @@ def _split_option(s: str):
     m = _OPTION_RE.match(s)
     if m:
         return m.group(1).lower(), m.group(2).strip()
+    m = _INLINE_OPTION_RE.match(s)
+    if m:
+        return m.group(1).lower(), s[m.start(2):].strip()
+    m = _BULLET_OPT_RE.match(s)
+    if m:
+        return "*", m.group(1).strip()
     return None
 
 
@@ -280,10 +293,18 @@ def _parse_section(lines: List[str], section: str, category: str) -> List[RawQue
                 current.options.append(RawOption("f", "Falso"))
                 continue
             key, text = opt
+            if key == "*":  # bullet option: assign next sequential key
+                used = {o.key for o in current.options}
+                nxt = "a"
+                while nxt in used or nxt in ("v", "f"):
+                    nxt = chr(ord(nxt) + 1)
+                key = nxt
             current.options.append(RawOption(key, text))
             continue
 
         if current is None:
+            if re.match(r"^\s*[a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1\u00fc]", stripped):
+                continue  # wrapped fragment of a heading/noise, never a stem
             # new unnumbered question (section heading already filtered)
             seq += 1
             stem, essential, region = _strip_stem_metadata(stripped)

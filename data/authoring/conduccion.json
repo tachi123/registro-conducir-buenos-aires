@@ -1,0 +1,1614 @@
+{
+  "conduccion-0001": {
+    "correct": "a",
+    "fundamento": "En un cruce sin semáforo tiene prioridad el vehículo que circula por la derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0002": {
+    "correct": "a",
+    "fundamento": "En un cruce sin semáforo tiene prioridad el vehículo que se presenta por la derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0003": {
+    "correct": "a",
+    "fundamento": "En el cruce sin semáforo tienen prioridad los vehículos que circulan por la derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0004": {
+    "correct": "b",
+    "fundamento": "En una intersección sin semáforo tiene prioridad el vehículo que circula por la derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0005": {
+    "correct": "a",
+    "fundamento": "Ante la señal de ceda el paso se debe disminuir la velocidad y mirar por la vía a la que se incorpora.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0006": {
+    "correct": "b",
+    "fundamento": "Ante la señal horizontal de ceda el paso se debe reducir la velocidad y detener antes de la senda peatonal.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0007": {
+    "correct": "f",
+    "fundamento": "No son las únicas señales que indican pérdida de prioridad: también existen otras señales y situaciones.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0008": {
+    "correct": "c",
+    "fundamento": "En una encrucijada sin semáforo tiene prioridad el vehículo que se presenta por el lado derecho.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0009": {
+    "correct": "a",
+    "fundamento": "El vehículo que cruza desde la derecha tiene prioridad de paso.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0010": {
+    "correct": "a",
+    "fundamento": "Ante la obstrucción de vía debe ceder el paso al vehículo que circula en sentido contrario.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0011": {
+    "correct": "a",
+    "fundamento": "En el cruce tiene prioridad el vehículo que circula por la derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0012": {
+    "correct": "c",
+    "fundamento": "En la rotonda tiene prioridad el vehículo que se encuentra dentro de la calzada circular.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0013": {
+    "correct": "a",
+    "fundamento": "En la calzada circular tiene prioridad el vehículo que circula por ella.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0014": {
+    "correct": "b",
+    "fundamento": "En pendiente estrecha tiene prioridad el vehículo que asciende.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0015": {
+    "correct": "a",
+    "fundamento": "En pendiente estrecha tiene prioridad el vehículo que asciende.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0016": {
+    "correct": "b",
+    "fundamento": "Se cede el paso a los vehículos que desean incorporarse cuando el tránsito se encuentra interrumpido.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0017": {
+    "correct": "a",
+    "fundamento": "El vehículo que se incorpora no tiene prioridad sobre los vehículos que circulan por la arteria.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0018": {
+    "correct": "a",
+    "fundamento": "El vehículo que se incorpora no tiene prioridad: la prioridad es de los otros vehículos de la arteria.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0019": {
+    "correct": "b",
+    "fundamento": "No puede sobrepasar si la demarcación horizontal lo prohíbe (línea continua).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0020": {
+    "correct": "b",
+    "fundamento": "Los vehículos A y C se encuentran en infracción; B no; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "conduccion-0021": {
+    "correct": "b",
+    "fundamento": "Al cambiar de carril hacia la derecha, el vehículo que circula por el carril a ocupar tiene prioridad.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 45",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0022": {
+    "correct": "a",
+    "fundamento": "Al cambiar de carril tiene prioridad el vehículo que circula por el carril que se pretende ocupar.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 45",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0023": {
+    "correct": "b",
+    "fundamento": "Al finalizar un adelantamiento debe incorporarse al carril derecho, si está libre, de forma gradual.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0024": {
+    "correct": "c",
+    "fundamento": "El carril de sobrepaso es el izquierdo (F en la imagen).",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0025": {
+    "correct": "f",
+    "fundamento": "El vehículo del carril lento SÍ puede abandonarlo para sobrepasar a otro más lento.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 45",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0026": {
+    "correct": "b",
+    "fundamento": "El vehículo B debe reducir la velocidad para facilitar el retorno del vehículo A al carril derecho.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0027": {
+    "correct": "v",
+    "fundamento": "En ese tramo de la vía no se puede realizar un sobrepaso (prohibición por demarcación).",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0028": {
+    "correct": "b",
+    "fundamento": "Al advertir que será sobrepasado debe circular por la derecha de la calzada y, si es necesario, reducir la velocidad.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0029": {
+    "correct": "b",
+    "fundamento": "No está permitido sobrepasar en ese lugar por normativa.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0030": {
+    "correct": "c",
+    "fundamento": "En columna, tiene prioridad para sobrepasar el que circula más próximo al vehículo que se desea sobrepasar.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0031": {
+    "correct": "a",
+    "fundamento": "El vehículo A tiene prioridad para sobrepasar al camión por circular inmediatamente detrás de él.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "conduccion-0032": {
+    "correct": "a",
+    "fundamento": "Si el vehículo delantero va a doblar a la izquierda y desea continuar recto, puede sobrepasarlo por la derecha con seguridad.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0033": {
+    "correct": "a",
+    "fundamento": "La línea discontinua de carriles indica que se puede sobrepasar a otro vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0034": {
+    "correct": "c",
+    "fundamento": "El sobrepaso está prohibido donde la demarcación es continua y en curvas, encrucijadas, pasos a nivel o puentes.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0035": {
+    "correct": "b",
+    "fundamento": "Está prohibido sobrepasar en un túnel con ambos sentidos de circulación.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0036": {
+    "correct": "c",
+    "fundamento": "Antes de sobrepasar debe comprobar que no haya vehículos en sentido contrario, ni otros realizando la maniobra.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0037": {
+    "correct": "b",
+    "fundamento": "Está prohibido sobrepasar en ese lugar por normativa.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "conduccion-0038": {
+    "correct": "a",
+    "fundamento": "Con demarcación mixta se respeta la línea más próxima: continua no se traspasa, discontinua sí.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0039": {
+    "correct": "b",
+    "fundamento": "La demarcación amarilla central divide sentidos opuestos e indica prohibición de traspasarla.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0040": {
+    "correct": "c",
+    "fundamento": "El carril de sobrepaso de la autopista sirve para realizar maniobras de sobrepaso.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 46",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0041": {
+    "correct": "a",
+    "fundamento": "El carril de aceleración es el carril de incorporación a una autopista.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 46",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0042": {
+    "correct": "c",
+    "fundamento": "El vehículo señalado circula en infracción porque circula por la banquina.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0043": {
+    "correct": "f",
+    "fundamento": "Un vehículo NO puede circular por la franja paralela a la calzada aunque el tránsito esté congestionado; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "conduccion-0044": {
+    "correct": "f",
+    "fundamento": "El vehículo señalado no tiene permitido girar a la izquierda en ese cruce; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0045": {
+    "correct": "c",
+    "fundamento": "Ante una maniobra errónea no se debe circular marcha atrás ni dar la vuelta en U: ninguna opción es correcta.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0046": {
+    "correct": "c",
+    "fundamento": "La velocidad mínima en una calle urbana es de 20 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0047": {
+    "correct": "c",
+    "fundamento": "La velocidad máxima en avenidas urbanas es de 60 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0048": {
+    "correct": "b",
+    "fundamento": "La velocidad máxima permitida en ese tramo es de 50 km/h; respuesta dependiente de la señalización de la imagen.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "conduccion-0049": {
+    "correct": "f",
+    "fundamento": "En ruta no está habilitado a superar la velocidad máxima ni siquiera en el sobrepaso.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0050": {
+    "correct": "c",
+    "fundamento": "La velocidad máxima en ese tramo de calle es de 30 km/h; respuesta dependiente de la señalización de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "conduccion-0051": {
+    "correct": "b",
+    "fundamento": "Al abandonar la autopista se reduce la velocidad al entrar en el carril de desaceleración.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 46",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0052": {
+    "correct": "a",
+    "fundamento": "La velocidad mínima general en semiautopistas es de 40 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0053": {
+    "correct": "a",
+    "fundamento": "Velocidad precautoria es la adecuada a las circunstancias que permite el total dominio del vehículo sin generar riesgo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0054": {
+    "correct": "c",
+    "fundamento": "En bocacalles sin semáforos el límite superior de velocidad precautoria es de 30 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0055": {
+    "correct": "a",
+    "fundamento": "Distancia de seguridad: distancia mínima con el vehículo adelante para tener margen de reacción ante una frenada.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0056": {
+    "correct": "a",
+    "fundamento": "La distancia mínima de seguridad corresponde a una diferencia de dos segundos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0057": {
+    "correct": "c",
+    "fundamento": "Tiempo de reacción: tiempo desde que se advierte el riesgo hasta que se toma una decisión.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Percepción y reacción",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0058": {
+    "correct": "c",
+    "fundamento": "Distancia de reacción: trayecto recorrido desde que el conductor percibe el peligro hasta que decide.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Percepción y reacción",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0059": {
+    "correct": "v",
+    "fundamento": "Circular por debajo del límite mínimo de velocidad puede causar incidentes.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0060": {
+    "correct": "a",
+    "fundamento": "A mayor velocidad, menor campo visual del conductor.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0061": {
+    "correct": "c",
+    "fundamento": "Los excesos de velocidad son responsables de la mayoría de los incidentes fatales en cualquier vía.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0062": {
+    "correct": "v",
+    "fundamento": "Circular a velocidad constante dentro de los límites minimiza siniestros y optimiza el consumo de combustible.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0063": {
+    "correct": "v",
+    "fundamento": "Circular a mayor velocidad de la precautoria aumenta la posibilidad de que un siniestro sea más grave.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0064": {
+    "correct": "b",
+    "fundamento": "Antes de ingresar a una curva se debe desacelerar.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0065": {
+    "correct": "b",
+    "fundamento": "Si el vehículo se sale de la calzada es recomendable desacelerar, no frenar.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0066": {
+    "correct": "a",
+    "fundamento": "Ante la señal de cruce ferroviario se debe reducir la velocidad.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0067": {
+    "correct": "a",
+    "fundamento": "Ante la señal de cruce ferroviario se debe disminuir la velocidad y prestar atención a la aproximación de trenes.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0068": {
+    "correct": "a",
+    "fundamento": "El vehículo estacionado frente a la vivienda ajena está en infracción salvo que el propietario sea el mismo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0069": {
+    "correct": "b",
+    "fundamento": "Aun con oblea de discapacidad está prohibido estacionar en ese sector por el riesgo a pasajeros y peatones.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0070": {
+    "correct": "c",
+    "fundamento": "En ese sector está prohibida tanto la detención como el estacionamiento.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0071": {
+    "correct": "b",
+    "fundamento": "Al detenerse o estacionar cerca de una esquina se toma como referencia la prolongación de la ochava.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0072": {
+    "correct": "a",
+    "fundamento": "Ante la señal correspondiente está prohibido estacionar y detenerse.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0073": {
+    "correct": "f",
+    "fundamento": "Las balizas no permiten detenerse en doble fila: la doble fila está prohibida.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0074": {
+    "correct": "c",
+    "fundamento": "La doble fila está permitida solo como detención previa a la maniobra de estacionamiento; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "conduccion-0075": {
+    "correct": "c",
+    "fundamento": "El vehículo no está bien estacionado: debe estar a no más de 20 cm del cordón.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0076": {
+    "correct": "b",
+    "fundamento": "En pendiente, al estacionar se orientan las ruedas hacia el centro de la calzada y se deja la marcha en primera (o P).",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0077": {
+    "correct": "a",
+    "fundamento": "En pendiente con cordón, se orientan las ruedas hacia el cordón y se deja la marcha hacia atrás (o P).",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0078": {
+    "correct": "b",
+    "fundamento": "En ese lugar está prohibido estacionar y detenerse por normativa.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "conduccion-0079": {
+    "correct": "a",
+    "fundamento": "La marcha atrás solo se permite para estacionar, entrar o salir de un garaje (sin otra posibilidad) o salvar un obstáculo.",
+    "sources": [
+      {
+        "material": "ley-13927",
+        "ref": "art. 77",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0080": {
+    "correct": "c",
+    "fundamento": "La marcha atrás debe recorrer el trayecto mínimo e indispensable para la maniobra.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0081": {
+    "correct": "b",
+    "fundamento": "Luces intermitentes encendidas del vehículo precedente pueden indicar que ingresará a un garage o se detendrá.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0082": {
+    "correct": "c",
+    "fundamento": "Las luces de giro por separado preanuncian maniobras y juntas anuncian emergencias o detención.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0083": {
+    "correct": "v",
+    "fundamento": "El vehículo que ingresa a un garaje anticipa su maniobra con las luces correctas; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "conduccion-0084": {
+    "correct": "v",
+    "fundamento": "El vehículo que ingresa a un garaje a su derecha anticipa la maniobra con la luz de giro derecha; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "conduccion-0085": {
+    "correct": "a",
+    "fundamento": "El ingreso a un garaje se indica con la luz de giro hacia el lado donde se ingresará.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0086": {
+    "correct": "a",
+    "fundamento": "Las señas con brazos son válidas como acompañamiento a las balizas o en caso de emergencia.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0087": {
+    "correct": "c",
+    "fundamento": "La maniobra de giro debe anticiparse con la luz correspondiente al menos 30 metros antes.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0088": {
+    "correct": "b",
+    "fundamento": "Para girar se usa la luz de giro del lado correspondiente al menos 30 metros antes.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0089": {
+    "correct": "v",
+    "fundamento": "Circular con luz alta encendida está prohibido en zonas urbanas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0090": {
+    "correct": "f",
+    "fundamento": "El vehículo señalado no circula con las luces correctas; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "conduccion-0091": {
+    "correct": "b",
+    "fundamento": "Las luces blancas/rojas del vehículo indican el sentido de circulación: se aproxima en sentido contrario; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "conduccion-0092": {
+    "correct": "b",
+    "fundamento": "Las luces intermitentes señalizan que el vehículo está detenido o próximo a detenerse, estacionar o ante emergencia.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0093": {
+    "correct": "b",
+    "fundamento": "Al detenerse en la banquina deben colocarse las luces reglamentarias y las balizas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0094": {
+    "correct": "a",
+    "fundamento": "Está permitido agregar dos faros rompeniebla y hasta dos faros elevados con luces de freno.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0095": {
+    "correct": "b",
+    "fundamento": "La luz blanca posterior (marcha atrás) permite mejor visión al retroceder de noche o con poca visibilidad.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "conduccion-0096": {
+    "correct": "v",
+    "fundamento": "El sistema de luces ilumina y brinda información que permite la comunicación entre vehículos y peatones.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0097": {
+    "correct": "b",
+    "fundamento": "Aquaplaning: pérdida de adherencia del neumático por la capa de agua mayor a la que expulsan los dibujos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0098": {
+    "correct": "b",
+    "fundamento": "Ante agua en la calzada debe adecuarse la velocidad a las condiciones climáticas y de la vía.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0099": {
+    "correct": "a",
+    "fundamento": "El efecto de la imagen es el aquaplaning.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "conduccion-0100": {
+    "correct": "c",
+    "fundamento": "Con agua en el camino debe reducirse la velocidad para evitar el aquaplaning.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0101": {
+    "correct": "b",
+    "fundamento": "Con calzada mojada y charcos, los frenos pueden perder eficacia.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0102": {
+    "correct": "a",
+    "fundamento": "Ante visibilidad disminuida por clima, se deben encender las luces bajas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0103": {
+    "correct": "b",
+    "fundamento": "En viajes largos y mal clima se debe descansar con más frecuencia para evitar la fatiga.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0104": {
+    "correct": "b",
+    "fundamento": "Con lluvia la adherencia es menor: se recomienda aumentar la distancia de seguridad y reducir la velocidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0105": {
+    "correct": "v",
+    "fundamento": "Conducir de noche aumenta el riesgo de sufrir un incidente.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0106": {
+    "correct": "a",
+    "fundamento": "Con lluvia la regla de 2 segundos se incrementa a 4 segundos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0107": {
+    "correct": "c",
+    "fundamento": "Sobre calzada mojada la distancia de frenado es mayor que sobre calzada seca.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0108": {
+    "correct": "a",
+    "fundamento": "Una incorrecta regulación de la altura de las luces bajas puede producir encandilamiento.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0109": {
+    "correct": "c",
+    "fundamento": "En zona urbana (calles) la velocidad máxima es de 40 km/h; respuesta dependiente de la vía de la imagen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "conduccion-0110": {
+    "correct": "b",
+    "fundamento": "Ante niebla: conducir con ambas manos, reducir la velocidad, aumentar la distancia y usar las luces correspondientes.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0111": {
+    "correct": "b",
+    "fundamento": "Con niebla se usan las luces bajas y las rompeniebla (si las tiene).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0112": {
+    "correct": "c",
+    "fundamento": "Las luces rompeniebla se utilizan en vías afectadas por niebla, en cualquier horario.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0113": {
+    "correct": "c",
+    "fundamento": "Ante niebla densa, si no puede circular debe alejarse lo más posible de la calzada y de la banquina.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0114": {
+    "correct": "a",
+    "fundamento": "La niebla modifica el campo visual, la percepción, la capacidad lumínica y la adherencia de las cubiertas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0115": {
+    "correct": "f",
+    "fundamento": "No se deben utilizar las balizas mientras se conduce con niebla: solo al detenerse; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "conduccion-0116": {
+    "correct": "v",
+    "fundamento": "Con viento fuerte los sobrepasos a un camión se realizan con diferencia de velocidad moderada.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0117": {
+    "correct": "c",
+    "fundamento": "Si observa un animal en la ruta debe reducir la velocidad y, si es necesario, detenerse.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0118": {
+    "correct": "c",
+    "fundamento": "Solo un calzado sujeto al pie brinda seguridad en la conducción.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0119": {
+    "correct": "b",
+    "fundamento": "Balizas, bocina y pañuelo indican emergencia: transporte de persona en grave estado de salud.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0120": {
+    "correct": "b",
+    "fundamento": "Con falla grave pero circulable, se circula por el carril derecho y se abandona en la próxima salida.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 46",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0121": {
+    "correct": "c",
+    "fundamento": "Solo los vehículos autorizados pueden remolcar a otro descompuesto.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0122": {
+    "correct": "b",
+    "fundamento": "Conducción preventiva: conductas cautelosas que anticipan la conducta de los demás.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0123": {
+    "correct": "v",
+    "fundamento": "La conducción preventiva prevé que todos podemos cometer errores.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "conduccion-0124": {
+    "correct": "a",
+    "fundamento": "Conducción eficiente: disminuye los riesgos de seguridad vial y logra menor consumo de combustible.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

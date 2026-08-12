@@ -1,0 +1,210 @@
+{
+  "seguridad-0001": {
+    "correct": "c",
+    "fundamento": "Ante un vehículo inmovilizado en un túnel: apagar el motor, colocar las balizas portátiles, mantener las luces de posición e intermitentes encendidas y llamar al número de asistencia.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0002": {
+    "correct": "v",
+    "fundamento": "Señalizar la zona del siniestro previene nuevos incidentes viales.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0003": {
+    "correct": "c",
+    "fundamento": "Se deben encender las balizas y colocar balizas portátiles del lado de donde provienen los vehículos, a distancia adecuada.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0004": {
+    "correct": "c",
+    "fundamento": "Lo recomendable es permanecer dentro del vehículo con el cinturón abrochado, encender las balizas y llamar al número de emergencia de la Autopista.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0005": {
+    "correct": "c",
+    "fundamento": "Ambas son recomendables: encender intermitentes y colocar balizas portátiles, y descender con chaleco reflectante poniéndose a resguardo detrás de una defensa.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0006": {
+    "correct": "f",
+    "fundamento": "Es obligatorio presentarse a declarar como testigo ante la Fiscalía correspondiente cuando se es convocado.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0007": {
+    "correct": "v",
+    "fundamento": "Darse a la fuga dejando a alguien herido puede configurar el delito de abandono de persona.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seguridad-0008": {
+    "correct": "b",
+    "fundamento": "Se dispone de 48 horas para dar aviso del siniestro a la compañía aseguradora del vehículo.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0009": {
+    "correct": "v",
+    "fundamento": "El personal policial preserva la escena, facilita la atención de los heridos y resguarda vehículos y pruebas.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seguridad-0010": {
+    "correct": "a",
+    "fundamento": "El primer paso es detenerse inmediatamente y permanecer en el lugar del hecho.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seguridad-0011": {
+    "correct": "b",
+    "fundamento": "El orden recomendado es Proteger - Alertar - Socorrer (P.A.S.).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Primeros auxilios",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seguridad-0012": {
+    "correct": "c",
+    "fundamento": "El conductor que participa de un siniestro debe detenerse y auxiliar a las víctimas, y suministrar sus datos personales, del vehículo, de la licencia y del seguro.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seguridad-0013": {
+    "correct": "a",
+    "fundamento": "El responsable civil es quien firmó la autorización para que el menor obtuviera la licencia.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0014": {
+    "correct": "b",
+    "fundamento": "El factor determinante para iniciar una demanda es la existencia de un daño real provocado como consecuencia del incidente.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "seguridad-0015": {
+    "correct": "a",
+    "fundamento": "La responsabilidad penal es personal e intransferible: no puede transferirse al dueño del vehículo.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seguridad-0016": {
+    "correct": "b",
+    "fundamento": "Actuar por negligencia es realizar con el vehículo un acto que las reglas de prudencia indican no hacer, o sea actuar peligrosamente.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "intoxicacion-0001": {
+    "correct": "c",
+    "fundamento": "Todo tipo de drogas, legales e ilegales, puede afectar la capacidad para conducir.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0002": {
+    "correct": "a",
+    "fundamento": "Conducir bajo efectos de estupefacientes pone en grave riesgo a sí mismo y a los demás.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0003": {
+    "correct": "c",
+    "fundamento": "Tanto los medicamentos de venta libre como los de efectos sedantes pueden afectar la conducción.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "intoxicacion-0004": {
+    "correct": "c",
+    "fundamento": "El efecto de los medicamentos sobre la conducción depende del tipo de medicamento.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0005": {
+    "correct": "f",
+    "fundamento": "Las drogas legales (alcohol, medicamentos) también pueden afectar negativamente la conducción.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0006": {
+    "correct": "a",
+    "fundamento": "El alcohol produce alteraciones en la visión y en la capacidad motora.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "5.3.b - Bebidas alcohólicas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0007": {
+    "correct": "b",
+    "fundamento": "Tras dejar de ingerir, la concentración de alcohol continúa subiendo durante aproximadamente 1 hora y luego desciende.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "5.3.b - Bebidas alcohólicas",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "intoxicacion-0008": {
+    "correct": "v",
+    "fundamento": "La cerveza, como toda bebida alcohólica, reduce la capacidad de reacción y aumenta el tiempo de respuesta.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "5.3.b - Bebidas alcohólicas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0009": {
+    "correct": "c",
+    "fundamento": "Los efectos del alcohol permanecen hasta eliminarlo del organismo; conducir con resaca equivale a conducir alcoholizado.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "5.3.b - Bebidas alcohólicas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0010": {
+    "correct": "c",
+    "fundamento": "La resaca puede afectar la coordinación, la atención y el tiempo de reacción.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "5.3.b - Bebidas alcohólicas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0011": {
+    "correct": "a",
+    "fundamento": "Conducir con resaca es peligroso porque la resaca tiene efectos en el organismo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "5.3.b - Bebidas alcohólicas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0012": {
+    "correct": "c",
+    "fundamento": "Negarse a realizar el test de alcoholemia constituye una falta, tomándose como presunción de alcoholemia positiva.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0013": {
+    "correct": "a",
+    "fundamento": "Ante la negativa, el agente podrá prohibir continuar conduciendo por presunción de alcoholemia positiva.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "intoxicacion-0014": {
+    "correct": "b",
+    "fundamento": "El nivel máximo de alcoholemia para el conductor profesional es 0,0 gramos de alcohol por litro de sangre.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "5.3.b - Bebidas alcohólicas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0015": {
+    "correct": "b",
+    "fundamento": "Según el vehículo de la imagen (moto vehículo), el límite de tolerancia es de 0,0 gr/l de alcohol en sangre; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "5.3.b - Bebidas alcohólicas",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "intoxicacion-0016": {
+    "correct": "a",
+    "fundamento": "En viajes largos se recomienda parar aproximadamente cada 2 horas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0017": {
+    "correct": "a",
+    "fundamento": "Antes de un viaje largo se recomienda dormir aproximadamente 8 horas la noche anterior.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "intoxicacion-0018": {
+    "correct": "a",
+    "fundamento": "Estar 17 horas despierto provoca un nivel de reacción similar a tener alcohol en sangre por encima del límite legal.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0019": {
+    "correct": "c",
+    "fundamento": "El cansancio puede ser inducido por bebidas alcohólicas y comidas abundantes.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0020": {
+    "correct": "b",
+    "fundamento": "La visión borrosa y el aumento del número y duración de parpadeos son síntomas de fatiga en la conducción.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0021": {
+    "correct": "a",
+    "fundamento": "El conductor principiante puede fatigarse más fácilmente por la falta de experiencia.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "intoxicacion-0022": {
+    "correct": "a",
+    "fundamento": "Conducir cansado es peligroso porque reduce la capacidad de reacción y aumenta el tiempo de respuesta.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0023": {
+    "correct": "c",
+    "fundamento": "Dormir pocas horas reduce la capacidad de reacción y alerta, y predispone a malas decisiones.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0024": {
+    "correct": "c",
+    "fundamento": "Mantener bien ventilado el interior del vehículo ayuda a evitar o retrasar la fatiga.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0025": {
+    "correct": "b",
+    "fundamento": "Una discusión en el vehículo genera estrés y entorpece la capacidad de atención del conductor al contexto.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0026": {
+    "correct": "c",
+    "fundamento": "Bajo estrés la conducción se vuelve más temeraria y menos segura.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "intoxicacion-0027": {
+    "correct": "f",
+    "fundamento": "El estrés puede alterar las capacidades para conducir de manera segura.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "intoxicacion-0028": {
+    "correct": "a",
+    "fundamento": "El tiempo promedio de reacción desde percibir un peligro hasta accionar el freno es de aproximadamente 1 segundo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Percepción y reacción",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "intoxicacion-0029": {
+    "correct": "b",
+    "fundamento": "Usar el celular estando detenido en la vía de circulación es riesgoso porque su atención no está dirigida al contexto.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0030": {
+    "correct": "c",
+    "fundamento": "Tanto el uso de un solo auricular como el manos libres son riesgosos al conducir.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0031": {
+    "correct": "c",
+    "fundamento": "La acción es un factor de riesgo porque interfiere en la atención al contexto.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "intoxicacion-0032": {
+    "correct": "c",
+    "fundamento": "La acción es riesgosa porque disminuye la atención, limita la audición y reduce la capacidad de reacción, además de comprometer las manos.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "intoxicacion-0033": {
+    "correct": "b",
+    "fundamento": "La prohibición del uso de telefonía celular al conducir alcanza al conductor; la persona señalada no es el conductor.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "intoxicacion-0034": {
+    "correct": "a",
+    "fundamento": "Para una llamada urgente el conductor debe colocar balizas y detenerse en un lugar donde esté permitido.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "intoxicacion-0035": {
+    "correct": "a",
+    "fundamento": "La conducta es riesgosa porque es un factor de distracción.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "intoxicacion-0036": {
+    "correct": "v",
+    "fundamento": "La acción mostrada en la imagen (uso de teléfono) es considerada riesgosa para la conducción; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "intoxicacion-0037": {
+    "correct": "v",
+    "fundamento": "La acción del conductor en la imagen es riesgosa para la conducción; respuesta dependiente de la imagen.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "intoxicacion-0038": {
+    "correct": "a",
+    "fundamento": "Las opciones A, B y C son consideradas factores de distracción al conducir; respuesta dependiente de las imágenes.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  }
+}

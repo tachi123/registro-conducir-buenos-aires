@@ -1,0 +1,145 @@
+{
+  "adelantamiento-0001": {
+    "correct": "b",
+    "fundamento": "El adelantamiento se hace por la izquierda; por la derecha solo cuando el vehículo de adelante indique que va a girar o detenerse sobre el lado izquierdo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0002": {
+    "correct": "b",
+    "fundamento": "No se puede adelantar al atravesar un túnel o puente en la ruta.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. b)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0003": {
+    "correct": "a",
+    "fundamento": "No puede iniciarse el adelantamiento de un vehículo que previamente indicó su intención de adelantarse.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. f)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0004": {
+    "correct": "a",
+    "fundamento": "En columna, la prioridad para adelantarse corresponde al que circula inmediatamente detrás del primero.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. d)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0005": {
+    "correct": "b",
+    "fundamento": "Si otro vehículo está intentando sobrepasarlo, debe permitir que continúe el sobrepaso.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. e)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0006": {
+    "correct": "a",
+    "fundamento": "La intención de sobrepasar se advierte por medio de destellos de las luces frontales o la bocina en zona rural.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. c)",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "adelantamiento-0007": {
+    "correct": "d",
+    "fundamento": "El adelantamiento está prohibido en puentes, curvas y encrucijadas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. b)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0008": {
+    "correct": "b",
+    "fundamento": "Nunca debe adelantarse en proximidades de puentes, curvas o cimas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. b)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0009": {
+    "correct": "a",
+    "fundamento": "La intención de sobrepasar se advierte con destello de luces frontales e indicador de giro.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. c)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0010": {
+    "correct": "b",
+    "fundamento": "Si el vehículo de adelante enciende la luz de giro izquierda, indica que no inicie el sobrepaso.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 inc. f)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "adelantamiento-0011": {
+    "correct": "b",
+    "fundamento": "La cruz de San Andrés indica cruce de vías férreas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales verticales",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

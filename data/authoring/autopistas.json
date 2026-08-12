@@ -1,0 +1,133 @@
+{
+  "autopistas-0001": {
+    "correct": "c",
+    "fundamento": "En autopistas no pueden circular peatones, salvo por senda especial.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 46",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "autopistas-0002": {
+    "correct": "b",
+    "fundamento": "En intersecciones no controladas no puede circularse a más de 30 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51 inc. e.1",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true,
+    "essential": true
+  },
+  "autopistas-0003": {
+    "correct": "b",
+    "fundamento": "El carril extremo izquierdo de la autopista se usa para circular a la máxima velocidad permitida y realizar adelantamientos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 46",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "autopistas-0006": {
+    "correct": "c",
+    "fundamento": "En una intersección entre calle y avenida se cede el paso a quien circula por la derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "autopistas-0007": {
+    "correct": "a",
+    "fundamento": "Para atravesar un cruce de vías, el conductor debe estar preparado para frenar o detener el vehículo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "autopistas-0008": {
+    "correct": "c",
+    "fundamento": "El que viene por la derecha tiene prioridad de paso, salvo señalización específica en contrario.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "autopistas-0009": {
+    "correct": "e",
+    "fundamento": "Quien cruza por la derecha pierde la prioridad en todas las situaciones mencionadas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "autopistas-0010": {
+    "correct": "c",
+    "fundamento": "La mejor garantía de seguridad nocturna en ruta es mantener una velocidad regular.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "autopistas-0011": {
+    "correct": "b",
+    "fundamento": "El ripio genera inestabilidad en la circulación por la inconsistencia del camino.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "autopistas-0012": {
+    "correct": "a",
+    "fundamento": "En días de lluvia en la ciudad se debe reducir la velocidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

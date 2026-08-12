@@ -1,0 +1,393 @@
+{
+  "velocidades-0001": {
+    "correct": "a",
+    "fundamento": "La velocidad máxima en calles urbanas es 40 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51 inc. a.1",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0002": {
+    "correct": "a",
+    "fundamento": "La velocidad máxima en avenidas urbanas es 60 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51 inc. a.2",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0003": {
+    "correct": "b",
+    "fundamento": "Circulando a 80 km/h se recorren aproximadamente 22 metros por segundo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0004": {
+    "correct": "b",
+    "fundamento": "En calles urbanas la velocidad mínima es 20 km/h y la máxima 40 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "velocidades-0005": {
+    "correct": "b",
+    "fundamento": "Una bocacalle sin semáforo se cruza a velocidad precautoria de no más de 30 km/h.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true,
+    "essential": true
+  },
+  "velocidades-0006": {
+    "correct": "b",
+    "fundamento": "La distancia de detención es la de reacción más la de frenado.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0007": {
+    "correct": "a",
+    "fundamento": "Para quienes participan de un accidente es obligatorio detenerse siempre.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 64",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0008": {
+    "correct": "c",
+    "fundamento": "En un accidente es obligatorio suministrar los datos de la licencia y del seguro a la autoridad y a la otra parte involucrada.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 64",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0009": {
+    "correct": "c",
+    "fundamento": "Ningún sistema de comunicación de operación manual continua puede utilizarse durante la conducción.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48 inc. w)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0010": {
+    "correct": "c",
+    "fundamento": "La prohibición de uso de celular rige para todos los ocupantes del vehículo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48 inc. w)",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "velocidades-0011": {
+    "correct": "a",
+    "fundamento": "La línea blanca discontinua de trazos puede ser traspasada.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0012": {
+    "correct": "f",
+    "fundamento": "El uso de luces durante la noche es obligatorio, no optativo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0013": {
+    "correct": "a",
+    "fundamento": "La doble línea amarilla continua indica prohibición de adelantarse en ambos sentidos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0014": {
+    "correct": "v",
+    "fundamento": "Las órdenes de los agentes de tránsito pueden modificar y hasta contradecir la señalización.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 12",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0015": {
+    "correct": "v",
+    "fundamento": "Es obligatorio portar la Cédula de Identificación del Automotor.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 33 inc. d)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0016": {
+    "correct": "v",
+    "fundamento": "En la VTV la autoridad puede constatar que el vehículo cuente con el seguro obligatorio.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 34",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "velocidades-0017": {
+    "correct": "v",
+    "fundamento": "Todo automotor debe contar con placa identificatoria de dominio en el lugar indicado.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30 inc. j)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0018": {
+    "correct": "v",
+    "fundamento": "La autoridad municipal puede disponer la prohibición de estacionar a la izquierda en áreas metropolitanas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "velocidades-0019": {
+    "correct": "v",
+    "fundamento": "El estacionamiento se realiza maniobrando sin empujar otros vehículos y sin acceder a la acera.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0020": {
+    "correct": "v",
+    "fundamento": "Sin cordón, se estaciona lo más alejado posible del centro de la calzada sin obstaculizar a los peatones.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0021": {
+    "correct": "v",
+    "fundamento": "El vehículo dejado en la vía pública por mayor lapso del establecido se considera abandonado y es removido por la autoridad.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0022": {
+    "correct": "f",
+    "fundamento": "Durante la circulación deben mantenerse limpios los elementos de iluminación, también en rutas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "velocidades-0023": {
+    "correct": "v",
+    "fundamento": "La prohibición de ceder la conducción a personas sin habilitación comprende a dependientes y familiares, sin eximentes.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 53",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0024": {
+    "correct": "v",
+    "fundamento": "Toda maniobra de retroceso, en los casos permitidos, debe efectuarse a velocidad reducida.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0025": {
+    "correct": "v",
+    "fundamento": "Los correajes de seguridad determinan el número de ocupantes que pueden transportarse.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0026": {
+    "correct": "a",
+    "fundamento": "El cinturón de seguridad debe estar abrochado en todos los casos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0027": {
+    "correct": "c",
+    "fundamento": "Todos los ocupantes del vehículo deben utilizar el cinturón de seguridad.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0028": {
+    "correct": "b",
+    "fundamento": "En zonas semaforizadas la velocidad máxima la determinan los semáforos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51 inc. a.3",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0029": {
+    "correct": "a",
+    "fundamento": "Tiene prioridad de paso el vehículo que circula por la derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "velocidades-0030": {
+    "correct": "b",
+    "fundamento": "En una intersección entre semiautopista y avenida, la prioridad la tiene quien circula por la semiautopista.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

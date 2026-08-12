@@ -1,0 +1,561 @@
+{
+  "preambulo-0001": {
+    "correct": "v",
+    "fundamento": "La OMS describe la siniestralidad vial como una pandemia que se ubica entre las primeras causas de muerte a nivel mundial.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0002": {
+    "correct": "c",
+    "fundamento": "El riesgo en la vía pública surge de la interacción de los factores humano, vehicular y ambiental.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0003": {
+    "correct": "a",
+    "fundamento": "El factor humano es el origen del 70 al 75 % de los siniestros fatales.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0004": {
+    "correct": "b",
+    "fundamento": "La conducción segura exige atender el estado del vehículo, la infraestructura vial, las condiciones climáticas y el propio conductor.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0005": {
+    "correct": "f",
+    "fundamento": "El principal factor de riesgo es el humano, no el ambiental.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. V - Condiciones psicofísicas del conductor",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0006": {
+    "correct": "v",
+    "fundamento": "Las fallas mecánicas suelen derivar de la falta de verificación y mantenimiento del vehículo por parte de su propietario.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "La Verificación Técnica Vehicular (VTV)",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0007": {
+    "correct": "a",
+    "fundamento": "Incidente vial es el hecho evitable que produce daño a persona o cosa en ocasión de la circulación.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0008": {
+    "correct": "c",
+    "fundamento": "Cada usuario es responsable de una parte del tránsito: está obligado a no causar peligro ni entorpecer la circulación.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0009": {
+    "correct": "a",
+    "fundamento": "La obligación de no entorpecer ni causar peligro alcanza a todos los usuarios, cualquiera sea su modo de movilidad.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0010": {
+    "correct": "a",
+    "fundamento": "Además de víctimas, los siniestros generan daños materiales y costos sanitarios y administrativos.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0011": {
+    "correct": "a",
+    "fundamento": "Premisa básica de todo usuario: no entorpecer la circulación ni causar peligro, perjuicios o molestias innecesarias.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0012": {
+    "correct": "b",
+    "fundamento": "Los dos principios básicos de todo sistema de tránsito son la fluidez y la seguridad.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0014": {
+    "correct": "c",
+    "fundamento": "A menor cantidad de vehículos en circulación, menor probabilidad de siniestralidad.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0015": {
+    "correct": "b",
+    "fundamento": "De más a menos vulnerable: peatón, ciclista, moto, colectivo, taxi/automóvil y camión.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0016": {
+    "correct": "c",
+    "fundamento": "Debe evitarse el uso de auriculares y dispositivos que afecten la concentración, y la ropa oscura y suelta.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0017": {
+    "correct": "c",
+    "fundamento": "Se permite llevar carga siempre que esté firmemente asegurada y no afecte la maniobrabilidad ni la estabilidad.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0018": {
+    "correct": "b",
+    "fundamento": "El ciclista puede llevar pasajero únicamente si viaja en un asiento adicional ubicado detrás del conductor.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0019": {
+    "correct": "a",
+    "fundamento": "Un menor de 12 años puede circular en bicicleta por la calle acompañado de un adulto mayor de 18 años.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0020": {
+    "correct": "a",
+    "fundamento": "La bicicleta con asistencia eléctrica se considera bicicleta y debe cumplir las mismas normas de velocidad que los demás vehículos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "Ley 27.425 (bicicletas con asistencia eléctrica)",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0021": {
+    "correct": "a",
+    "fundamento": "La demarcación horizontal verde indica un sector de ciclovía o bicisenda.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0022": {
+    "correct": "a",
+    "fundamento": "La ciclovía es un sector de la calzada señalizado para la circulación con carácter preferente de ciclorodados.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0023": {
+    "correct": "a",
+    "fundamento": "La bicisenda es de uso exclusivo de bicicletas mientras que la ciclovía es de uso preferencial.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0024": {
+    "correct": "b",
+    "fundamento": "Los ciclistas están obligados a respetar todas las normas de tránsito.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0025": {
+    "correct": "a",
+    "fundamento": "Al sobrepasar a un ciclista debe dejarse una distancia lateral de al menos un metro y medio.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42 y Ley 27.425",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0026": {
+    "correct": "b",
+    "fundamento": "Circular en bicicleta con auriculares es un factor de distracción que impide conectarse con lo que sucede alrededor.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0027": {
+    "correct": "a",
+    "fundamento": "La ropa clara hace más visible al ciclista y reduce el riesgo de siniestros.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "preambulo-0029": {
+    "correct": "c",
+    "fundamento": "Debe evitarse el uso de auriculares y dispositivos que afecten la concentración, y la ropa oscura y suelta.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0030": {
+    "correct": "c",
+    "fundamento": "Se permite llevar carga si está firmemente asegurada, permitiendo maniobrar y no perder la estabilidad.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0031": {
+    "correct": "b",
+    "fundamento": "El ciclista puede llevar pasajero solo en un asiento adicional ubicado detrás del conductor.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0032": {
+    "correct": "a",
+    "fundamento": "La seña (brazo extendido hacia la izquierda) indica giro a la izquierda.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "preambulo-0033": {
+    "correct": "b",
+    "fundamento": "La seña (brazo extendido hacia la derecha) indica giro a la derecha.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "preambulo-0034": {
+    "correct": "c",
+    "fundamento": "La seña (brazo hacia abajo) indica detenerse.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "preambulo-0035": {
+    "correct": "c",
+    "fundamento": "Al cruzar una intersección debe mirarse hacia ambos lados.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0036": {
+    "correct": "b",
+    "fundamento": "El vehículo no debe avanzar mientras aún haya peatones cruzando la arteria.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "preambulo-0037": {
+    "correct": "a",
+    "fundamento": "Debe detenerse para que el peatón termine de cruzar y hacer contacto visual antes de avanzar, priorizando al peatón.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0038": {
+    "correct": "b",
+    "fundamento": "La acción adecuada es frenar y esperar a que la peatona termine de cruzar, aunque se obstaculice el flujo vehicular.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0039": {
+    "correct": "b",
+    "fundamento": "En la intersección el peatón tiene prioridad de paso.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0040": {
+    "correct": "a",
+    "fundamento": "El conductor debe hacer contacto visual con la peatona y cederle el paso si comienza a cruzar.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0041": {
+    "correct": "a",
+    "fundamento": "El conductor debe priorizar indefectiblemente la circulación del peatón.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "preambulo-0042": {
+    "correct": "a",
+    "fundamento": "En la intersección, la prioridad de paso corresponde al peatón.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0043": {
+    "correct": "c",
+    "fundamento": "Sin senda peatonal demarcada, los peatones cruzan por la esquina, en la prolongación longitudinal de la vereda.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 38",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0044": {
+    "correct": "c",
+    "fundamento": "Con luz peatonal intermitente, el peatón no debe comenzar a cruzar y, si inició el cruce, debe finalizarlo con precaución.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "preambulo-0046": {
+    "correct": "b",
+    "fundamento": "Los carriles exclusivos son bandas longitudinales demarcadas en la calzada destinadas a determinados vehículos.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

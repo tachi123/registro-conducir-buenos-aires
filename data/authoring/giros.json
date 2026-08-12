@@ -1,0 +1,184 @@
+{
+  "giros-0001": {
+    "correct": "b",
+    "fundamento": "Para girar o circular en rotondas se debe respetar la señalización.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0002": {
+    "correct": "b",
+    "fundamento": "En vías de mano simple no está permitido girar a la izquierda, salvo señalización que lo permita.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0003": {
+    "correct": "b",
+    "fundamento": "El giro se realiza desde 30 metros antes por el costado más próximo al giro.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0004": {
+    "correct": "f",
+    "fundamento": "En las rotondas sí se aplican reglas especiales de tránsito (prioridades y señales).",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0005": {
+    "correct": "a",
+    "fundamento": "La maniobra de giro se advierte con la señal luminosa correspondiente y con debida anticipación.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0006": {
+    "correct": "c",
+    "fundamento": "No está permitido detenerse durante la circulación en una rotonda.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0007": {
+    "correct": "a",
+    "fundamento": "La maniobra de giro debe advertirse con suficiente antelación, con la señal luminosa, hasta la salida de la encrucijada.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0008": {
+    "correct": "b",
+    "fundamento": "Para girar a la derecha desde una calle de sentido único se acerca el automóvil a la derecha y luego se gira.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0009": {
+    "correct": "b",
+    "fundamento": "En las rotondas la señal de giro se enciende después de la mitad de la cuadra previa al cruce.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "giros-0010": {
+    "correct": "a",
+    "fundamento": "En la rotonda tiene prioridad el que circula por ella frente al que intenta ingresar.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0011": {
+    "correct": "b",
+    "fundamento": "El cambio de carril se advierte con la luz de giro con una antelación mínima de 5 segundos en vías multicarriles.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0012": {
+    "correct": "a",
+    "fundamento": "En el ingreso a una autopista se cede el paso a quienes circulan por ella.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0013": {
+    "correct": "b",
+    "fundamento": "El carril extremo izquierdo de la autopista se usa para circular a la máxima velocidad y adelantar.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 46",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "giros-0014": {
+    "correct": "b",
+    "fundamento": "Los menores de edad pueden obtener licencia con autorización expresa de padre y madre y/o tutor.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 13",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

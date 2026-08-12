@@ -1,0 +1,159 @@
+{
+  "luces-0001": {
+    "correct": "b",
+    "fundamento": "En un banco de niebla debe asegurarse que las luces bajas estén encendidas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "luces-0002": {
+    "correct": "b",
+    "fundamento": "En un banco de humo se deben accionar las balizas y disminuir la velocidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "luces-0003": {
+    "correct": "b",
+    "fundamento": "En rutas nacionales es obligatorio circular con las luces bajas encendidas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47 inc. a)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true,
+    "essential": true
+  },
+  "luces-0004": {
+    "correct": "c",
+    "fundamento": "En intensa niebla no es aconsejable encender luces que no sean las reglamentarias.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "luces-0005": {
+    "correct": "b",
+    "fundamento": "Si decide detenerse por niebla, debe hacerlo alejado de la calzada o banquina, con luces y balizas encendidas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "luces-0006": {
+    "correct": "b",
+    "fundamento": "Las luces interiores solo pueden usarse cuando no inciden directamente en la visión del conductor.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "luces-0007": {
+    "correct": "a",
+    "fundamento": "El cambio de luz alta por baja debe realizarse a distancia suficiente para evitar el encandilamiento.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "luces-0008": {
+    "correct": "b",
+    "fundamento": "Las luces bajas en zona rural y rutas son obligatorias durante las 24 horas del día.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47 inc. a)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "luces-0009": {
+    "correct": "b",
+    "fundamento": "El destello de luces se usa en cruces de vías y para advertir sobrepasos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "luces-0010": {
+    "correct": "b",
+    "fundamento": "Las luces intermitentes de emergencia se usan para detención en peajes, zonas peligrosas o maniobras riesgosas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "luces-0011": {
+    "correct": "a",
+    "fundamento": "Las luces de giro deben encenderse para anunciar maniobras, aunque la luz natural sea suficiente.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "luces-0012": {
+    "correct": "d",
+    "fundamento": "Tras un encandilamiento, las pupilas tardan de 4 a 8 segundos en restablecer la visibilidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  }
+}

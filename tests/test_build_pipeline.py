@@ -205,3 +205,61 @@ def test_parse_output_is_serializable_json():
     blocks = parse_text("sample_varias.txt", section_slug="varias")
     json.dumps(blocks)  # must not raise
     assert isinstance(blocks, list)
+
+
+def test_unindented_wrapped_continuations_join():
+    """pdftotext wraps long stems AND options with NO indent (lead=0). Spanish
+    question stems always start with ¿ or uppercase; continuation lines start
+    lowercase. Both wrapped questions must parse as ONE block each."""
+    blocks = parse_text("sample_contlines.txt", section_slug="senales")
+    assert len(blocks) == 2
+    q0, q1 = blocks
+    # stem wrapped across two lead-0 lines
+    assert q0["question"] == (
+        "Si se encuentra en esta situación y el personal ferroviario le indica "
+        "que avance, ¿qué debe hacer?"
+    )
+    # option B wrapped across two lead-0 lines
+    assert [o["key"] for o in q0["options"]] == ["a", "b", "c"]
+    assert q0["options"][1]["text"] == (
+        "Detenerme y esperar hasta que la barrera se levante porque el "
+        "personal ferroviario no tiene la autoridad legal para realizar "
+        "dicha indicación."
+    )
+    assert q0["options"][2]["text"] == (
+        "Detenerme y esperar hasta que la barrera se levante, salvo que la "
+        "indicación sea realizada por un agente de tránsito ya que es la "
+        "única autoridad competente."
+    )
+    # second question: stem wrapped + option A wrapped (no image phrase match)
+    assert q1["question"] == (
+        "¿Qué indican las señales transitorias naranjas ubicadas en la "
+        "calzada de la presente imagen?"
+    )
+    assert q1["imageRequired"] is False
+    assert [o["key"] for o in q1["options"]] == ["a", "b", "c"]
+    assert q1["options"][0]["text"] == (
+        "Refuerzan el significado de las líneas discontinuas del carril "
+        "porque es una zona peligrosa."
+    )
+
+
+def test_bullet_options_get_sequential_keys():
+    """Questions whose options are bare bullets (• ...) must parse the bullets
+    as options with sequential keys, not merge them into the stem."""
+    blocks = parse_text("sample_bullets.txt", section_slug="conduccion")
+    assert len(blocks) == 3
+    q0, q1, q2 = blocks
+    # wrapped stem + 3 bullet options
+    assert q0["question"] == (
+        "En un cruce de dos calles sin semáforo, frente a la siguiente "
+        "situación, ¿quién tiene de paso?"
+    )
+    assert [o["key"] for o in q0["options"]] == ["a", "b", "c"]
+    assert q0["options"][0]["text"] == "El vehículo A, ya que está circulando por la derecha"
+    # repeated stem with lettered options split across a page break
+    assert q1["question"] == q0["question"]
+    assert [o["key"] for o in q1["options"]] == ["a", "b"]
+    # independent next question
+    assert q2["question"] == "¿Quién tiene prioridad de paso en el cruce de estas dos calles?"
+    assert [o["key"] for o in q2["options"]] == ["a", "b"]

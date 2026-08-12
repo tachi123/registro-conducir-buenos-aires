@@ -1,0 +1,172 @@
+{
+  "semaforo-0001": {
+    "correct": "b",
+    "fundamento": "El conductor debe respetar la prioridad de paso de los peatones al girar, aunque tenga luz verde a su frente.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0002": {
+    "correct": "c",
+    "fundamento": "Para señalizar la intención de adelantarse debe utilizarse la luz de giro izquierda.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0003": {
+    "correct": "c",
+    "fundamento": "Ambulancias, policía y bomberos tienen prioridad cuando transitan con las señales de advertencia reglamentarias activadas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0004": {
+    "correct": "c",
+    "fundamento": "Los conductores principiantes deben conducir con su identificación durante los primeros doce meses.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Renovación de licencias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true,
+    "essential": true
+  },
+  "semaforo-0005": {
+    "correct": "c",
+    "fundamento": "El comportamiento sobre la demarcación horizontal depende del tipo de demarcación de que se trate.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "semaforo-0006": {
+    "correct": "b",
+    "fundamento": "Con luz amarilla se avanza solo si se estima que se cruzará la encrucijada antes de encenderse la roja.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0007": {
+    "correct": "b",
+    "fundamento": "La luz roja intermitente advierte la presencia de un cruce peligroso.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0008": {
+    "correct": "a",
+    "fundamento": "Con luz verde, si vehículos o peatones no finalizaron el cruce, no debe iniciarse la marcha: esperar que finalicen.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0009": {
+    "correct": "c",
+    "fundamento": "Doblar a la izquierda en calles de doble mano semaforizadas solo es permitido cuando está expresamente indicado.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0010": {
+    "correct": "a",
+    "fundamento": "La luz roja del semáforo indica que debe detenerse.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0012": {
+    "correct": "c",
+    "fundamento": "Con luz amarilla intermitente se debe circular con precaución respetando prioridades.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0013": {
+    "correct": "b",
+    "fundamento": "Con luz roja intermitente se debe detener la marcha y reiniciarla solo si no existe riesgo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "semaforo-0014": {
+    "correct": "c",
+    "fundamento": "En vías semaforizadas, el paso es habilitado por la luz del semáforo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

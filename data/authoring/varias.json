@@ -1,0 +1,941 @@
+{
+  "varias-0001": {
+    "correct": "a",
+    "fundamento": "La VTV es obligatoria para todos los vehículos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "La Verificación Técnica Vehicular (VTV)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0004": {
+    "correct": "a",
+    "fundamento": "Todos los datos consignados en la licencia de conducir deben estar actualizados.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0005": {
+    "correct": "b",
+    "fundamento": "Las señales de prevención avisan sobre riesgos eventuales al circular.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0006": {
+    "correct": "b",
+    "fundamento": "Las señales redondas, rojas y blancas con figura negra pertenecen al grupo de reglamentación.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales verticales",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true,
+    "essential": true
+  },
+  "varias-0007": {
+    "correct": "a",
+    "fundamento": "Para girar a la izquierda desde una calle de sentido único debe acercarse al centro de la calle.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 43",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0008": {
+    "correct": "c",
+    "fundamento": "Está prohibido circular sin respetar distancias prudentes con el vehículo que va adelante en toda circunstancia.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0009": {
+    "correct": "a",
+    "fundamento": "La marcha atrás solo está permitida, entre otros casos, para salir de garajes.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0010": {
+    "correct": "b",
+    "fundamento": "Es obligatorio circular con el comprobante del seguro.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40 inc. c)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0012": {
+    "correct": "a",
+    "fundamento": "Los menores de hasta diez años deben viajar sujetos en el asiento trasero con el correaje correspondiente.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0014": {
+    "correct": "b",
+    "fundamento": "Está prohibido conducir con exceso de velocidad compitiendo con otros vehículos o animales.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0015": {
+    "correct": "b",
+    "fundamento": "El vehículo será secuestrado y retenido por 30 días si el infractor fuere el propietario.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 72",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0016": {
+    "correct": "c",
+    "fundamento": "La edad mínima para adquirir determinada categoría de licencias es 16 años.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 11",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0017": {
+    "correct": "b",
+    "fundamento": "Conducir con auriculares está expresamente prohibido por la ley.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48 inc. w)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0018": {
+    "correct": "a",
+    "fundamento": "Ante la señal PARE, el conductor debe detener por completo la marcha y reanudarla cuando sea seguro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales verticales",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0019": {
+    "correct": "v",
+    "fundamento": "Se limita el expendio de bebidas alcohólicas en establecimientos con acceso directo desde caminos y rutas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 46",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0020": {
+    "correct": "f",
+    "fundamento": "Vencido el plazo para hacer la VTV se está en infracción y NO se puede seguir circulando.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "La Verificación Técnica Vehicular (VTV)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true,
+    "essential": true
+  },
+  "varias-0021": {
+    "correct": "a",
+    "fundamento": "El punto ciego son las áreas de visión no cubiertas por los tres espejos retrovisores.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Punto ciego",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0022": {
+    "correct": "a",
+    "fundamento": "En las encrucijadas tiene prioridad de paso el que cruza desde su derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0023": {
+    "correct": "d",
+    "fundamento": "En vías con más de dos carriles se circula por el carril derecho, por el centro de éste, y se usa el izquierdo solo para adelantar.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 45",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0024": {
+    "correct": "a",
+    "fundamento": "En subidas estrechas tiene prioridad quien asciende: debe retroceder el que desciende, salvo que lleve acoplado.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0025": {
+    "correct": "v",
+    "fundamento": "Zona de camino: todo espacio afectado a la vía de circulación y sus instalaciones paralelas, entre las propiedades contiguas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 5 inc. z)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0026": {
+    "correct": "v",
+    "fundamento": "Los peatones en zona urbana transitan únicamente por la acera u otros espacios habilitados.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 38",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0027": {
+    "correct": "f",
+    "fundamento": "En rutas nacionales las luces bajas permanecen encendidas de día y de noche, no solo de noche.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 47",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0028": {
+    "correct": "v",
+    "fundamento": "En zona rural se estacionará lo más lejos posible de la calzada y banquina, en zonas adyacentes y sin afectar visibilidad.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0029": {
+    "correct": "v",
+    "fundamento": "Se presume responsable del accidente al que carecía de prioridad de paso o cometió una infracción relacionada con la causa.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 70",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0030": {
+    "correct": "a",
+    "fundamento": "Las condiciones climáticas pueden afectar el campo visual del conductor.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "varias-0031": {
+    "correct": "b",
+    "fundamento": "En zona urbana el peatón tiene prioridad para atravesar la calzada por la senda peatonal, esté o no marcada.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 38",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0032": {
+    "correct": "c",
+    "fundamento": "La retención de la licencia procede ante la intoxicación alcohólica y/o por estupefacientes.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 72",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0033": {
+    "correct": "c",
+    "fundamento": "La retención preventiva del conductor no puede exceder de doce horas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 72",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0036": {
+    "correct": "b",
+    "fundamento": "Los automotores se conducen con ambas manos sobre el volante, excepto cuando sea necesario accionar otros comandos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0038": {
+    "correct": "a",
+    "fundamento": "La amonestación es una advertencia o llamado de atención para evitar que se repita la falta.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 67",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0039": {
+    "correct": "a",
+    "fundamento": "La multa es la sanción que se aplica con mayor asiduidad, aunque presenta el inconveniente de no resultar igualitaria.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 67",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0040": {
+    "correct": "b",
+    "fundamento": "La licencia reemplazada se otorga por cambio de jurisdicción del conductor.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0041": {
+    "correct": "a",
+    "fundamento": "La licencia duplicada se otorga por pérdida, destrucción o deterioro del documento.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0042": {
+    "correct": "b",
+    "fundamento": "La licencia renovada se otorga al vencer el plazo de vigencia de la licencia habilitante.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0043": {
+    "correct": "v",
+    "fundamento": "Sin senda habilitada para discapacitados, se considera tal la franja imaginaria inmediata al cordón que comunica la rampa con la senda.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 38",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0045": {
+    "correct": "f",
+    "fundamento": "Las motocicletas están exceptuadas de la obligación de llevar matafuego y balizas portátiles.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0046": {
+    "correct": "v",
+    "fundamento": "Con luz intermitente roja en un cruce peligroso, los vehículos deben detener la marcha y reiniciarla solo sin riesgo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0047": {
+    "correct": "v",
+    "fundamento": "Los peatones cruzan la calzada cuando tienen a su frente semáforo peatonal con luz verde o blanca habilitante.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0048": {
+    "correct": "f",
+    "fundamento": "Se puede adelantar por la derecha cuando el anterior indicó su intención de girar o detenerse a su IZQUIERDA, no a su derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0049": {
+    "correct": "v",
+    "fundamento": "Excepcionalmente se puede adelantar por la derecha en embotellamiento si la fila de la izquierda no avanza o es más lenta.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0050": {
+    "correct": "v",
+    "fundamento": "Está prohibido conducir con impedimentos físicos o psíquicos sin la licencia especial correspondiente.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48 inc. a)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0051": {
+    "correct": "v",
+    "fundamento": "Está prohibido circular marcha atrás, excepto para estacionar, egresar de un garaje o de una calle sin salida.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0052": {
+    "correct": "v",
+    "fundamento": "Está prohibida la detención irregular sobre la calzada, el estacionamiento sobre la banquina y la detención en ella sin emergencia.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0053": {
+    "correct": "f",
+    "fundamento": "Está prohibido circular con cubiertas con fallas o sin la profundidad legal de los canales, sin excepción para conductores no profesionales.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48 inc. m)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0054": {
+    "correct": "v",
+    "fundamento": "Está prohibido circular con más de un acoplado, salvo la maquinaria especial y agrícola.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0056": {
+    "correct": "v",
+    "fundamento": "Ante la retención de la licencia por falta grave, la boleta de citación habilita a conducir por un plazo de 30 días.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 72 bis",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0057": {
+    "correct": "f",
+    "fundamento": "No solo los conductores: los peatones que intervienen en un siniestro también deben someterse a las pruebas de intoxicación.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 68",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0058": {
+    "correct": "c",
+    "fundamento": "La lluvia, el hielo y la nieve incrementan la pérdida de control del vehículo y la siniestralidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0059": {
+    "correct": "f",
+    "fundamento": "No es recomendable frenar sobre zona resbaladiza.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0060": {
+    "correct": "b",
+    "fundamento": "Si siente sueño debe buscar un lugar seguro, lejos de la calzada, y dormir una siesta.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0061": {
+    "correct": "v",
+    "fundamento": "El estacionamiento debe realizarse en no más de tres maniobras y sin tocar otros vehículos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cap. IV - El uso de la vía pública",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0062": {
+    "correct": "b",
+    "fundamento": "En un siniestro en el que esté involucrado debe detenerse en forma inmediata.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 64",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0063": {
+    "correct": "v",
+    "fundamento": "La negativa a realizar el test de alcoholemia constituye infracción grave y se sanciona como tal.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 68",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0064": {
+    "correct": "v",
+    "fundamento": "Con luz intermitente amarilla, que advierte cruce riesgoso, se debe efectuar el cruce con precaución.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0065": {
+    "correct": "v",
+    "fundamento": "Solo se admiten en los vidrios aditamentos con fines de identificación, oficiales o privados.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30 inc. f)",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0067": {
+    "correct": "v",
+    "fundamento": "La ingesta de drogas (legales o no) impide conducir cuando altera los parámetros normales para la conducción segura.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0068": {
+    "correct": "v",
+    "fundamento": "La distancia de seguridad mínima es la prudente según velocidad, calzada y clima, con una separación en tiempo de por lo menos 5 segundos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51 (reglamentación)",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "varias-0070": {
+    "correct": "b",
+    "fundamento": "La senda peatonal está destinada al cruce de peatones.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0072": {
+    "correct": "a",
+    "fundamento": "La calzada es la vía destinada solo a la circulación de vehículos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 5",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0073": {
+    "correct": "v",
+    "fundamento": "Baliza: señal fija o móvil con luz propia o retrorreflectora, que se pone como marca de advertencia.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 5 inc. e)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0074": {
+    "correct": "f",
+    "fundamento": "La banquina NO está destinada a la circulación de vehículos: es la zona contigua a la calzada pavimentada.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 5 inc. f)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0075": {
+    "correct": "v",
+    "fundamento": "Camino: vía rural de circulación.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 5 inc. c)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0076": {
+    "correct": "a",
+    "fundamento": "La responsabilidad es la aptitud legal para hacernos cargo por la violación de una regla de convivencia.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0077": {
+    "correct": "b",
+    "fundamento": "La responsabilidad penal es la capacidad que da la ley para asumir la pena que nos cabe por un delito.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0078": {
+    "correct": "c",
+    "fundamento": "La responsabilidad civil es la obligación de reparar el daño causado en circunstancias de la circulación.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "varias-0079": {
+    "correct": "b",
+    "fundamento": "Los inhabilitados por accidentes de tránsito no acceden a licencia profesional hasta 10 años desde el vencimiento de la pena.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 20",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true,
+    "essential": true
+  },
+  "varias-0080": {
+    "correct": "b",
+    "fundamento": "Culposo es el que no obró con intención de provocar un daño.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0082": {
+    "correct": "c",
+    "fundamento": "En una intersección de calles de igual jerarquía tiene prioridad el que circula desde la derecha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0084": {
+    "correct": "b",
+    "fundamento": "En cuestas estrechas tiene prioridad el vehículo con acoplado, esté ascendiendo o descendiendo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0085": {
+    "correct": "b",
+    "fundamento": "Al ingresar a una rotonda tiene prioridad el que circula por la rotonda.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "varias-0086": {
+    "correct": "b",
+    "fundamento": "En caminos de tierra con una sola huella, los vehículos que se cruzan deben ceder por lo menos la mitad de la huella.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 42",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

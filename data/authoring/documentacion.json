@@ -1,0 +1,262 @@
+{
+  "documentacion-0001": {
+    "correct": "c",
+    "fundamento": "No está permitido conducir con la licencia vencida: la licencia vencida inhabilita para conducir.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Renovación de licencias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0002": {
+    "correct": "b",
+    "fundamento": "El agente puede retener la licencia solo en los casos que la normativa vigente lo indique.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0003": {
+    "correct": "b",
+    "fundamento": "La renovación debe hacerse antes del vencimiento; una vez vencida se tramita como licencia nueva.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Renovación de licencias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0004": {
+    "correct": "c",
+    "fundamento": "La condición de principiante dura 1 año, independientemente de la edad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Renovación de licencias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0005": {
+    "correct": "a",
+    "fundamento": "Si la documentación está vencida, nadie está autorizado a conducir con ella; debe renovarse.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0006": {
+    "correct": "b",
+    "fundamento": "Se otorgan la cantidad de cédulas para autorizados a conducir que solicite el titular del vehículo.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0007": {
+    "correct": "a",
+    "fundamento": "Se puede manejar con cédula para autorizado a nombre de otra persona siempre que esté vigente.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0008": {
+    "correct": "f",
+    "fundamento": "El certificado del seguro de responsabilidad civil es obligatorio en toda circulación, urbana e interurbana.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40 inc. c)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0009": {
+    "correct": "b",
+    "fundamento": "El seguro obligatorio debe cubrir eventuales daños causados a terceros transportados o no.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0010": {
+    "correct": "c",
+    "fundamento": "No está permitido circular con la placa de dominio fuera del lugar o de la forma reglamentaria.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0011": {
+    "correct": "b",
+    "fundamento": "La reposición de la placa de dominio se solicita en el Registro Nacional de la Propiedad del Automotor correspondiente.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0012": {
+    "correct": "b",
+    "fundamento": "La ubicación y posición de las placas no puede modificarse: deben estar colocadas en el lugar y forma reglamentaria.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0013": {
+    "correct": "c",
+    "fundamento": "La VTV busca reducir la contaminación y garantizar el cumplimiento de las normas de seguridad de los vehículos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "La Verificación Técnica Vehicular (VTV)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "documentacion-0014": {
+    "correct": "b",
+    "fundamento": "El titular debe informar todo cambio de datos de su licencia, en especial el cambio de domicilio, dentro de los 30 días.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0015": {
+    "correct": "c",
+    "fundamento": "Documentación obligatoria: póliza de seguro vigente, tarjeta verde, licencia habilitante, DNI y VTV; grabado de autopartes.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0016": {
+    "correct": "c",
+    "fundamento": "Si los datos de la licencia no coinciden con los del DNI, la licencia se encuentra caduca, salvo el plazo de gracia de 90 días.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0017": {
+    "correct": "c",
+    "fundamento": "No está permitido conducir con la licencia vencida, excepto que el vencimiento fuese día inhábil (se traslada al día hábil siguiente).",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0018": {
+    "correct": "b",
+    "fundamento": "Se otorgan la cantidad de cédulas para autorizados a conducir que solicite el titular del vehículo.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0019": {
+    "correct": "a",
+    "fundamento": "Se puede manejar con cédula azul a nombre de otra persona siempre que se encuentre vigente.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "documentacion-0020": {
+    "correct": "b",
+    "fundamento": "El agente puede retener la licencia solo en los casos que la normativa vigente lo indique.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  }
+}

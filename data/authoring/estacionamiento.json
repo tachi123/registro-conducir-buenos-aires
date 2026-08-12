@@ -1,0 +1,119 @@
+{
+  "estacionamiento-0001": {
+    "correct": "c",
+    "fundamento": "En zona urbana se estaciona a la derecha de la vía, paralelo a la acera, salvo señalización en contrario.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "estacionamiento-0002": {
+    "correct": "b",
+    "fundamento": "En estacionamiento paralelo al cordón debe dejarse una distancia de 50 cm entre vehículos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49 inc. a)",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "estacionamiento-0003": {
+    "correct": "c",
+    "fundamento": "Puede detenerse o estacionarse sobre la banquina solo ante emergencia, colocando la debida señalización.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "estacionamiento-0004": {
+    "correct": "c",
+    "fundamento": "No está permitido el estacionamiento en doble fila.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "estacionamiento-0006": {
+    "correct": "a",
+    "fundamento": "En una calle de mano única se estaciona en el mismo sentido de la circulación.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "estacionamiento-0007": {
+    "correct": "b",
+    "fundamento": "No está permitido estacionar en espacios destinados a parada de transporte de pasajeros.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "estacionamiento-0008": {
+    "correct": "b",
+    "fundamento": "No está permitido estacionar en el acceso de garajes en uso o cocheras.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "estacionamiento-0009": {
+    "correct": "c",
+    "fundamento": "No está permitido estacionar en rotondas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "estacionamiento-0011": {
+    "correct": "c",
+    "fundamento": "El camión con acoplado debe estacionar dentro de la ciudad en lugares especialmente habilitados.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}
