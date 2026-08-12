@@ -48,7 +48,7 @@ Maintainer pre-approved ("tomes las mejores decisiones sin dudas"); ~80% of fore
 - [ ] 2.4 Author bank + materials.json from PDFs/manual/leyes: schema passes, queue empty, every question has `fundamento` + ≥1 source (size:exception).
 
 ## Phase 3: Quiz Engine
-- [ ] 3.1 `js/quiz-engine.js` + `js/quiz-engine.test.js` (seedable RNG): 40 unique, no `imageRequired`, floors 8/20/6, essentials force-include, cap-yield, deficit realloc, shuffle/remap, threshold.
+- [x] 3.1 `js/quiz-engine.js` + `js/quiz-engine.test.js` (seedable RNG): 40 unique, no `imageRequired`, floors 8/20/6, essentials force-include, cap-yield, deficit realloc, shuffle/remap, threshold.
 - [ ] 3.2 `tests/test_engine_parity.py`: pytest runs `node` on fixture → invariants.
 
 ## Phase 4: Static Site
