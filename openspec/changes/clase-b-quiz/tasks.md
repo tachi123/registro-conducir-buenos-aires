@@ -49,7 +49,7 @@ Maintainer pre-approved ("tomes las mejores decisiones sin dudas"); ~80% of fore
 
 ## Phase 3: Quiz Engine
 - [x] 3.1 `js/quiz-engine.js` + `js/quiz-engine.test.js` (seedable RNG): 40 unique, no `imageRequired`, floors 8/20/6, essentials force-include, cap-yield, deficit realloc, shuffle/remap, threshold.
-- [ ] 3.2 `tests/test_engine_parity.py`: pytest runs `node` on fixture → invariants.
+- [x] 3.2 `tests/test_engine_parity.py`: pytest runs `node` on fixture → invariants.
 
 ## Phase 4: Static Site
 - [ ] 4.1 `js/config.js` (40 q, 30 pass, floors, gate) + `js/data-loader.js` + `js/app.js` + jsdom: fetch-error (`file://`), lazy fetch.
