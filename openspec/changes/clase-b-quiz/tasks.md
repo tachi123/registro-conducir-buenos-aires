@@ -44,7 +44,7 @@ Maintainer pre-approved ("tomes las mejores decisiones sin dudas"); ~80% of fore
 ## Phase 2: Build Pipeline + Data
 - [x] 2.1 `scripts/extract.py` + `tests/test_build_pipeline.py` (golden fixtures from `cuestionario.txt`): mojibake, V/F grids, unnumbered ids, `srcPage`.
 - [x] 2.2 `scripts/build_bank.py` + tests: emits `data/{generales,senales,auto}.json` + `data/index.json`; out-of-scope excluded, triage flagged.
-- [ ] 2.3 `scripts/confidence_report.py` + `tests/test_review_queue.py`: low-confidence → review-queue; reviewed ships.
+- [x] 2.3 `scripts/confidence_report.py` + `tests/test_review_queue.py`: low-confidence → review-queue; reviewed ships.
 - [ ] 2.4 Author bank + materials.json from PDFs/manual/leyes: schema passes, queue empty, every question has `fundamento` + ≥1 source (size:exception).
 
 ## Phase 3: Quiz Engine
