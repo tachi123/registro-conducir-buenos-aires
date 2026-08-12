@@ -1,0 +1,107 @@
+{
+  "seg-activa-0001": {
+    "correct": "v",
+    "fundamento": "La seguridad pasiva agrupa los elementos que reducen al mínimo los daños cuando acontece un siniestro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad pasiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seg-activa-0002": {
+    "correct": "a",
+    "fundamento": "La seguridad pasiva agrupa los elementos que reducen al mínimo los daños cuando acontece un siniestro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad pasiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seg-activa-0003": {
+    "correct": "b",
+    "fundamento": "La seguridad preventiva comprende los dispositivos que colaboran en la prevención de siniestros de tránsito.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad preventiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true,
+    "essential": true
+  },
+  "seg-activa-0004": {
+    "correct": "v",
+    "fundamento": "El cinturón de seguridad es un dispositivo de seguridad pasiva.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad pasiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seg-activa-0005": {
+    "correct": "f",
+    "fundamento": "El casco es un elemento de seguridad pasiva, no preventiva.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad pasiva / moto",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seg-activa-0006": {
+    "correct": "a",
+    "fundamento": "El cuadro es una de las partes elementales de una motocicleta (la pregunta admite varias respuestas correctas; no se puede codificar una única opción).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Moto",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "seg-activa-0007": {
+    "correct": "a",
+    "fundamento": "El casco para circular en moto debe cumplir las normas IRAM.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Moto",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "seg-activa-0008": {
+    "correct": "a",
+    "fundamento": "Los ciclomotores pueden llevar carga y/o pasajero siempre que no superen los 40 kg.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 37 bis",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  }
+}

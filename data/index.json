@@ -1,10 +1,75 @@
 {
   "version": 1,
-  "generated": "2026-08-12T02:23:44+00:00",
-  "sections": {},
+  "generated": "2026-08-12T03:12:01+00:00",
+  "sections": {
+    "adelantamiento": {
+      "category": "generales",
+      "count": 11
+    },
+    "autopistas": {
+      "category": "generales",
+      "count": 10
+    },
+    "conduccion": {
+      "category": "generales",
+      "count": 124
+    },
+    "documentacion": {
+      "category": "generales",
+      "count": 20
+    },
+    "estacionamiento": {
+      "category": "generales",
+      "count": 9
+    },
+    "giros": {
+      "category": "generales",
+      "count": 14
+    },
+    "intoxicacion": {
+      "category": "generales",
+      "count": 38
+    },
+    "luces": {
+      "category": "generales",
+      "count": 12
+    },
+    "preambulo": {
+      "category": "generales",
+      "count": 43
+    },
+    "seg-activa": {
+      "category": "generales",
+      "count": 8
+    },
+    "seguridad": {
+      "category": "generales",
+      "count": 16
+    },
+    "semaforo": {
+      "category": "generales",
+      "count": 13
+    },
+    "varias": {
+      "category": "generales",
+      "count": 72
+    },
+    "velocidades": {
+      "category": "generales",
+      "count": 30
+    },
+    "senales": {
+      "category": "senales",
+      "count": 91
+    },
+    "auto": {
+      "category": "especificas-auto",
+      "count": 68
+    }
+  },
   "categories": {
-    "generales": 0,
-    "senales": 0,
-    "especificas-auto": 0
+    "generales": 420,
+    "senales": 91,
+    "especificas-auto": 68
   }
 }

@@ -1,0 +1,1188 @@
+{
+  "senales-0001": {
+    "correct": "b",
+    "fundamento": "Ante una señal de PARE se debe detener por completo el vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0002": {
+    "correct": "b",
+    "fundamento": "El semáforo con luz intermitente roja indica detener la marcha.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Semáforos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0003": {
+    "correct": "b",
+    "fundamento": "Orden de prioridad: agente de tránsito, señales de tránsito, ley vigente.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Prioridad de indicaciones",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0004": {
+    "correct": "b",
+    "fundamento": "La demarcación horizontal tiene alcance reglamentario aunque no exista señal vertical.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0005": {
+    "correct": "b",
+    "fundamento": "La señal de prevención anaranjada indica un peligro en ruta en obra.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0006": {
+    "correct": "b",
+    "fundamento": "Una señal reglamentaria tiene vigencia desde el lugar donde está emplazada.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0007": {
+    "correct": "b",
+    "fundamento": "El señalamiento vertical de color azul es informativo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales informativas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0008": {
+    "correct": "a",
+    "fundamento": "La señal con orla roja es de restricción (reglamentaria).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0009": {
+    "correct": "c",
+    "fundamento": "El señalamiento vertical amarillo es de prevención.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0010": {
+    "correct": "b",
+    "fundamento": "El agente de tránsito indica detener el vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Agente de tránsito",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0011": {
+    "correct": "f",
+    "fundamento": "Los agentes de tránsito pueden detener vehículos sin presencia policial.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 114",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0012": {
+    "correct": "a",
+    "fundamento": "El personal de obra está autorizado a regular el paso en el tramo donde trabaja.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0013": {
+    "correct": "a",
+    "fundamento": "El personal ferroviario está autorizado a regular el paso en el cruce.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0014": {
+    "correct": "c",
+    "fundamento": "Las señales transitorias naranjas en la calzada prohíben sobrepasar la línea imaginaria que las une.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0015": {
+    "correct": "v",
+    "fundamento": "Las señales transitorias señalizan trabajos de construcción y mantenimiento en la vía.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0016": {
+    "correct": "v",
+    "fundamento": "La señalización transitoria prevalece sobre los semáforos si modifica el régimen normal de uso de la vía.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0017": {
+    "correct": "b",
+    "fundamento": "En el contexto de las páginas previas (señalización transitoria de obra) la señal es transitoria; sin la imagen no se puede confirmar.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0018": {
+    "correct": "c",
+    "fundamento": "Señalización intermitente: efectuar el cruce con máxima precaución.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Semáforos",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0019": {
+    "correct": "a",
+    "fundamento": "Señalización intermitente roja: detener la marcha y cruzar cuando no haya riesgo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Semáforos",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0020": {
+    "correct": "b",
+    "fundamento": "No iniciar el cruce hasta que el otro vehículo haya completado el suyo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Semáforos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0021": {
+    "correct": "c",
+    "fundamento": "Al pasar a verde: no bloquear la intersección y permitir completar el cruce a quien ya lo inició.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Semáforos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0022": {
+    "correct": "f",
+    "fundamento": "Vertical y horizontal tienen el mismo significado pero distinto orden jerárquico (la vertical prevalece).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Jerarquía de señales",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0023": {
+    "correct": "c",
+    "fundamento": "La demarcación amarilla en la calzada indica que no se debe circular sobre ella.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0024": {
+    "correct": "c",
+    "fundamento": "Isleta: marcas canalizadoras de tránsito que no se pueden traspasar ni circular sobre ellas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0025": {
+    "correct": "b",
+    "fundamento": "La demarcación amarilla indica, para ambos sentidos, que no debe ser traspasada.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0026": {
+    "correct": "b",
+    "fundamento": "Las líneas centrales amarillas continuas indican prohibición de traspasarlas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación horizontal",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0027": {
+    "correct": "c",
+    "fundamento": "El color, además de la forma, brinda información sobre el trayecto de la vía.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales viales",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0028": {
+    "correct": "a",
+    "fundamento": "Las preventivas advierten una circunstancia o variación de la normalidad de la vía que puede ser sorpresiva o peligrosa.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0029": {
+    "correct": "c",
+    "fundamento": "Las reglamentarias transmiten órdenes específicas de cumplimiento obligatorio.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0031": {
+    "correct": "a",
+    "fundamento": "La cartelería de Permitido Estacionar es de color azul.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0038": {
+    "correct": "c",
+    "fundamento": "Ante un vehículo de emergencia: dar lugar, despejar el carril de emergencias y detenerse si es necesario.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Vehículos de emergencia",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0039": {
+    "correct": "v",
+    "fundamento": "El símbolo indica un carril que debe liberarse ante la aproximación de un vehículo de emergencia.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Vehículos de emergencia",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0040": {
+    "correct": "c",
+    "fundamento": "Para facilitar el paso de la ambulancia el auto 1 se aparta a su izquierda y el 2 a su derecha.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Vehículos de emergencia",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0041": {
+    "correct": "c",
+    "fundamento": "Para facilitar el paso de la ambulancia: auto 1 a su izquierda, autos 2 y 3 a su derecha.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Vehículos de emergencia",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0042": {
+    "correct": "c",
+    "fundamento": "Ante un vehículo de emergencia: dar lugar, despejar el carril de emergencias y detenerse si es necesario.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Vehículos de emergencia",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0043": {
+    "correct": "a",
+    "fundamento": "Si el conductor toca repetidamente la bocina, está indicando emergencia: cederle el paso.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Vehículos de emergencia",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "senales-0044": {
+    "correct": "a",
+    "fundamento": "La señal de cruz verde/blanca indica puesto sanitario (sin la imagen no se confirma; respuesta de banco habitual).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0045": {
+    "correct": "b",
+    "fundamento": "La señal (ómnibus) indica terminal de ómnibus.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0046": {
+    "correct": "b",
+    "fundamento": "La señal H indica hospital.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0047": {
+    "correct": "c",
+    "fundamento": "La señal de carpa indica campamento.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0048": {
+    "correct": "a",
+    "fundamento": "La señal de surtidor indica estación de servicio.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0049": {
+    "correct": "c",
+    "fundamento": "La señal de tenedor y cuchillo indica restaurante.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0050": {
+    "correct": "a",
+    "fundamento": "Señal de curva (sin la imagen no se distingue variante; respuesta de banco habitual).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0051": {
+    "correct": "b",
+    "fundamento": "La señal de hombre cavando indica hombres trabajando (obras).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0052": {
+    "correct": "b",
+    "fundamento": "La señal de flecha blanca indica dirección permitida (derecha).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0053": {
+    "correct": "a",
+    "fundamento": "La señal de barra horizontal sobre fondo rojo indica no avanzar.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0054": {
+    "correct": "b",
+    "fundamento": "La señal de estrechamiento de calzada (ambos lados) advierte la reducción de la vía.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0055": {
+    "correct": "a",
+    "fundamento": "La señal de rampa indica incorporación de tránsito lateral.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0056": {
+    "correct": "a",
+    "fundamento": "La señal P tachada indica no estacionar.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true,
+    "essential": true
+  },
+  "senales-0057": {
+    "correct": "b",
+    "fundamento": "La cruz de san Andrés indica cruce ferroviario.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0058": {
+    "correct": "c",
+    "fundamento": "La señal de doble curva indica curva en S.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0059": {
+    "correct": "b",
+    "fundamento": "La señal de flecha en círculo indica giro obligatorio a la derecha.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0060": {
+    "correct": "a",
+    "fundamento": "La señal de banderín/veleta indica vientos fuertes laterales.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0061": {
+    "correct": "a",
+    "fundamento": "La señal de puente indica puente móvil (sin la imagen no se confirma; respuesta de banco habitual).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0062": {
+    "correct": "b",
+    "fundamento": "La señal de cruce de caminos indica encrucijada.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true
+  },
+  "senales-0063": {
+    "correct": "b",
+    "fundamento": "La señal de casco indica bomberos.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.8,
+    "reviewed": true
+  },
+  "senales-0064": {
+    "correct": "b",
+    "fundamento": "La señal de ómnibus indica terminal de ómnibus (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0065": {
+    "correct": "b",
+    "fundamento": "Señal de curvas: camino sinuoso (sin la imagen no se distingue; respuesta de banco habitual).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0066": {
+    "correct": "c",
+    "fundamento": "La señal de doble curva indica curva en S (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0067": {
+    "correct": "b",
+    "fundamento": "La señal de P tachada con cruz indica no estacionar ni detenerse (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0068": {
+    "correct": "c",
+    "fundamento": "La señal de cruce indica encrucijada (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0070": {
+    "correct": "a",
+    "fundamento": "La señal de casa rodante indica estacionamiento de casas rodantes.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0071": {
+    "correct": "b",
+    "fundamento": "La señal circular con borde rojo y número indica límite de velocidad máxima.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0072": {
+    "correct": "a",
+    "fundamento": "La señal circular azul con número indica límite de velocidad mínima.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0073": {
+    "correct": "c",
+    "fundamento": "La señal de camión con longitud indica limitación de largo del vehículo (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0074": {
+    "correct": "b",
+    "fundamento": "La señal de niños corriendo indica niños.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0075": {
+    "correct": "a",
+    "fundamento": "La señal de camión tachado indica prohibición de circular camión.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0076": {
+    "correct": "b",
+    "fundamento": "La señal de carro tachado indica prohibición de circular carro de mano.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0077": {
+    "correct": "c",
+    "fundamento": "La señal de acoplado tachado indica prohibición de circular acoplado.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0078": {
+    "correct": "a",
+    "fundamento": "La señal de niños con libros indica escolares (zona escolar).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0080": {
+    "correct": "b",
+    "fundamento": "La señal de niños indica zona de niños (sin la imagen no se distingue de zona de montaña).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0081": {
+    "correct": "c",
+    "fundamento": "Las señales transitorias de obra indican delineadores (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0082": {
+    "correct": "a",
+    "fundamento": "Las señales transitorias de obra indican vallas (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0083": {
+    "correct": "b",
+    "fundamento": "Las señales transitorias de obra indican tambores (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales transitorias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0084": {
+    "correct": "b",
+    "fundamento": "El escudo indica ruta nacional.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de información",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0085": {
+    "correct": "b",
+    "fundamento": "El escudo indica ruta nacional.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de información",
+        "page": null
+      }
+    ],
+    "confidence": 0.6,
+    "reviewed": true,
+    "essential": true
+  },
+  "senales-0086": {
+    "correct": "c",
+    "fundamento": "La señal rectangular indica ruta provincial (sin la imagen no se confirma).",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de información",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0087": {
+    "correct": "a",
+    "fundamento": "La señal de surtidor indica estación de servicio.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales de servicio",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0088": {
+    "correct": "a",
+    "fundamento": "La señal de altura con flechas indica limitación de altura.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0089": {
+    "correct": "b",
+    "fundamento": "La señal de ancho con flechas indica limitación de ancho.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "senales-0090": {
+    "correct": "a",
+    "fundamento": "La señal de peso indica limitación de peso.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0091": {
+    "correct": "b",
+    "fundamento": "La señal de peso por eje indica limitación de peso por eje.",
+    "sources": [
+      {
+        "material": "ansv-senales",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "senales-0092": {
+    "correct": "v",
+    "fundamento": "Las reglamentarias son redondas, blancas y con bordes rojos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0093": {
+    "correct": "c",
+    "fundamento": "Cuadrado o rectángulo azul o verde: señal de información y orientación.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales informativas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0094": {
+    "correct": "f",
+    "fundamento": "Las redondas blancas con bordes rojos son reglamentarias, no de prevención.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0095": {
+    "correct": "f",
+    "fundamento": "Las preventivas son advertencias; su desobediencia no constituye infracción por sí misma.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales preventivas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0096": {
+    "correct": "v",
+    "fundamento": "Desobedecer una señal informativa no constituye infracción.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales informativas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0097": {
+    "correct": "v",
+    "fundamento": "Las reglamentarias son normas de cumplimiento obligatorio.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true,
+    "essential": true
+  },
+  "senales-0098": {
+    "correct": "f",
+    "fundamento": "Las informativas identifican, orientan y refieren servicios; no alertan ni advierten (eso hacen las preventivas).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales informativas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0099": {
+    "correct": "v",
+    "fundamento": "Todas las señales, salvo las luces, deben ser retroreflectivas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales viales",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "senales-0100": {
+    "correct": "f",
+    "fundamento": "Las reglamentarias son redondas, blancas y con borde rojo; las amarillas con diagonal son preventivas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Señales reglamentarias",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}

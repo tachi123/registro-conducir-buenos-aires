@@ -1,1 +1,2666 @@
-[]
+[
+  {
+    "id": "auto-0001",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Si los espejos retrovisores de su vehículo están bien orientados, igualmente es posible que se produzcan puntos ciegos cuando observe por los mismos.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 158,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "Aun con los espejos bien orientados pueden existir puntos ciegos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Espejos retrovisores",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0002",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Cómo se pueden reducir los puntos ciegos al conducir un vehículo?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Acomodar correctamente los espejos retrovisores antes de iniciar la marcha. Mientras se circula, además de revisar los espejos retrovisores, utilizar la visión periférica dando vistazos por encima de los hombros cuando sea necesario."
+      },
+      {
+        "key": "b",
+        "text": "Antes de realizar una maniobra se debe disminuir la velocidad de circulación, colocar la luz de giro y mirar por los espejos realizando un pequeño movimiento corporal hacia adelante para ampliar el ángulo de visión."
+      },
+      {
+        "key": "c",
+        "text": "Ambas respuestas, A y B, son correctas."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 158,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Ambas técnicas (orientar los espejos y usar visión periférica con vistazos sobre el hombro) reducen los puntos ciegos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Espejos retrovisores",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0003",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿A qué se llama “Punto Ciego”?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Al área de visión del entorno, a la que el conductor no tiene acceso ya sea de manera directa o porque los espejos retrovisores no la reflejan."
+      },
+      {
+        "key": "b",
+        "text": "Sólo al área de visión que no es cubierta por los espejos retrovisores."
+      },
+      {
+        "key": "c",
+        "text": "Al punto imaginario ubicado en el horizonte de una ruta."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 158,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "Punto ciego es el área sin acceso directo ni por los espejos retrovisores.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Espejos retrovisores",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0004",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Para realizar una conducción segura, ¿cuándo es recomendable verificar la orientación de los espejos retrovisores?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Antes de iniciar la marcha."
+      },
+      {
+        "key": "b",
+        "text": "Durante la conducción, para poder hacer una prueba real."
+      },
+      {
+        "key": "c",
+        "text": "Con el vehículo inmovilizado y el conductor fuera del mismo."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 158,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "La orientación de los espejos se verifica antes de iniciar la marcha.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Espejos retrovisores",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0005",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Indique cuál de estas imágenes muestra la manera correcta de colocar el espejo retrovisor:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Imagen A."
+      },
+      {
+        "key": "b",
+        "text": "Imagen B."
+      },
+      {
+        "key": "c",
+        "text": "Ambas respuestas, la A y la B, son correctas."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": true,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 158,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "No se puede determinar sin la imagen; la respuesta de banco habitual es que ambas formas pueden ser correctas.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0006",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Todos los cristales de un vehículo deben garantizar visibilidad...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Solamente de adentro del automóvil hacia afuera."
+      },
+      {
+        "key": "b",
+        "text": "Desde adentro hacia fuera y de afuera hacia adentro del vehículo."
+      },
+      {
+        "key": "c",
+        "text": "El único cristal que debe garantizar plena y total visibilidad es el parabrisas."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 159,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "Todos los cristales deben garantizar visibilidad en ambos sentidos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0007",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Qué se entiende por habitáculo?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Al espacio a ser ocupado por el conductor y los pasajeros."
+      },
+      {
+        "key": "b",
+        "text": "Al lugar en el cual se transporta el equipaje (Baúl)."
+      },
+      {
+        "key": "c",
+        "text": "Comprende a todo el vehículo en general."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 159,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "El habitáculo es el espacio ocupado por el conductor y los pasajeros.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Habitáculo",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0008",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Cómo deben encontrarse los neumáticos para comprobar la correcta presión de aire?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fríos."
+      },
+      {
+        "key": "b",
+        "text": "Calientes."
+      },
+      {
+        "key": "c",
+        "text": "Es indistinto, al ser de caucho se mantienen aislados de la temperatura."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 159,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "La presión de los neumáticos se controla con los neumáticos fríos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0009",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿En qué momento es necesario renovar el siguiente elemento de seguridad? Cuando la profundidad del dibujo es menor de…",
+    "options": [
+      {
+        "key": "a",
+        "text": "1,6 mm."
+      },
+      {
+        "key": "b",
+        "text": "2 mm."
+      },
+      {
+        "key": "c",
+        "text": "3 mm."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 159,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "El neumático se renueva cuando la profundidad del dibujo es menor a 1,6 mm.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0010",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Cuál es la correcta presión de los neumáticos de un automóvil particular?",
+    "options": [
+      {
+        "key": "a",
+        "text": "28 lbs."
+      },
+      {
+        "key": "b",
+        "text": "La que indique el manual del usuario de ese automóvil."
+      },
+      {
+        "key": "c",
+        "text": "30 lbs."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 160,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "La presión correcta es la que indica el manual del usuario de ese vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0011",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Si al circular se presenta la siguiente situación, ¿cuál es la acción que se recomienda realizar?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Frenar inmediatamente."
+      },
+      {
+        "key": "b",
+        "text": "Desacelerar rápidamente y frenar."
+      },
+      {
+        "key": "c",
+        "text": "Desacelerar lentamente y sujetar el volante."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 160,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Sobre agua/en aquaplaning se recomienda desacelerar lentamente y sujetar firme el volante.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Aquaplaning",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0012",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Si el sistema de amortiguación delantero de su vehículo se encuentra en mal estado, ¿puede afectar esta anomalía la conducción?",
+    "options": [
+      {
+        "key": "a",
+        "text": "No, porque al ser el sistema de suspensión delantero el deteriorado, éste no influirá en la conducción."
+      },
+      {
+        "key": "b",
+        "text": "Sí, puede afectar al correcto control del vehículo."
+      },
+      {
+        "key": "c",
+        "text": "No, porque si se encuentra correctamente la suspensión trasera, ésta asegurará el contacto adecuado de las ruedas con la calzada."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 161,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "Un mal estado de la suspensión delantera afecta el correcto control del vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Suspensión",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0016",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿En qué ocasiones se permite el uso de la bocina?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sólo para advertir una situación potencialmente de peligro."
+      },
+      {
+        "key": "b",
+        "text": "Sólo para advertir de un sobrepaso."
+      },
+      {
+        "key": "c",
+        "text": "Ambas respuestas, la A y la B, son incorrectas."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 162,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "La bocina se usa para advertir una situación potencialmente peligrosa.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0017",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Los objetos sueltos como lentes, celular, llaves o similares resultan muy peligrosos en caso de incidentes o maniobras bruscas, porque pueden ocasionar una lesión grave producto de la energía cinética que poseen.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 163,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "Los objetos sueltos pueden causar lesiones graves por su energía cinética en un siniestro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Habitáculo",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0018",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Al transportar cualquier elemento, éste debe ubicarse de modo que no perturbe la visibilidad, afecte peligrosamente las condiciones aerodinámicas del vehículo, oculte luces o sobresalga de los límites permitidos.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 163,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "La carga no debe perturbar la visibilidad ni sobresalir de los límites permitidos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 34",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0019",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿En qué parte del vehículo es conveniente poner el equipaje?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lo más pesado en el fondo del baúl, cerca del centro del auto. Eso ayuda a la estabilidad direccional y al comportamiento en las curvas."
+      },
+      {
+        "key": "b",
+        "text": "Lo más pesado en el techo del vehículo, sujeto con sogas. Eso ayuda al centro de gravedad."
+      },
+      {
+        "key": "c",
+        "text": "Lo más pesado en los asientos traseros (si es que se viaja sin ocupantes en esa zona). Eso ayuda a la estabilidad direccional."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 163,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "Lo más pesado va en el fondo del baúl, cerca del centro, para estabilidad y buen comportamiento en curvas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Carga",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0020",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Quién es el responsable frente a la autoridad de control, si uno de los pasajeros del automóvil no lleva puesto el cinturón de seguridad?",
+    "options": [
+      {
+        "key": "a",
+        "text": "El tomador del seguro."
+      },
+      {
+        "key": "b",
+        "text": "El pasajero, si es mayor de edad."
+      },
+      {
+        "key": "c",
+        "text": "El conductor."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 163,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "El conductor es responsable ante la autoridad de control por los ocupantes sin cinturón.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0021",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Este elemento de seguridad pasiva sirve para reducir el daño producido a los ocupantes de un vehículo al momento de un siniestro.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 163,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "El airbag (elemento retratado) reduce el daño a los ocupantes en un siniestro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0022",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Este elemento de seguridad...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Permite prescindir del uso del cinturón de seguridad."
+      },
+      {
+        "key": "b",
+        "text": "Complementa el uso del cinturón de seguridad."
+      },
+      {
+        "key": "c",
+        "text": "Es incompatible con el uso del cinturón de seguridad."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 164,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "El airbag complementa el uso del cinturón de seguridad, no lo reemplaza.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0023",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Durante un siniestro, si el conductor del vehículo no lleva puesto el cinturón de seguridad, el airbag...",
+    "options": [
+      {
+        "key": "a",
+        "text": "Le salvará la vida ya que puede sustituir al cinturón de seguridad."
+      },
+      {
+        "key": "b",
+        "text": "Evitará que sufra lesiones, siempre y cuando el siniestro se produzca a menos de 80 km/h."
+      },
+      {
+        "key": "c",
+        "text": "Puede provocar lesiones graves."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 165,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Sin cinturón, la acción del airbag puede provocar lesiones graves.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0024",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Es correcta la colocación del dispositivo de retención infantil en este vehículo?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sí, salvo en rutas nacionales."
+      },
+      {
+        "key": "b",
+        "text": "Sí, siempre y cuando esté debidamente ajustado."
+      },
+      {
+        "key": "c",
+        "text": "No, ya que estos dispositivos deben ir colocados en los asientos traseros."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 165,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Los sistemas de retención infantil deben colocarse en los asientos traseros.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40 bis",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0025",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "En la siguiente imagen, ¿es correcta la colocación del dispositivo de retención infantil para un niño de 7 años?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sí, ya que se encuentra bien ajustado y en el asiento trasero."
+      },
+      {
+        "key": "b",
+        "text": "No, ya que la orientación “a contra marcha” de los SRI es sólo para los grupos 0 y 0+ y 1 de SRI según indique su fabricante y este niño supera la edad para esos grupos."
+      },
+      {
+        "key": "c",
+        "text": "Sí, ya que la orientación “a contra marcha” reduce el efecto “latigazo” en caso de un siniestro."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": true,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 165,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "Los SRI a contra marcha corresponden a los grupos 0, 0+ y 1; un niño de 7 años supera esa edad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "SRI",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0026",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Es correcta la manera en que utiliza el Sistema de Retención Infantil (SRI) esta niña?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sí, ya que se encuentra sentada en un SRI, en el asiento trasero."
+      },
+      {
+        "key": "b",
+        "text": "No, ya que la niña debería ubicarse “a contra marcha” para reducir el efecto “latigazo”."
+      },
+      {
+        "key": "c",
+        "text": "No, ya que la niña no utiliza el cinturón de seguridad del SRI."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 166,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "La niña no utiliza el cinturón del sistema de retención infantil.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "SRI",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0028",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Es obligatoria la utilización de este elemento en todos los asientos del automóvil?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sí. Lo establece la normativa para evitar lesiones graves en la zona cervical."
+      },
+      {
+        "key": "b",
+        "text": "No en todos, para los asientos traseros no cumplen ninguna función."
+      },
+      {
+        "key": "c",
+        "text": "No, ya que no forma parte de la seguridad activa ni pasiva de los vehículos."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 167,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "El apoyacabezas es de uso obligatorio en todos los asientos para evitar lesiones cervicales.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0029",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Frente a un siniestro, ¿qué puede evitar este elemento si está correctamente ubicado?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nada en especial, dado que sólo es un elemento de confort."
+      },
+      {
+        "key": "b",
+        "text": "Lesiones en la zona cervical."
+      },
+      {
+        "key": "c",
+        "text": "Lesiones en el tórax."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 168,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "El apoyacabezas correctamente ubicado evita lesiones en la zona cervical.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Apoyacabezas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0030",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Todos los ocupantes del vehículo viajan de manera correcta?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sí, ya que la obligación del uso del cinturón de seguridad alcanza sólo al conductor."
+      },
+      {
+        "key": "b",
+        "text": "Sí, ya que la obligación del uso del cinturón de seguridad alcanza sólo a las personas que se trasladen en los asientos delanteros."
+      },
+      {
+        "key": "c",
+        "text": "No, porque la obligación del uso del cinturón de seguridad es para todas las personas transportadas."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 168,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "El cinturón es obligatorio para todas las personas transportadas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0031",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Luego de un largo viaje en ruta, realizó una parada y le faltan muy pocos kilómetros para llegar a destino, ¿es necesario que todos los ocupantes vuelvan a ponerse el cinturón de seguridad?",
+    "options": [
+      {
+        "key": "a",
+        "text": "No, sólo es obligatorio para los que se ubiquen en los asientos delanteros."
+      },
+      {
+        "key": "b",
+        "text": "No, porque se está por llegar a destino."
+      },
+      {
+        "key": "c",
+        "text": "Sí, porque su uso es obligatorio para todos los ocupantes."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 169,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "El cinturón es obligatorio para todos los ocupantes, también al retomar la marcha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0032",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Cuál de estas imágenes muestra el uso adecuado del cinturón de seguridad durante el embarazo?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Imagen A."
+      },
+      {
+        "key": "b",
+        "text": "Imagen B."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 169,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "La banda inferior debe pasar por debajo del abdomen, sobre las caderas (imagen A).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cinturón",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0033",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Esta persona tiene el cinturón correctamente colocado?",
+    "options": [
+      {
+        "key": "a",
+        "text": "No, porque pasa por el abdomen y debería hacerlo por los huesos de la cadera."
+      },
+      {
+        "key": "b",
+        "text": "No, porque pasa por el abdomen y debería hacerlo por los muslos."
+      },
+      {
+        "key": "c",
+        "text": "Sí, porque pasa por la clavícula y el abdomen."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 169,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "El cinturón no debe pasar por el abdomen sino por los huesos de la cadera.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cinturón",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0034",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Cuál es la correcta posición del uso de la banda inferior del cinturón de seguridad de tres puntas?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Opción A."
+      },
+      {
+        "key": "b",
+        "text": "Opción B."
+      },
+      {
+        "key": "c",
+        "text": "Ambas opciones, A y B, son correctas."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 170,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "La banda inferior del cinturón de tres puntas va sobre las caderas, no sobre el abdomen.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cinturón",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0035",
+    "number": null,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Los ocupantes de este vehículo ¿viajan de manera segura?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sí, ya que las personas se encuentran con cinturón de seguridad."
+      },
+      {
+        "key": "b",
+        "text": "No, ya que por normativa no está permitido trasladar mascotas en un automóvil particular."
+      },
+      {
+        "key": "c",
+        "text": "No, ya que las mascotas deben ser transportadas en los asientos traseros sujetos con arnés o sistema de retención correspondiente."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 170,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Las mascotas deben viajar en los asientos traseros con arnés o sistema de retención.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0036",
+    "number": 240,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Requisitos para automotores El dispositivo de airbag de un vehículo constituye un elemento de seguridad de tipo Activa",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 171,
+    "regionNote": null,
+    "correct": "f",
+    "fundamento": "El airbag es un elemento de seguridad pasiva, no activa.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0037",
+    "number": 241,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "La seguridad Activa consiste",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reducir al mínimo los daños que se pueden producir cuando acontece un sienestro."
+      },
+      {
+        "key": "b",
+        "text": "Compone el conjunto de soluciones técnicas y el contenido de los elementos que hacen distendida la vida a bordo del vehículo."
+      },
+      {
+        "key": "c",
+        "text": "Está orientada a evitar al máximo los siniestros viales y comprende el conjunto de todos aquellos elementos que contribuyen a propocionar una mayor eficacia en la conducción garantizando respuestas eficaces."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 171,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "La seguridad activa está orientada a evitar al máximo los siniestros y a mayor eficacia en la conducción.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad activa",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0038",
+    "number": 242,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "La seguridad Pasiva consiste",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reducir al mínimo los daños que se pueden producir cuando acontece un sienestro."
+      },
+      {
+        "key": "b",
+        "text": "Compone el conjunto de soluciones técnicas y el contenido de los elementos que hacen distendida la vida a bordo del vehículo."
+      },
+      {
+        "key": "c",
+        "text": "Está orientada a evitar al máximo los siniestros viales y comprende el conjunto de todos aquellos elementos que contribuyen a propocionar una mayor eficacia en la conducción garantizando respuestas eficaces."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 171,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "La seguridad pasiva reduce al mínimo los daños cuando acontece un siniestro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad pasiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0039",
+    "number": 243,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "La seguridad Preventiva consiste",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reducir al mínimo los daños que se pueden producir cuando acontece un sienestro."
+      },
+      {
+        "key": "b",
+        "text": "Compone el conjunto de soluciones técnicas y el contenido de los elementos que hacen distendida la vida a bordo del vehículo."
+      },
+      {
+        "key": "c",
+        "text": "Está orientada a evitar al máximo los siniestros viales y comprende el conjunto de todos aquellos elementos que contribuyen a propocionar una mayor eficacia en la conducción garantizando respuestas eficaces."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 172,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "La seguridad preventiva comprende las soluciones técnicas que hacen distendida la vida a bordo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad preventiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0041",
+    "number": 245,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Definición de Automóvil: el automotor para el transporte de personas de hasta ocho plazas (excluido conductor) con cuatro o más ruedas, y los de tres ruedas que exceda los mil quinientos kg de peso;",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 172,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "Definición de automóvil según Ley 24.449: hasta ocho plazas (excluido conductor) con cuatro o más ruedas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 5",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0042",
+    "number": 246,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Además de ser trasladados en el asiento trasero del vehículo, deberán ubicarse en el dispositivo de retención infantil correspondiente:",
+    "options": [
+      {
+        "key": "a",
+        "text": "los menores de 2 años"
+      },
+      {
+        "key": "b",
+        "text": "Los menores de 3 años"
+      },
+      {
+        "key": "c",
+        "text": "Los menores de 4 años"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 172,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Los menores de 4 años deben viajar en el asiento trasero con dispositivo de retención infantil.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40 bis",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0043",
+    "number": 247,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Los faros delanteros deben ser:",
+    "options": [
+      {
+        "key": "a",
+        "text": "De luz blanca únicamente"
+      },
+      {
+        "key": "b",
+        "text": "De luz blanca o amarilla indistintamente"
+      },
+      {
+        "key": "c",
+        "text": "De luz amarilla únicamente"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 173,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "Los faros delanteros pueden ser de luz blanca o amarilla.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0044",
+    "number": 248,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Los faros delanteros:",
+    "options": [
+      {
+        "key": "a",
+        "text": "No indican sentido de marcha"
+      },
+      {
+        "key": "b",
+        "text": "Sólo indican el sentido de marcha si son amarillas"
+      },
+      {
+        "key": "c",
+        "text": "Indican el sentido de marcha"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 173,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Los faros delanteros indican el sentido de marcha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0045",
+    "number": 249,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Las luces de posición traseras deben ser:",
+    "options": [
+      {
+        "key": "a",
+        "text": "De color blanco"
+      },
+      {
+        "key": "b",
+        "text": "De color blanco o rojo indistintamente"
+      },
+      {
+        "key": "c",
+        "text": "De color rojo"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 173,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Las luces de posición traseras son de color rojo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0046",
+    "number": 250,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "La luz de retroceso debe ser:",
+    "options": [
+      {
+        "key": "a",
+        "text": "De color amarillo"
+      },
+      {
+        "key": "b",
+        "text": "De color blanco"
+      },
+      {
+        "key": "c",
+        "text": "De color rojo"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 173,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "La luz de retroceso es de color blanco.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0048",
+    "number": 252,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "La profundidad del dibujo del neumático debe tener como mínimo",
+    "options": [
+      {
+        "key": "a",
+        "text": "1,4 ml"
+      },
+      {
+        "key": "b",
+        "text": "1,6 ml."
+      },
+      {
+        "key": "c",
+        "text": "1,8 ml"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 173,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "La profundidad mínima del dibujo del neumático es de 1,6 mm.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0049",
+    "number": 253,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Que es el aquaplanning",
+    "options": [
+      {
+        "key": "a",
+        "text": "Es una película de agua que se forma entre las cubiertas y el guardabarros del vehíuclo."
+      },
+      {
+        "key": "b",
+        "text": "Es una película de agua que se forma debajo de las cubiertas."
+      },
+      {
+        "key": "c",
+        "text": "Es una película de agua que se forma por encima de las cubiertas."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 174,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "El aquaplaning es la película de agua que se forma debajo de las cubiertas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Aquaplaning",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0050",
+    "number": 254,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Las señales de demarcación horizontal longitudinales blancas separan las corrientes de tránsito en dirección opuesta.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 174,
+    "regionNote": null,
+    "correct": "f",
+    "fundamento": "Las líneas blancas longitudinales separan carriles del mismo sentido; las amarillas separan sentidos opuestos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0051",
+    "number": 255,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Las señales de demarcación horizontal longitudinales blancas delimitan los carriles de ciruclación y tienen carácter permisivo para cambiar de carril.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 174,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "Las líneas blancas discontinuas delimitan carriles y permiten el cambio de carril.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0052",
+    "number": 256,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Las señales de demarcación horizontal blancas de trazo intermitente delimitan los carriles de ciruclación y tienen carácter prohibitivo para cambiar de carril.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 174,
+    "regionNote": null,
+    "correct": "f",
+    "fundamento": "La línea blanca de trazo intermitente tiene carácter permisivo, no prohibitivo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0053",
+    "number": 257,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Otro de los dispositivos de seguridad que tienen los automóviles y son de seguridad preventiva son: Marque con una cruz",
+    "options": [
+      {
+        "key": "a",
+        "text": "Equipo de audio."
+      },
+      {
+        "key": "b",
+        "text": "climatización."
+      },
+      {
+        "key": "c",
+        "text": "de visibilidad."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 174,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Entre los dispositivos de seguridad preventiva se cuenta la visibilidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad preventiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0054",
+    "number": 258,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Existen tres (3) tipos de desgastes de los neumáticos. En el centro, en los talones y el anormal rápido.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 174,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "Existen tres tipos de desgaste de los neumáticos: centro, talones (hombros) y anormal rápido.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0055",
+    "number": 259,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "El airbag debe estar ubicado entre el conductor y el volante a una distancia de:",
+    "options": [
+      {
+        "key": "a",
+        "text": "30cm."
+      },
+      {
+        "key": "b",
+        "text": "25cm."
+      },
+      {
+        "key": "c",
+        "text": "35cm."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 175,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "El airbag debe ubicarse a una distancia de 25 cm del conductor.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0056",
+    "number": 260,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "En las vías reguladas por semáforos, los vehículos deben:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Con luz roja, detenerse antes de la línea marcada a tal efecto o de la senda peatonal, evitando luego cualquier movimiento"
+      },
+      {
+        "key": "b",
+        "text": "Con luz roja, detenerse sobre la línea marcada a tal efecto o de la senda peatonal, evitando luego cualquier movimiento."
+      },
+      {
+        "key": "c",
+        "text": "Con luz roja, detenerse antes de la línea marcada a tal efecto o de la senda peatonal, realizando movimientos hasta que se ponga la luz verde."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 175,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "Con luz roja se debe detener antes de la línea marcada o de la senda peatonal, evitando luego cualquier movimiento.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0057",
+    "number": 261,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Uno de los dispositivos de seguridad que como minimo deben tener los automoviles es:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cierre centralizado de puertas."
+      },
+      {
+        "key": "b",
+        "text": "Paragolpes y guardabarros."
+      },
+      {
+        "key": "c",
+        "text": "Levanta vidrios electronico."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 175,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "Los automóviles deben tener como mínimo paragolpes y guardabarros.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0058",
+    "number": 262,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Los amortiguadores tienen como función proporcionar seguridad y confort durante la conducción, aportando estabilidad al vehículo.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 175,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "Los amortiguadores proporcionan seguridad y confort, aportando estabilidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Suspensión",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0059",
+    "number": 263,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Otro de los dispositivos de seguridad que como minimo deben tener los automoviles es:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Equipo de audio."
+      },
+      {
+        "key": "b",
+        "text": "Porta equipaje."
+      },
+      {
+        "key": "c",
+        "text": "Sistema motriz de retroceso."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 175,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Un dispositivo mínimo obligatorio es el sistema motriz de retroceso (marcha atrás).",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0060",
+    "number": 264,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "El uso correcto del apoya cabezas en un vehículo es:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Muy abajo, donde la parte saliente quede a la altura del cuello del usuario."
+      },
+      {
+        "key": "b",
+        "text": "Muy atrás en relación con la posición de la cabeza."
+      },
+      {
+        "key": "c",
+        "text": "La distancia entre el apoya cabezas y la nunca del usuario no debe ser mayor a 5 cm."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 176,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "La distancia entre el apoyacabezas y la nuca no debe ser mayor a 5 cm.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Apoyacabezas",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0061",
+    "number": 265,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "El tiempo apróximado de recuperación por la ingesta de 400 cm3 de bebida alocholica es",
+    "options": [
+      {
+        "key": "a",
+        "text": "de 2 a 3 hs."
+      },
+      {
+        "key": "b",
+        "text": "de 2 a 4 hs."
+      },
+      {
+        "key": "c",
+        "text": "de 3 a 5 hs."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 176,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "El tiempo aproximado de recuperación por la ingesta de 400 cm³ de bebida alcohólica es de 2 a 4 hs.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Alcohol",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0062",
+    "number": 266,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Con una cantidad mayor a 1 gr/l de alcohol en sangre detectado en controles de alcoholemia se procederá al secuestro del vehículo y se incurrirá en falta grave reteniendo la licencia del conductor.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 176,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "Con más de 1 g/l de alcohol se procede al secuestro del vehículo y retención de la licencia (falta grave).",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 103",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0063",
+    "number": 267,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "El mal estado de los amortiguadores de un vehículo produce:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Una mayor distancia de frenado y estabilidad."
+      },
+      {
+        "key": "b",
+        "text": "El no desgaste de los neumáticos."
+      },
+      {
+        "key": "c",
+        "text": "Una mayor inestabilidad de la dirección."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 176,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "El mal estado de los amortiguadores produce mayor inestabilidad de la dirección.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Suspensión",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0064",
+    "number": 268,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "El cinturón de seguridad en los vehículos:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Disminuye los riesgos y consecuencias de los siniestros de tránsito."
+      },
+      {
+        "key": "b",
+        "text": "Debe usarse sólo cuando se conduce fuera del ámbito urbano (rutas, autopistas, etc.)."
+      },
+      {
+        "key": "c",
+        "text": "Disminuye la posibilidad de incurrir en un siniestro vial."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 176,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "El cinturón de seguridad disminuye los riesgos y consecuencias de los siniestros.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cinturón",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0065",
+    "number": 269,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Cual es la distancia de seguridad que debe dejarse entre vehiculos al circular en ciudad?",
+    "options": [
+      {
+        "key": "a",
+        "text": "50 mts (3 segundos)"
+      },
+      {
+        "key": "b",
+        "text": "80 mts (4 segundos)"
+      },
+      {
+        "key": "c",
+        "text": "30 mts (2 segundos)"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 176,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "En ciudad la distancia de seguridad es de 30 m (2 segundos).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Distancia de seguridad",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0066",
+    "number": 270,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Cuándo un vehículo está “Detenido”?:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Al momento de carga y descarga de mercaderías, sin movimiento ni conductor a bordo"
+      },
+      {
+        "key": "b",
+        "text": "Al momento de ascenso y descenso de pasajeros o carga y descarga de mercadería, sin movimiento pero con su conductor a bordo"
+      },
+      {
+        "key": "c",
+        "text": "En cualquier circunstancia, sin movimiento ni conductor a bordo"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 177,
+    "regionNote": "Bahia Blanca",
+    "correct": "b",
+    "fundamento": "Un vehículo está detenido durante el ascenso/descenso de pasajeros o carga con el conductor a bordo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0067",
+    "number": 271,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Al momento de producirse un sisniestro vial, se deben colocar los triángulos de emergencias a fin de señalizar el sinsiestro a una distancia de",
+    "options": [
+      {
+        "key": "a",
+        "text": "50 mts del vehículo."
+      },
+      {
+        "key": "b",
+        "text": "60 mts del vehículo."
+      },
+      {
+        "key": "c",
+        "text": "70 mts del vehículo."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 177,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Los triángulos de emergencia se colocan a 70 m del vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Emergencias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0069",
+    "number": 273,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Puede un vehículo no destinado a remolque, remolcar a otros?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Si."
+      },
+      {
+        "key": "b",
+        "text": "No, salvo casos de fuerza mayor."
+      },
+      {
+        "key": "c",
+        "text": "No, en ningún caso."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 177,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "Un vehículo no destinado a remolque no puede remolcar, salvo casos de fuerza mayor.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0070",
+    "number": 274,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "La prioridad de paso de un vehículo se pierde:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ante el paso de vehículos de mayor porte."
+      },
+      {
+        "key": "b",
+        "text": "Ante vehículos del servicio público de urgencia, en cumplimiento de su misión."
+      },
+      {
+        "key": "c",
+        "text": "Nunca se pierde."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 177,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "La prioridad de paso se pierde ante vehículos de urgencia en cumplimiento de su misión.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0071",
+    "number": 275,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "El titular de una licencia de conducir tiene un plazo de gracia de 60 (sesenta) días para gestionar la renovación de su licencia una vez vencida la misma. En ese lapso de tiempo está en condiciones de renovar pero no de manejar.",
+    "options": [
+      {
+        "key": "v",
+        "text": "Verdadero"
+      },
+      {
+        "key": "f",
+        "text": "Falso"
+      }
+    ],
+    "answerType": "truefalse",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 177,
+    "regionNote": null,
+    "correct": "v",
+    "fundamento": "Con la licencia vencida se puede renovar dentro de los 60 días pero no conducir.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 20",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0072",
+    "number": 276,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "Cuando un automóvil es conducido por un camino con nieve o hielo, ¿cuál es la maniobra correcta que se debe realizar?:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Conducir el vehículo con el freno de manos activado, sobrepasando a los demás vehículos."
+      },
+      {
+        "key": "b",
+        "text": "Conducir con regularidad, evitando frenar bruscamente y no sobrepasando a otros vehículos."
+      },
+      {
+        "key": "c",
+        "text": "Conducir a la menor velocidad posible con las balizas encendidas sin sobrepasar a otros."
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 178,
+    "regionNote": null,
+    "correct": "b",
+    "fundamento": "Con nieve o hielo se debe conducir con regularidad, sin frenar bruscamente ni sobrepasar.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Condiciones de vía",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0073",
+    "number": 277,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿Cuál es el grado máximo de alcoholemia permitido para conducir un automóvil?: (Pregunta de carácter eliminatorio)",
+    "options": [
+      {
+        "key": "a",
+        "text": "0,5 gramos por litro de sangre"
+      },
+      {
+        "key": "b",
+        "text": "0,2 gramos por litro de sangre"
+      },
+      {
+        "key": "c",
+        "text": "0,05 gramos por litro de sangre"
+      }
+    ],
+    "answerType": "single",
+    "essential": true,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 178,
+    "regionNote": null,
+    "correct": "a",
+    "fundamento": "Históricamente el límite era 0,5 g/l (Ley 24.449); desde 2023 la Ley 27.714 fija 0,0 g/l en rutas nacionales. Respuesta de banco: 0,5 g/l.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 50 / Ley 27.714",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0074",
+    "number": 278,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "El uso de enganches sobresalientes:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Está permitido en vehículos de carga"
+      },
+      {
+        "key": "b",
+        "text": "Está permitido en zonas de baja densidad de tránsito"
+      },
+      {
+        "key": "c",
+        "text": "Está prohibido"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 178,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "El uso de enganches sobresalientes está prohibido.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  {
+    "id": "auto-0075",
+    "number": 279,
+    "section": "auto",
+    "category": "especificas-auto",
+    "subcategory": "auto",
+    "question": "¿En qué circunstancia está permitido circular sin respetar distancias prudentes con el vehículo que va adelante?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Transitando vías multicarriles"
+      },
+      {
+        "key": "b",
+        "text": "En toda circunstancia, si no se trata de vehículos de carga"
+      },
+      {
+        "key": "c",
+        "text": "Está prohibido en toda circunstancia"
+      }
+    ],
+    "answerType": "single",
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 178,
+    "regionNote": null,
+    "correct": "c",
+    "fundamento": "Está prohibido en toda circunstancia circular sin respetar la distancia prudente.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+]

@@ -1,0 +1,887 @@
+{
+  "auto-0001": {
+    "correct": "v",
+    "fundamento": "Aun con los espejos bien orientados pueden existir puntos ciegos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Espejos retrovisores",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0002": {
+    "correct": "c",
+    "fundamento": "Ambas técnicas (orientar los espejos y usar visión periférica con vistazos sobre el hombro) reducen los puntos ciegos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Espejos retrovisores",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0003": {
+    "correct": "a",
+    "fundamento": "Punto ciego es el área sin acceso directo ni por los espejos retrovisores.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Espejos retrovisores",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0004": {
+    "correct": "a",
+    "fundamento": "La orientación de los espejos se verifica antes de iniciar la marcha.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Espejos retrovisores",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0005": {
+    "correct": "c",
+    "fundamento": "No se puede determinar sin la imagen; la respuesta de banco habitual es que ambas formas pueden ser correctas.",
+    "sources": [
+      {
+        "material": "cuestionario",
+        "ref": "IF-2019-33101289",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "auto-0006": {
+    "correct": "b",
+    "fundamento": "Todos los cristales deben garantizar visibilidad en ambos sentidos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0007": {
+    "correct": "a",
+    "fundamento": "El habitáculo es el espacio ocupado por el conductor y los pasajeros.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Habitáculo",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0008": {
+    "correct": "a",
+    "fundamento": "La presión de los neumáticos se controla con los neumáticos fríos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0009": {
+    "correct": "a",
+    "fundamento": "El neumático se renueva cuando la profundidad del dibujo es menor a 1,6 mm.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0010": {
+    "correct": "b",
+    "fundamento": "La presión correcta es la que indica el manual del usuario de ese vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0011": {
+    "correct": "c",
+    "fundamento": "Sobre agua/en aquaplaning se recomienda desacelerar lentamente y sujetar firme el volante.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Aquaplaning",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0012": {
+    "correct": "b",
+    "fundamento": "Un mal estado de la suspensión delantera afecta el correcto control del vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Suspensión",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0016": {
+    "correct": "a",
+    "fundamento": "La bocina se usa para advertir una situación potencialmente peligrosa.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0017": {
+    "correct": "v",
+    "fundamento": "Los objetos sueltos pueden causar lesiones graves por su energía cinética en un siniestro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Habitáculo",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0018": {
+    "correct": "v",
+    "fundamento": "La carga no debe perturbar la visibilidad ni sobresalir de los límites permitidos.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 34",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0019": {
+    "correct": "a",
+    "fundamento": "Lo más pesado va en el fondo del baúl, cerca del centro, para estabilidad y buen comportamiento en curvas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Carga",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0020": {
+    "correct": "c",
+    "fundamento": "El conductor es responsable ante la autoridad de control por los ocupantes sin cinturón.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0021": {
+    "correct": "v",
+    "fundamento": "El airbag (elemento retratado) reduce el daño a los ocupantes en un siniestro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0022": {
+    "correct": "b",
+    "fundamento": "El airbag complementa el uso del cinturón de seguridad, no lo reemplaza.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0023": {
+    "correct": "c",
+    "fundamento": "Sin cinturón, la acción del airbag puede provocar lesiones graves.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0024": {
+    "correct": "c",
+    "fundamento": "Los sistemas de retención infantil deben colocarse en los asientos traseros.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40 bis",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0025": {
+    "correct": "b",
+    "fundamento": "Los SRI a contra marcha corresponden a los grupos 0, 0+ y 1; un niño de 7 años supera esa edad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "SRI",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "auto-0026": {
+    "correct": "c",
+    "fundamento": "La niña no utiliza el cinturón del sistema de retención infantil.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "SRI",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "auto-0028": {
+    "correct": "a",
+    "fundamento": "El apoyacabezas es de uso obligatorio en todos los asientos para evitar lesiones cervicales.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0029": {
+    "correct": "b",
+    "fundamento": "El apoyacabezas correctamente ubicado evita lesiones en la zona cervical.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Apoyacabezas",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0030": {
+    "correct": "c",
+    "fundamento": "El cinturón es obligatorio para todas las personas transportadas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0031": {
+    "correct": "c",
+    "fundamento": "El cinturón es obligatorio para todos los ocupantes, también al retomar la marcha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0032": {
+    "correct": "a",
+    "fundamento": "La banda inferior debe pasar por debajo del abdomen, sobre las caderas (imagen A).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cinturón",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "auto-0033": {
+    "correct": "a",
+    "fundamento": "El cinturón no debe pasar por el abdomen sino por los huesos de la cadera.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cinturón",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0034": {
+    "correct": "a",
+    "fundamento": "La banda inferior del cinturón de tres puntas va sobre las caderas, no sobre el abdomen.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cinturón",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0035": {
+    "correct": "c",
+    "fundamento": "Las mascotas deben viajar en los asientos traseros con arnés o sistema de retención.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0036": {
+    "correct": "f",
+    "fundamento": "El airbag es un elemento de seguridad pasiva, no activa.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0037": {
+    "correct": "c",
+    "fundamento": "La seguridad activa está orientada a evitar al máximo los siniestros y a mayor eficacia en la conducción.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad activa",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0038": {
+    "correct": "a",
+    "fundamento": "La seguridad pasiva reduce al mínimo los daños cuando acontece un siniestro.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad pasiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0039": {
+    "correct": "b",
+    "fundamento": "La seguridad preventiva comprende las soluciones técnicas que hacen distendida la vida a bordo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad preventiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0041": {
+    "correct": "v",
+    "fundamento": "Definición de automóvil según Ley 24.449: hasta ocho plazas (excluido conductor) con cuatro o más ruedas.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 5",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0042": {
+    "correct": "c",
+    "fundamento": "Los menores de 4 años deben viajar en el asiento trasero con dispositivo de retención infantil.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 40 bis",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "auto-0043": {
+    "correct": "b",
+    "fundamento": "Los faros delanteros pueden ser de luz blanca o amarilla.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0044": {
+    "correct": "c",
+    "fundamento": "Los faros delanteros indican el sentido de marcha.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0045": {
+    "correct": "c",
+    "fundamento": "Las luces de posición traseras son de color rojo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0046": {
+    "correct": "b",
+    "fundamento": "La luz de retroceso es de color blanco.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 32",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0048": {
+    "correct": "b",
+    "fundamento": "La profundidad mínima del dibujo del neumático es de 1,6 mm.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0049": {
+    "correct": "b",
+    "fundamento": "El aquaplaning es la película de agua que se forma debajo de las cubiertas.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Aquaplaning",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0050": {
+    "correct": "f",
+    "fundamento": "Las líneas blancas longitudinales separan carriles del mismo sentido; las amarillas separan sentidos opuestos.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0051": {
+    "correct": "v",
+    "fundamento": "Las líneas blancas discontinuas delimitan carriles y permiten el cambio de carril.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0052": {
+    "correct": "f",
+    "fundamento": "La línea blanca de trazo intermitente tiene carácter permisivo, no prohibitivo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Demarcación",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0053": {
+    "correct": "c",
+    "fundamento": "Entre los dispositivos de seguridad preventiva se cuenta la visibilidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Seguridad preventiva",
+        "page": null
+      }
+    ],
+    "confidence": 0.4,
+    "reviewed": true
+  },
+  "auto-0054": {
+    "correct": "v",
+    "fundamento": "Existen tres tipos de desgaste de los neumáticos: centro, talones (hombros) y anormal rápido.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Neumáticos",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0055": {
+    "correct": "b",
+    "fundamento": "El airbag debe ubicarse a una distancia de 25 cm del conductor.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Airbag",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0056": {
+    "correct": "a",
+    "fundamento": "Con luz roja se debe detener antes de la línea marcada o de la senda peatonal, evitando luego cualquier movimiento.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 44",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0057": {
+    "correct": "b",
+    "fundamento": "Los automóviles deben tener como mínimo paragolpes y guardabarros.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0058": {
+    "correct": "v",
+    "fundamento": "Los amortiguadores proporcionan seguridad y confort, aportando estabilidad.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Suspensión",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0059": {
+    "correct": "c",
+    "fundamento": "Un dispositivo mínimo obligatorio es el sistema motriz de retroceso (marcha atrás).",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0060": {
+    "correct": "c",
+    "fundamento": "La distancia entre el apoyacabezas y la nuca no debe ser mayor a 5 cm.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Apoyacabezas",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0061": {
+    "correct": "b",
+    "fundamento": "El tiempo aproximado de recuperación por la ingesta de 400 cm³ de bebida alcohólica es de 2 a 4 hs.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Alcohol",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "auto-0062": {
+    "correct": "v",
+    "fundamento": "Con más de 1 g/l de alcohol se procede al secuestro del vehículo y retención de la licencia (falta grave).",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 103",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0063": {
+    "correct": "c",
+    "fundamento": "El mal estado de los amortiguadores produce mayor inestabilidad de la dirección.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Suspensión",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0064": {
+    "correct": "a",
+    "fundamento": "El cinturón de seguridad disminuye los riesgos y consecuencias de los siniestros.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Cinturón",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0065": {
+    "correct": "c",
+    "fundamento": "En ciudad la distancia de seguridad es de 30 m (2 segundos).",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Distancia de seguridad",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0066": {
+    "correct": "b",
+    "fundamento": "Un vehículo está detenido durante el ascenso/descenso de pasajeros o carga con el conductor a bordo.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 49",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0067": {
+    "correct": "c",
+    "fundamento": "Los triángulos de emergencia se colocan a 70 m del vehículo.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Emergencias",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true
+  },
+  "auto-0069": {
+    "correct": "b",
+    "fundamento": "Un vehículo no destinado a remolque no puede remolcar, salvo casos de fuerza mayor.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 48",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0070": {
+    "correct": "b",
+    "fundamento": "La prioridad de paso se pierde ante vehículos de urgencia en cumplimiento de su misión.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 41",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0071": {
+    "correct": "v",
+    "fundamento": "Con la licencia vencida se puede renovar dentro de los 60 días pero no conducir.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 20",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0072": {
+    "correct": "b",
+    "fundamento": "Con nieve o hielo se debe conducir con regularidad, sin frenar bruscamente ni sobrepasar.",
+    "sources": [
+      {
+        "material": "manual",
+        "ref": "Condiciones de vía",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  "auto-0073": {
+    "correct": "a",
+    "fundamento": "Históricamente el límite era 0,5 g/l (Ley 24.449); desde 2023 la Ley 27.714 fija 0,0 g/l en rutas nacionales. Respuesta de banco: 0,5 g/l.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 50 / Ley 27.714",
+        "page": null
+      }
+    ],
+    "confidence": 0.5,
+    "reviewed": true,
+    "essential": true
+  },
+  "auto-0074": {
+    "correct": "c",
+    "fundamento": "El uso de enganches sobresalientes está prohibido.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 30",
+        "page": null
+      }
+    ],
+    "confidence": 0.7,
+    "reviewed": true
+  },
+  "auto-0075": {
+    "correct": "c",
+    "fundamento": "Está prohibido en toda circunstancia circular sin respetar la distancia prudente.",
+    "sources": [
+      {
+        "material": "ley-24449",
+        "ref": "art. 51",
+        "page": null
+      }
+    ],
+    "confidence": 0.9,
+    "reviewed": true
+  }
+}
