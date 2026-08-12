@@ -14,7 +14,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z0-9]+-[0-9]+[a-z]?$",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*-[0-9]+[a-z]?$",
       "description": "Stable slug {section}-{seq}[suffix]; unique across the bank. A trailing letter suffix distinguishes image-pair duplicates of the same battery number (e.g. senales-225a / senales-225b)."
     },
     "number": {
