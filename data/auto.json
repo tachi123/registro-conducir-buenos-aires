@@ -419,7 +419,7 @@
     "answerType": "single",
     "essential": false,
     "imageRef": null,
-    "imageRequired": false,
+    "imageRequired": true,
     "srcFile": "cuestionario.pdf",
     "srcPage": 160,
     "regionNote": null,
