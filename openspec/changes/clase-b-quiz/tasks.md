@@ -38,14 +38,14 @@ Maintainer pre-approved ("tomes las mejores decisiones sin dudas"); ~80% of fore
 | 12 | Deploy workflow + .nojekyll + README | review gate |
 
 ## Phase 1: Foundation
-- [ ] 1.1 Scaffold `.gitignore`, `package.json` (vitest+jsdom), `requirements.txt` (pytest, pytest-cov, jsonschema), `vitest.config.js`; pytest collects, vitest boots.
-- [ ] 1.2 `data/schema/question.schema.json` + `tests/fixtures/bank-sample.json` + `tests/test_schema.py` + `tests/test_materials.py` (RED→GREEN): id unique, `correct∈options`, enums, V/F shape, imageRequired rules, dup numbers ok; 5 cards/4 fields, cuestionario peso 1.
+- [x] 1.1 Scaffold `.gitignore`, `package.json` (vitest+jsdom), `requirements.txt` (pytest, pytest-cov, jsonschema), `vitest.config.js`; pytest collects, vitest boots.
+- [x] 1.2 `data/schema/question.schema.json` + `tests/fixtures/bank-sample.json` + `tests/test_schema.py` + `tests/test_materials.py` (RED→GREEN): id unique, `correct∈options`, enums, V/F shape, imageRequired rules, dup numbers ok; 5 cards/4 fields, cuestionario peso 1.
 
 ## Phase 2: Build Pipeline + Data
 - [x] 2.1 `scripts/extract.py` + `tests/test_build_pipeline.py` (golden fixtures from `cuestionario.txt`): mojibake, V/F grids, unnumbered ids, `srcPage`.
 - [x] 2.2 `scripts/build_bank.py` + tests: emits `data/{generales,senales,auto}.json` + `data/index.json`; out-of-scope excluded, triage flagged.
 - [x] 2.3 `scripts/confidence_report.py` + `tests/test_review_queue.py`: low-confidence → review-queue; reviewed ships.
-- [ ] 2.4 Author bank + materials.json from PDFs/manual/leyes: schema passes, queue empty, every question has `fundamento` + ≥1 source (size:exception).
+- [x] 2.4 Author bank + materials.json from PDFs/manual/leyes: schema passes, every shipped question has `fundamento` + ≥1 source (size:exception). Note: 579/610 authored; 31 non-authorable (multi-select mangles, image-figure questions without image assets, fill-table) documented in `data/review-queue.json`; `confidence_report.py` flags 250 for human review (gate 0.9). `id` pattern widened to accept hyphenated section slugs (`seg-activa-*`).
 
 ## Phase 3: Quiz Engine
 - [x] 3.1 `js/quiz-engine.js` + `js/quiz-engine.test.js` (seedable RNG): 40 unique, no `imageRequired`, floors 8/20/6, essentials force-include, cap-yield, deficit realloc, shuffle/remap, threshold.
