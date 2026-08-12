@@ -1,0 +1,15 @@
+{
+  "name": "registro-marcos-paz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Clase B quiz app - Registro de Marcos Paz (Buenos Aires)",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "vitest": "^3.2.0"
+  }
+}
