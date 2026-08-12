@@ -1,0 +1,136 @@
+[
+  {
+    "id": "seguridad-001",
+    "number": null,
+    "section": "seguridad",
+    "category": "generales",
+    "subcategory": "siniestros",
+    "question": "En caso de participar de un siniestro vial en una avenida, es recomendable se\u00f1alizar la zona para que no se produzcan m\u00e1s incidentes viales.",
+    "options": [
+      { "key": "v", "text": "Verdadero" },
+      { "key": "f", "text": "Falso" }
+    ],
+    "correct": "v",
+    "answerType": "truefalse",
+    "fundamento": "Se\u00f1alizar el lugar del siniestro previene nuevos incidentes.",
+    "sources": [
+      { "material": "manual", "ref": "Cap. IV - El uso de la v\u00eda p\u00fablica", "page": null }
+    ],
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 18,
+    "regionNote": null,
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "senales-225a",
+    "number": 225,
+    "section": "senales",
+    "category": "senales",
+    "subcategory": "se\u00f1ales reglamentarias",
+    "question": "La siguiente se\u00f1al indica:",
+    "options": [
+      { "key": "a", "text": "Detenci\u00f3n transporte p\u00fablico." },
+      { "key": "b", "text": "Terminal \u00f3mnibus." },
+      { "key": "c", "text": "Punto panor\u00e1mico." }
+    ],
+    "correct": "a",
+    "answerType": "single",
+    "fundamento": "La se\u00f1al reglamentaria R27 indica zona de detenci\u00f3n de transporte p\u00fablico.",
+    "sources": [
+      { "material": "ansv-senales", "ref": "Se\u00f1ales reglamentarias", "page": 12 }
+    ],
+    "essential": true,
+    "imageRef": "assets/signs/senales-225a.png",
+    "imageRequired": true,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 96,
+    "regionNote": null,
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "senales-225b",
+    "number": 225,
+    "section": "senales",
+    "category": "senales",
+    "subcategory": "se\u00f1ales reglamentarias",
+    "question": "La siguiente se\u00f1al indica:",
+    "options": [
+      { "key": "a", "text": "Prohibido estacionar." },
+      { "key": "b", "text": "Prohibido detenerse." },
+      { "key": "c", "text": "Estacionamiento medido." }
+    ],
+    "correct": "b",
+    "answerType": "single",
+    "fundamento": "La se\u00f1al reglamentaria de prohibici\u00f3n de detenci\u00f3n es de orla roja con cruz.",
+    "sources": [
+      { "material": "ansv-senales", "ref": "Se\u00f1ales reglamentarias", "page": 13 }
+    ],
+    "essential": false,
+    "imageRef": "assets/signs/senales-225b.png",
+    "imageRequired": true,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 96,
+    "regionNote": null,
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "varias-014",
+    "number": 14,
+    "section": "varias",
+    "category": "generales",
+    "subcategory": "prioridad de paso",
+    "question": "\u00bfQu\u00e9 veh\u00edculos tienen siempre prioridad de paso?",
+    "options": [
+      { "key": "a", "text": "Ambulancias, polic\u00eda y bomberos, est\u00e9n o no en servicio." },
+      { "key": "b", "text": "Ambulancias, polic\u00eda, bomberos y transporte de personas." },
+      { "key": "c", "text": "Ambulancias, polic\u00eda y bomberos, con las se\u00f1ales de advertencia reglamentarias activadas." }
+    ],
+    "correct": "c",
+    "answerType": "single",
+    "fundamento": "La prioridad de paso de los veh\u00edculos de emergencia opera cuando usan se\u00f1ales de advertencia reglamentarias.",
+    "sources": [
+      { "material": "ley-24449", "ref": "art. 64", "page": null }
+    ],
+    "essential": true,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 40,
+    "regionNote": null,
+    "confidence": 0.9,
+    "reviewed": true
+  },
+  {
+    "id": "conduccion-193",
+    "number": null,
+    "section": "conduccion",
+    "category": "generales",
+    "subcategory": "conducci\u00f3n segura",
+    "question": "Para realizar una conducci\u00f3n segura, \u00bfcu\u00e1ndo es recomendable verificar la orientaci\u00f3n de los espejos retrovisores?",
+    "options": [
+      { "key": "a", "text": "Antes de iniciar la marcha." },
+      { "key": "b", "text": "Durante la conducci\u00f3n, para poder hacer una prueba real." },
+      { "key": "c", "text": "Con el veh\u00edculo inmovilizado y el conductor fuera del mismo." }
+    ],
+    "correct": "a",
+    "answerType": "single",
+    "fundamento": "Los espejos se verifican antes de iniciar la marcha.",
+    "sources": [
+      { "material": "manual", "ref": "Cap. II - La conducci\u00f3n", "page": null }
+    ],
+    "essential": false,
+    "imageRef": null,
+    "imageRequired": false,
+    "srcFile": "cuestionario.pdf",
+    "srcPage": 158,
+    "regionNote": null,
+    "confidence": 0.9,
+    "reviewed": true
+  }
+]

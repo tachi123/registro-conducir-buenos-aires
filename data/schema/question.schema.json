@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://registro-marcos-paz/schemas/question.schema.json",
+  "title": "Clase B question",
+  "description": "One question from the official Clase B battery (Registro de Marcos Paz). id is the join key; battery number may repeat (image pairs) or have gaps.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "number", "section", "category", "subcategory", "question",
+    "options", "correct", "answerType", "fundamento", "sources",
+    "essential", "imageRef", "imageRequired", "srcFile", "srcPage",
+    "regionNote", "confidence", "reviewed"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+-[0-9]+[a-z]?$",
+      "description": "Stable slug {section}-{seq}[suffix]; unique across the bank. A trailing letter suffix distinguishes image-pair duplicates of the same battery number (e.g. senales-225a / senales-225b)."
+    },
+    "number": {
+      "type": ["integer", "null"],
+      "description": "Number in the official battery; nullable (unnumbered blocks); duplicates allowed (image pairs)."
+    },
+    "section": {
+      "type": "string",
+      "enum": [
+        "preambulo", "seguridad", "documentacion", "intoxicacion", "varias",
+        "semaforo", "velocidades", "adelantamiento", "autopistas",
+        "estacionamiento", "luces", "giros", "senales", "conduccion",
+        "seg-activa", "auto"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": ["generales", "senales", "especificas-auto"],
+      "description": "Sampling stratum. senales section maps to 'senales'; auto maps to 'especificas-auto'; the rest map to 'generales'."
+    },
+    "subcategory": { "type": "string", "minLength": 1 },
+    "question": { "type": "string", "minLength": 1 },
+    "options": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "text"],
+        "properties": {
+          "key": { "type": "string", "minLength": 1, "maxLength": 1 },
+          "text": { "type": "string", "minLength": 1 }
+        }
+      },
+      "description": "V/F questions MUST use keys v and f."
+    },
+    "correct": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1,
+      "description": "Single option key; in V/F questions 'v' or 'f'. MUST exist among options keys (asserted in tests)."
+    },
+    "answerType": { "type": "string", "enum": ["single", "truefalse"] },
+    "fundamento": { "type": "string", "minLength": 1 },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["material", "ref", "page"],
+        "properties": {
+          "material": {
+            "type": "string",
+            "enum": ["cuestionario", "manual", "ansv-senales", "ley-24449", "ley-13927"]
+          },
+          "ref": { "type": "string", "minLength": 1 },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "essential": { "type": "boolean" },
+    "imageRef": { "type": ["string", "null"] },
+    "imageRequired": { "type": "boolean" },
+    "srcFile": { "type": "string", "minLength": 1 },
+    "srcPage": { "type": "integer" },
+    "regionNote": { "type": ["string", "null"] },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Author's confidence in the answer: 0.9 only when the answer follows directly from the cited material."
+    },
+    "reviewed": { "type": "boolean" }
+  }
+}
